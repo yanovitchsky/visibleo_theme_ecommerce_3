@@ -1,0 +1,107 @@
+# This model initially had no columns defined.  If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+option_1:
+  id: "option_1"
+  option_classification_id: "option_classification_1"
+  name: "salade césar"
+  description: ""
+  price: 2.0
+  gallery:
+    id: "gallery_4"
+    default_upload_id: "upload_6"
+    upload_ids:
+      - upload_6
+  created_at: "2014-03-10 15:40:35"
+option_2:
+  id: "option_2"
+  option_classification_id: "option_classification_1"
+  name: "Oeuf cocotte"
+  description: ""
+  price: 2.0
+  created_at: "2014-03-10 15:40:35"
+
+option_3:
+  id: "option_3"
+  option_classification_id: "option_classification_2"
+  name: "Roti de boeuf"
+  description: ""
+  price: 4.0
+  created_at: "2014-03-10 15:40:35"
+option_4:
+  id: "option_4"
+  option_classification_id: "option_classification_2"
+  name: "grattin deaufinois"
+  description: ""
+  price: 3.0
+  created_at: "2014-03-10 15:40:35"
+
+option_5:
+  id: "option_5"
+  option_classification_id: "option_classification_3"
+  name: "mousse au chocolat"
+  description: ""
+  price: 2.0
+  created_at: "2014-03-10 15:40:35"
+option_6:
+  id: "option_5"
+  option_classification_id: "option_classification_3"
+  name: "ile flottante"
+  description: ""
+  price: 2.0
+  created_at: "2014-03-10 15:40:35"
+
+
+option_7:
+  id: "option_7"
+  option_classification_id: "option_classification_4"
+  name: "Tapanade d'olive"
+  description: ""
+  price: 2.0
+  created_at: "2014-03-10 15:40:35"
+
+option_8:
+  id: "option_8"
+  option_classification_id: "option_classification_4"
+  name: "Carpaccio"
+  description: ""
+  price: 2.0
+  created_at: "2014-03-10 15:40:35"
+
+option_9:
+  id: "option_9"
+  option_classification_id: "option_classification_5"
+  name: "Croquette de pomme de terre"
+  description: ""
+  price: 2.0
+  created_at: "2014-03-10 15:40:35"
+option_10:
+  id: "option_10"
+  option_classification_id: "option_classification_5"
+  name: "Haricots verts vapeurs"
+  description: ""
+  price: 2.0
+  gallery:
+    id: "gallery_4"
+    default_upload_id: "upload_6"
+    upload_ids:
+      - upload_6
+  created_at: "2014-03-10 15:40:35"
+option_11:
+  id: "option_11"
+  option_classification_id: "option_classification_6"
+  name: "Crême brulée"
+  description: ""
+  price: 2.0
+  created_at: "2014-03-10 15:40:35"
+option_12:
+  id: "option_12"
+  option_classification_id: "option_classification_6"
+  name: "glace"
+  description: ""
+  price: 2.0
+  created_at: "2014-03-10 15:40:35"
+
+
+

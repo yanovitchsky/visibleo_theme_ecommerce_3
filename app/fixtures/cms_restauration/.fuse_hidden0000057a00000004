@@ -1,0 +1,16 @@
+# This model initially had no columns defined.  If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+category_1:
+  id: "category_1"
+  upper_category_id: ""
+  name: "carte_du_restaurant"
+  description: "CARTE DU RESTAURANT" 
+  created_at: "2014-03-10 15:40:35"
+  category_ids:
+  product_ids:
+    - product_1
+    - product_2
+
+

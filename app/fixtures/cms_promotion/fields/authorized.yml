@@ -1,0 +1,9 @@
+promotion:
+  - ref_id
+  - title
+  - description
+  - type
+  - surface
+  - number_rooms
+  - price
+  - city

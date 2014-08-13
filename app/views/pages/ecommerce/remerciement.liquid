@@ -1,0 +1,99 @@
+---
+title: Remerciement
+published: true
+cache_strategy: none
+flag_pages:
+- payment-success
+---
+{% extends 'parent' %}
+
+{% block 'body/middle/col-center/top' %}
+
+{% comment %}
+{% endcomment %}
+
+{% assign order_id = 'id_2' %}
+{% assign order = visibleo_order.get %}
+
+
+<div id="thank-you" >
+	<section>
+  		<header>Confirmation De Votre Commande</header>
+
+	  	<article>
+		  	<p> <strong>Madame <span class=""> {{order.prospect.last_name}} </span>, votre commande a été finalisée avec succès et en cours de préparation.</strong></p>
+
+		  	<p>	Vous receverez un mail, et un sms  récapulatifs de la commande.</p>
+
+		  	<p>Un problème, une question, n'hésitez pas à nous contacter par <strong>mail</strong> ou au <span class="theme-color-1">01.01.01.01.01</span></p>
+	  	</article>
+
+  	</section>
+
+  	<div class="row">
+  		<div class="col-md-7">
+	  		<div id="order-final" class="summary">
+	  			<h3>Récapitulatif de votre commande</h3>
+	  			<div>
+			  		<p class="bold">n° de commande : #{{order.number}} </p>
+			  		<p>Paiement par CB avec  {{ 'gateway_img_1.jpg'  | theme_image_tag}} </p>
+			  		<p> 
+			  			{% for item in order.items %}
+						<div class="item-name">
+							<p><span class="product"> {{item.name}} </span> {{item.cost}} € HT</p>
+							<div class="options">
+								<ul>
+									{% for option in item.options %}
+										<li>{{option.name}} ({{option.unit_cost}} € HT)</li>
+									{% endfor%}	
+									</ul>
+							</div>
+						</div>
+						{% endfor %}	
+			  		</p>
+			  		<p id="total">
+			  			<ul>
+				  			<li></li>
+				  		</ul>
+			  		</p>
+		  		</div>
+		  		<div class="exeption">
+	  				<ul>
+	  					<li class="sub-total"><span class="product">Sous-total </span>{{order.total}} TTC</li>
+	  					{% for order in order.tvas %}
+					  		<li class="tva"><span class="product">TVA </span>{{ order }} € TTC</li>
+					  	{% endfor %}
+					  	{% for reduction in order.reductions %}
+					  		<li class="solde"><span class="product">Réduction appliquée</span>{{reduction.cost}} € TTC</li>
+					  	{% endfor %}
+					  	<li class="total"><span class="product">TOTAL </span>{{order.total_ttc}} € HT</li>
+			  		</ul>
+		  		</div>
+		
+	  		</div>
+
+	  	</div>
+  	  	<div class="col-md-5">
+  	  			<div class="summary">
+  	  				<h3>Adresse de livraison</h3>
+	  				<div>
+	  					<p class="bold m10b">{{order.prospect.title}}</p>
+	  					<p>
+		  					<ul>
+			  					<li> {{order.prospect.alias}}  {{order.prospect.line1}}  {{order.prospect.line2}} </li>
+			  					<li> {{order.prospect.postal_code}} {{order.prospect.city}}</li>
+			  					<li> {{order.prospect.phone_number}}</li>
+		  					</ul>
+	  					</p>
+
+	  				</div>
+  	  			</div>
+  		</div>	
+
+  	</div>
+
+</div>
+
+
+
+{% endblock %}

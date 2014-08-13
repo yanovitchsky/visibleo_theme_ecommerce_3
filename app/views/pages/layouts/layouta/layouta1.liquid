@@ -1,0 +1,22 @@
+---
+title: layout A 1
+published: true
+---
+{% extends 'parent' %}
+<!--
+HERITAGE : Layout A
+CONTENU  :
+ - Une colone centrale spécialisée avec deux zones
+
+ZONES:
+- une zone top
+- une zone middle
+-->
+<!-- Surcharge du block du millieu -->
+
+{% block 'body/middle/col-center' %}
+	<div class="top row p20rl m20t"> {% block 'top' %}{% endblock %} </div>
+	<div class="middle"> {% block 'middle' %}{% endblock %}</div>
+{% endblock %}
+</div>
+

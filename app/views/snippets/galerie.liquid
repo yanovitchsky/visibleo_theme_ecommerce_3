@@ -1,0 +1,104 @@
+<!-- supprimer les blocs -->
+{% block 'body/col-left' %}{% endblock %}
+
+<!-- surcharger le bloc du centre (bloc du haut) -->
+{% block 'body/col-center/wp/content' %}
+	<div class="row">
+		<section id="promotion" class="col-md-6 block">
+			<div>
+			<p class="pull-left description">
+				<span class="light upcase">profitez de</span>
+				<span class="rose bold upcase">10 offerts</span>
+				<span class="bold">pour l'achats de 2 burgers</span>
+				<span class="bold rose s37 upcase">maxi</span>
+				<a href="#" class ="button bg-rose round ">
+				j'en profite</a>
+			</p>
+			{{ 'burger.jpg' | theme_image_tag: 'alt:burger' }}
+			</div>
+		</section>
+		<div id="menu-midi" class="col-md-3 block ">
+			<h3>menus <span class="bleu-ciel">midi</span></h3>
+			{{ 'menu-midi.jpg' | theme_image_tag: 'alt:menu-mid' }}
+		</div>
+		<div id="menu-soir" class="col-md-3 block">
+			<h3>menus <span class="orange">soir</span>	</h3>
+			{{ 'menu-soir.jpg' | theme_image_tag: 'alt:menu-soir' }}
+		</div>
+	</div>
+{% endblock %}
+
+<!-- surcharger le bloc du centre (bloc du bottom)-->
+{% block 'body/col-center/bottom/content' %}
+	<div class="row">
+		<article class="col-md-6" >
+			<h2 class="upcase bold">LE WEEK-END... Brunch et buffet à volonté <span class="bleu-ciel">19€ seulement </span>
+			</h2>
+			<p>Faîtes une sortie entre amis et profitez de la formule brunch avec
+			buffet à volonté Chez Luna, pour seulement 19 €. Vous aurez l’occa-
+			sion de goûter à des spécialités françaises. Entrées, tartes salées ac-
+			compag
+			</p>
+			<p>
+				Faîtes une sortie entre amis et profitez de la formule brunch avec
+				buffet à volonté Chez Luna, pour seulement 19 €. Vous aurez l’occa-
+				sion de goûter à des spécialités françaises. Entrées, tartes salées ac-
+				compag
+			</p>
+		</article>
+		<article class="col-md-6" >
+			<h2>UN CADRE SIMPLE ET COLORé.. a l’image du quartier menilmontant.
+			</h2>
+			<p>Faîtes une sortie entre amis et profitez de la formule brunch avec
+			buffet à volonté Chez Luna, pour seulement 19 €. Vous aurez l’occa-
+			sion de goûter à des spécialités françaises. Entrées, tartes salées ac-
+			compag
+			</p>
+			<p>
+				Faîtes une sortie entre amis et profitez de la formule brunch avec
+				buffet à volonté Chez Luna, pour seulement 19 €. Vous aurez l’occa-
+				sion de goûter à des spécialités françaises. Entrées, tartes salées ac-
+				compag
+			</p>
+		</article>
+	</div>
+{% endblock %}
+
+{% block 'body/col-right/content' %}
+	<div id="about">
+		<div>
+			<span class="icon icon-schedule"></span>
+			<strong>Horaires Chez Luna</strong>
+			<span>Mardi-vendredi: 11h-15h /19h</span>
+		</div>
+		<div>
+			<span class="icon icon-phone"></span>
+			<span class="">01.01.01.01.01</span>
+		</div>
+		<div>
+			<span class="icon icon-geoloc"></span>
+			<span>108 rue Menilmontant 75020 - Pais</span>
+		</div>
+	</div>
+	<section id="guestbook block">
+		<h4 class ="bg-blue">Il nous fait confiance	</h4>
+		<p>
+			<h6><strong>Carole, le 12.04.2014</strong></h6>
+				J’ai loué une Mercedes pour mon mariage, je remer-
+				cie Loc’Events pour leur sérieux et leur professionnalisme.
+				Je suis ravie de la prestation
+		</p>
+		<p>
+			<a class="bg-blue button" href="#" >	Ecrire un avis</a>
+		</p>
+	</section>
+{% endblock %}
+
+{% assign gallery_name = "Galerie trop chouette" %}
+{% assign images = visibleo_gallery.get_by_name.uploads %}
+
+<div id="slider-galerie">
+	{% for image in images %}
+		<div class="img-item"><a class="group1" href="{{image.public_url}}"><img src="{{ image.public_url|resize: 'x150'}} " /></a></div>
+	{% endfor %}
+</div>

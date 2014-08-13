@@ -1,0 +1,92 @@
+.e-commerce-inscription section {
+	padding:	15px;
+}
+.e-commerce-inscription section header {
+	background: 								$theme-color-3;
+	background-image:						-moz-linear-gradient(90deg, $theme-color-3, $theme-color-4);
+	background-image:						radial-gradient($theme-color-3, $theme-color-4);
+	padding: 										5px 10px;
+	color: 											$theme-color-8;
+	font-size: 									10px;
+	box-shadow: 								1px 1px 3px 1px rgba(50, 50, 50, 0.5);
+}
+.e-commerce-inscription section .content p{
+	font-size: 10px;
+}
+.e-commerce-inscription section .content h6 {
+	font-size: 10px;
+	margin:		0px;
+	padding: 10px 10px 0 10px;
+}
+.e-commerce-inscription section .content p {
+	font-size: 10px;
+	padding: 10px;
+	color:	$theme-color-6;
+}
+
+.e-commerce-inscription section form { padding: 0 10px;color:$theme-color-6;}
+.e-commerce-inscription section form .radio {}
+.e-commerce-inscription section form .radio label {margin:0;}
+.e-commerce-inscription section form .radio .radio-value {margin :0px;}
+.e-commerce-inscription section form .radio .radio-value input {margin :0px; width:12px;}
+.e-commerce-inscription section form .input input{	margin :10px 0px; font-size:12px;	width: 100%; height:30px;}
+.e-commerce-inscription section form .actions input{
+	font-size: 10px;
+	color:							$theme-color-7;
+	background: 				$theme-color-3;
+	background-image:		-moz-linear-gradient(90deg, $theme-color-3, $theme-color-4);
+	background-image:		radial-gradient($theme-color-3, $theme-color-4);
+	border:							none;
+	width:							80px;
+}
+
+/*****************************************/
+
+.e-commerce-connexion section {
+	padding:	15px 15px 0px 15px;
+}
+.e-commerce-connexion section header {
+	background: 								$theme-color-0;
+	padding: 										5px 10px;
+	color: 											$theme-color-3;
+	font-size: 									10px;
+	box-shadow: 								1px 1px 3px 1px rgba(50, 50, 50, 0.5);
+	/*font-weight: 								bold;*/
+}
+.e-commerce-connexion section form input{	margin :10px 0px; font-size:12px;	width: 100%; height:30px;}
+.e-commerce-connexion section form .actions input{
+	font-size: 10px;
+	color:							$theme-color-7;
+	background: 				$theme-color-3;
+	background-image:		-moz-linear-gradient(90deg, $theme-color-3, $theme-color-4);
+	background-image:		radial-gradient($theme-color-3, $theme-color-4);
+	border:							none;
+}
+
+/*******************************************/
+
+.e-commerce-forgot-password section {
+	padding:	15px;
+}
+
+.e-commerce-forgot-password section header{
+	padding:	15px 0px;
+	text-align: center;
+	font-weight: bold;	
+	border-top: 1px dotted black;
+	font-size: 12px;
+}
+.e-commerce-forgot-password section p{
+	font-size: 10px;
+	padding: 0px;
+}
+.e-commerce-forgot-password section form input{	margin :10px 0px; font-size:12px;	width: 100%; height:30px;}
+.e-commerce-forgot-password section form .actions input{
+	font-size: 10px;
+	color:							$theme-color-7;
+	background: 				$theme-color-3;
+	background-image:		-moz-linear-gradient(90deg, $theme-color-3, $theme-color-4);
+	background-image:		radial-gradient($theme-color-3, $theme-color-4);
+	border:							none;
+	width:							80px;
+}

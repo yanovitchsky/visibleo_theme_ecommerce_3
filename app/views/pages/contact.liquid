@@ -1,0 +1,66 @@
+---
+title: index
+published: true
+---
+{% extends 'layouts/layouta/layouta1' %}
+<!-- Car j'ai besoin d'un middle avec une zone haut et bas -->
+
+<!-- block central haut -->
+{% block 'body/middle/col-center/top' %}
+<div class="row">
+	<div class="col-md-12">
+		<div class="contact-top">
+			<article>
+				<p>
+					Nous vous donnons rendez vous au restaurant Chez Luna pour de belles sorties parisiennes.<br />
+					Reservez votre table en nous contactant au 01.01.01.01.01 ou en remplissant le formulaire de contact ci dessous.
+				</p>
+			</article>
+		</div>
+
+	</div>
+</div>
+{% endblock %}
+
+<!-- block central milieu -->
+{% block 'body/middle/col-center/middle' %}
+<div class="row">
+	<div class="col-md-5">
+		<div class="contact-map-section">
+			<section>
+				<header class="theme-color-7"><span class="theme-color-0 nous-trouver">NOUS TROUVER & </span> <span class="theme-color-1 nous-contacter">NOUS CONTACTER</span></header>
+				<div class="content">
+					<div id="about">
+						<div class="tr">
+							<span class="icon icon-phone"></span>
+							<span class="">01.01.01.01.01</span>
+						</div>
+						<div class="tr"> 
+							<span class="icon icon-geoloc"></span>
+							<span>108 rue Menilmontant <br> 75020 - Paris</span>
+						</div>
+						<div class="tr">
+							<span class="icon icon-schedule"></span>
+							<span><strong>Horaires Chez Luna</strong>Mardi-vendredi: 11h-15h /19h</span>
+						</div>
+					</div>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d20974.92874052601!2d2.2934610999999996!3d48.917943449999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1407426653919" height="150" width="230" frameborder="0" ></iframe>
+				</div>
+			</section>
+		</div>
+	</div>
+	<div class="col-md-5">
+		<div class="contact-form-section">
+			<section>
+				<header>CONTACTEZ-NOUS</header>
+				<div class="content">
+					CONTENU
+				</div>
+			</section>
+		</div>
+	</div>
+</div>	
+{% endblock %}
+
+
+<!-- Sidebar -->

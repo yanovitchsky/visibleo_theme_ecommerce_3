@@ -1,0 +1,88 @@
+# This model initially had no columns defined.  If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+coupon:
+  id: "531f13bf566973311e010000"
+  cms_site_id: "cms_site_id"
+  name: "coupon"
+  slug: "coupon"
+  showcase: true
+  order: 1
+  description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam."
+  image: "http://www.wallpaperfunda.com/wp-content/uploads/2014/03/images-2.jpg"
+  getting_types: ["sms", "mail"]
+  tags:
+    - lorem
+    - ipsum
+    - dolor
+coupon2:
+  id: "531f13bf566973311e030000"
+  cms_site_id: "cms_site_id"
+  name: "coupon2"
+  slug: "coupon2"
+  showcase: true
+  order: 2
+  description: "Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse."
+  image: "http://www.sepaq.com/resources/images/activites/observer_faune/caroussel/act_observer_car_faune6.jpg"
+  getting_types: ["sms", "mail", "print"]
+  tags:
+    - duis
+    - autem
+    - vel
+coupon3:
+  id: "531f13bf566973311e050000"
+  cms_site_id: "cms_site_id"
+  name: "coupon3"
+  slug: "coupon3"
+  showcase: false
+  order: 3
+  description: "soluta nobis eleifend option congue nihil imperdiet doming id quod mazim"
+  image: "http://ur-agirs.cirad.fr/var/ur_agirs/storage/images/agirs/enseignement-et-formation/formations-professionnelles/faune-sauvage-et-developpement/33638-3-fre-FR/faune-sauvage-et-developpement.jpg"
+  getting_types: ["sms", "print"]
+  tags:
+    - soluta
+    - nobis
+    - eleifend
+coupon4:
+  id: "531f13bf566973311e090000"
+  cms_site_id: "cms_site_id"
+  name: "coupon4"
+  slug: "coupon4"
+  showcase: false
+  order: 4
+  description: "processus dynamicus, qui sequitur mutationem consuetudium lectorum."
+  image: "http://www.veterinaire-baugnee.be/images/faune-sauvage/faune-sauvage1.jpg"
+  getting_types: ["sms", "mail"]
+  tags:
+    - processus
+    - dynamicus
+    - sequitur
+coupon5:
+  id: "531f13bf566973313e090000"
+  cms_site_id: "cms_site_id"
+  name: "coupon5"
+  slug: "coupon5"
+  showcase: false
+  order: 5
+  description: "processus dynamicus, qui sequitur mutationem consuetudium lectorum."
+  image: "http://img.maxisciences.com/pr%E9vention/faune-sauvage-comment-prevenir-les-epidemies_25321_w250.jpg"
+  getting_types: ["sms", "mail"]
+  tags:
+    - processus
+    - mutationem
+coupon6:
+  id: "531f13bf566973311f010000"
+  cms_site_id: "cms_site_id"
+  name: "coupon6"
+  slug: "coupon6"
+  showcase: true
+  order: 6
+  description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam."
+  image: "http://www.wallpaperfunda.com/wp-content/uploads/2014/03/images-2.jpg"
+  getting_types: ["sms", "mail"]
+  tags:
+    - lorem
+    - nonummy
+    - nibh
+    - euismod

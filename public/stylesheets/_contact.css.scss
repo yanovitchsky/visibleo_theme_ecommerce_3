@@ -1,0 +1,25 @@
+.contact-top article 				{	margin: 20px 0px;	}
+.contact-map-section section header {
+	font-size: 									12px;
+	font-weight: 								bold;
+	background-color: 					$theme-color-7;
+	padding:										5px 0px;
+}
+.contact-map-section section header .nous-trouver 	{ color: 	$theme-color-0; }
+.contact-map-section section header .nous-contacter {	color: 	$theme-color-1; }
+.contact-map-section section .content 							{	border: 1px solid $theme-color-6;	border-top: 2px solid $theme-color-0; }
+.contact-map-section section .content iframe 				{	margin: 0px 5px; text-align: center; }
+.contact-map-section section .content #about 				{	margin-bottom: 0px;	background-color: $theme-color-7; }
+.contact-form-section section header {
+	background: 								$theme-color-3;
+	background-image:						-moz-linear-gradient(90deg, $theme-color-3, $theme-color-4);
+	background-image:						radial-gradient($theme-color-3, $theme-color-4);
+	font-weight: 								bold;
+	padding: 										5px 10px;
+	color: 											$theme-color-8;
+	font-size: 									12px;
+	box-shadow: 								1px 1px 3px 1px rgba(50, 50, 50, 0.5);
+}
+.slider_img {
+	z-index:-999999;position: relative;
+}

@@ -1,0 +1,59 @@
+# This model initially had no columns defined.  If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+option_classification_1:
+  id: "option_classification_1"
+  product_id: "product_1"
+  name: "entrée"
+  description: ""
+  created_at: "2014-03-10 15:40:35"
+  option_ids:
+    - option_1
+    - option_2
+option_classification_2:
+  id: "option_classification_2"
+  product_id: "product_1"
+  name: "plat"
+  description: ""
+  created_at: "2014-03-10 15:40:35"
+  option_ids:
+    - option_3
+    - option_4
+option_classification_3:
+  id: "option_classification_3"
+  product_id: "product_1"
+  name: "dessert"
+  description: ""
+  created_at: "2014-03-10 15:40:35"
+  option_ids:
+    - option_5
+    - option_6
+
+option_classification_4:
+  id: "option_classification_4"
+  product_id: "product_2"
+  name: "entrée"
+  description: ""
+  created_at: "2014-03-10 15:40:35"
+  option_ids:
+    - option_7
+    - option_8
+option_classification_5:
+  id: "option_classification_5"
+  product_id: "product_2"
+  name: "plat"
+  description: ""
+  created_at: "2014-03-10 15:40:35"
+  option_ids:
+    - option_9
+    - option_10
+option_classification_6:
+  id: "option_classification_6"
+  product_id: "product_2"
+  name: "dessert"
+  description: ""
+  created_at: "2014-03-10 15:40:35"
+  option_ids:
+    - option_11
+    - option_12

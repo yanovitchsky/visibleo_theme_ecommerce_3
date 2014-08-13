@@ -1,0 +1,30 @@
+gateway_payment_1:
+  id:  "53b2e47e64657661a3010000"
+  cms_site_id: "my_demo"
+  name: "Espèce"
+  cover: "gateway_img_4.jpg"
+  enabled: true
+gateway_payment_2:
+  id:  "53b2e47e64657661a3030000"
+  cms_site_id: "my_demo"
+  name: "Chèque"
+  cover: "gateway_img_3.jpg"
+  enabled: true
+gateway_payment_3:
+  id:  "53b2e47e64657661a3090000"
+  cms_site_id: "my_demo"
+  name: "Ticket Restaurant"
+  cover: "gateway_img_1.jpg"
+  enabled: true
+gateway_payment_4:
+  id: "53b2e48964657661a3020000"
+  cms_site_id: my_demo"
+  name:  "Carte Bleu (Payplug)"
+  cover: "gateway_img_1.jpg"
+  enabled: true
+gateway_payment_5:
+  id: "53b2e48964657661a3020000"
+  cms_site_id: my_demo"
+  name:  "Carte de bleu"
+  cover: "gateway_img_2.jpg"
+  enabled: true

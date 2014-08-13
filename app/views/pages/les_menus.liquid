@@ -1,0 +1,102 @@
+---
+title: Les menus
+published: true
+cache_strategy: none
+---
+{% extends 'layouts/layouta/layouta1' %}
+<!-- Car j'ai besoin d'un middle avec une entete et un middle -->
+
+
+{% block 'body/middle/col-center/top' %}
+	{% include 'bloc_top_center_1' %}
+{% endblock %}
+
+
+<!-- Je surcharge l -->
+{% block 'body/middle/col-center/middle' %}
+
+
+<!-- intégration du module de restauration -->
+
+{% assign category_depth = '4' %}
+{% assign restauration_category_id = 'category_1' %} <!-- get params url ==> ?restauration_category_id=category_1 -->
+{% assign menu = restauration.find_category %} 
+
+
+<div class="row" id="les-menus">
+	<section>
+		<!-- zone de gauche -->
+		<aside class="col-md-4">
+			<header>CARTE DU RESTAURANT</header>
+			<ul>
+				{% for product in menu.products %}
+					<li {% if forloop.first %} class="active" {% endif %} > <a data-toggle="tab" href="#menu-{{product.id}}">{{product.name}}</a></li>
+				{% endfor %}
+			</ul>
+		</aside>
+
+		<!-- zone de droite -->
+		<div class="col-md-8 tab-content">
+			{% for product in menu.products %}
+			<article class="tab-pane {% if forloop.first %} active {% endif %}" id="menu-{{product.id}}">
+					<header>{{product.name}}</header>
+					<div class="content">
+						<div class="row">
+							<div class="description col-md-9">
+								<p>Vous pouvez composer votre menu en choisissant une entrée, un plat et une boisson.</p>
+							</div>
+							<div class="col-md-3">
+								<div class="price" >{{product.price}} HT</div>
+							</div>
+						</div>
+						<div class="options">
+							{% for option_classification in product.option_classifications %}
+								<div class="option">
+									<div class="row">
+										<div class="col-md-7"><p>Choisissez votre {{option_classification.name}}:</p></div>
+										<div class="col-md-5"><p>	
+											<select data-product-id="{{product.id}}" data-type='product_option_classification' data-id="{{option_classification.id}}" class="select-option">
+												{% for option in option_classification.options %}
+													<option value='{{option.id}}'>{{option.name}} (+ {{option.price}} euros)</option>
+												{% endfor %}
+											</select></p></div>
+									</div>
+								</div>
+							{% endfor %}
+						</div>
+						<div class="tools">
+								<div class="row">
+									<div class="col-md-7"></div>
+									<div class="col-md-5">
+										<div class="select-qty">
+											<select class='product_qty' data-type="product_qty" data-product-id="{{product.id}}">
+												{% for i in (1..20) %}
+												<option value="{{i}}">{{i}}</option>
+												{% endfor%}
+											</select>
+										</div>
+										<div class="add-button-cart">
+											<a href="#" onclick='return false;' class='add_to_cart' data-product-id="{{product.id}}"><span class="add-button-cart-text">AJOUTER</span><span class="add-button-cart-iconplus">+</span></a>
+										</div>
+									</div>
+								</div>
+						</div>
+						<div class="images">
+							<div class="row">
+								<div class="col-md-4 image"> <img src="{{ 'resto-entree.jpg' | theme_image_url | resize: '110x'   }}"  alt="image1" /></div>
+								<div class="col-md-4 image"> <img src="{{ 'resto-entree.jpg' | theme_image_url | resize: '110x'   }}"  alt="image1" /></div>
+								<div class="col-md-4 image"> <img src="{{ 'resto-entree.jpg' | theme_image_url | resize: '110x'   }}"  alt="image1" /></div>
+							</div>
+						</div>
+					</div>
+			</article>
+		 	{% endfor %}
+		</div>
+	</secion>
+</div>
+{% endblock %}
+
+{% block 'body/middle/col-right' %}
+	{%include "ecommerce_cart_widget" %}
+	{%include bloc_col_right %}
+{% endblock %}

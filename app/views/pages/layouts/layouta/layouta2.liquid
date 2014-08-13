@@ -1,0 +1,22 @@
+---
+title: layout A 2
+published: false
+---
+{% extends 'parent' %}
+<!--
+HERITAGE : Layout A
+CONTENU  :
+ - Une colone centrale spécialisée avec deux zones
+
+ZONES:
+	- une zone left
+	- une zone right
+-->
+<!-- Surcharge du block du millieu -->
+
+{% block 'body/middle/col-center' %}
+  	<div class="col-md-4"> {% block 'left' %}{% endblock %}</div>
+  	<div class="col-md-8"> {% block 'right' %}{% endblock %}</div>
+{% endblock %}
+</div>
+

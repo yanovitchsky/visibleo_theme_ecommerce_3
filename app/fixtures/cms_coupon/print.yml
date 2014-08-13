@@ -1,0 +1,38 @@
+# This model initially had no columns defined.  If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+531f13bf566973311e050000:
+  headband_color: blue
+  catch_phrase: "Lorem ipsum dolor sit amet"
+  catch_phrase_size: 50
+  description: "Lorem ipsum dolor sit amet"
+  upload:
+    id: "531f13bf566973311e010010"
+    cms_site_id: "cms_site_id"
+    description: "La team principale"
+    public_url: "http://bojoujou.com/contents/media/fairy_tail2.jpg"
+    title: "Title"
+    slug: "title"
+  client_infos:
+    calltracking: "09 09 09 09 09"
+    name: "Philippe DUPONT"
+    address: "9B rue de la sbalière 92230 Gennevilliers"
+    logo: "http://www.visibleo.fr/img2/logo_visibleo_Black.png"
+531f13bf566973311e030000:
+  headband_color: blue
+  catch_phrase: "Duis autem vel eum iriure dolor"
+  catch_phrase_size: 50
+  description: "Duis autem vel eum iriure dolor"
+  upload:
+    id: "531f13bf566973311e030000"
+    cms_site_id: "cms_site_id"
+    description: "Sublime vague"
+    public_url: "http://antiworldnews.files.wordpress.com/2012/06/globalforumonoceans_oceanleadership-org_.jpg"
+    title: "Sublime vague"
+    slug: "sublime-vague"
+  client_infos:
+    calltracking: "09 09 09 09 09"
+    name: "Sarah DUPONT"
+    address: "9B rue de la sbalière 92230 Gennevilliers"
+    logo: "http://www.visibleo.fr/img2/logo_visibleo_Black.png"

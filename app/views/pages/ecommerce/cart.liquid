@@ -1,0 +1,33 @@
+---
+title: Panier
+published: true
+flag_pages:
+- accessible
+- cart
+---
+{% extends 'parent' %}
+<!-- Car j'ai besoin d'un middle avec une zone haut et bas -->
+
+<!-- block central haut -->
+{% block 'body/middle/col-center/top' %}
+<div class="row">
+	<div class="col-md-12">
+	{% include 'ecommerce_breadcrumb' %}
+	</div>
+</div>
+{% endblock %}
+
+
+<!-- block central bas -->
+{% block 'body/middle/col-center/middle' %}
+<div class="row">
+	<div class="col-md-12">
+	  <div class="panier-details">
+	  	<section>
+	  		<header>RECAPITULATIF DE COMMANDE</header>
+	  	</section>
+		 {% include 'ecommerce_cart_details'%}
+	  </div>
+	</div>
+</div>
+{% endblock %}

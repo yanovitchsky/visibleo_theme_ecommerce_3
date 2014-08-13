@@ -1,19 +1,19 @@
 ---
-title: Home page
+title: index
 published: true
 ---
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
-    <meta charset="utf-8">
-    <title>{{ site.name }}</title>
-    <meta name="keywords" value="{{ site.meta_keywords }}" />
-    <meta name="description" value="{{ site.meta_description }}" />
+    {% block 'metadatas'%} {%include 'metadatas'%} {% endblock %}
   </head>
   <body>
-    <h1>{{ page.title }}</h1>
-    {% block 'main' %}
-    <p>Lorem ipsum....</p>
-    {% endblock %}
+    <div id="body">
+      {% block 'body' %}
+        {% block 'top' %}{% include 'header'%}{% endblock %}  
+        <div class="w960 container-fluid"> {% block 'middle' %}{% include 'index'%}{% endblock %}</div>
+        {% block 'bottom' %}{%include 'footer' %}{% endblock %}
+      {% endblock %}
+    </div>
   </body>
 </html>

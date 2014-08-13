@@ -1,0 +1,75 @@
+---
+id: 354
+items:
+- :id: '332'
+  :item_id: '1'
+  :type: Type1
+  :name: Pizza 4 fromages
+  :unit_cost: 228.8
+  :quantity: 1
+  :cost: 55.0
+  :tva: 20.0
+  :ttc_cost: 2745.60
+  :options:
+  - :item_id: '1'
+    :ref_id: '88989'
+    :name: L'option qui tue
+    :description: la grosse description
+    :unit_cost: 99.9
+  - :item_id: '1'
+    :ref_id: '99'
+    :name: L'option qui tue
+    :description: la grosse description
+    :unit_cost: 99.9
+- :id: '333'
+  :item_id: '1'
+  :type: Type2
+  :name: Pates à la bolognaise
+  :unit_cost: 228.8
+  :quantity: 10
+  :cost: 550.0
+  :tva: 20.0
+  :ttc_cost: 2745.60
+  :options:
+  - :item_id: '1'
+    :ref_id: '88989'
+    :name: L'option qui tue
+    :description: la grosse description
+    :unit_cost: 99.9
+  - :item_id: '1'
+    :ref_id: '99'
+    :name: L'option qui tue
+    :description: la grosse description
+    :unit_cost: 99.9
+quantity: 20
+uniq_product_quantity: 2
+tvas:
+- '20.0': 915.2
+- '5.5': 25.2
+tvas_with_reductions:
+- '20.0': 915.2
+- '5.5': 25.2
+reductions: []
+total: 5491.2
+total_no_reduction: 5491.2
+total_ttc: 5.4
+transport_mode: 
+delivery_code: 
+prospect_id: 
+cms_site_id: 
+is_valid_to_pay: true
+cart_minimum: 0.0
+is_actif: true
+transport_mode: "delivery"
+deliveries_available:
+- "delivery"
+- "take_away"
+deliveries_code_available:
+- "75011"
+- "75012"
+- "75013"
+- "75014"
+- "92315"
+- "92600"
+- "70000"
+cart_minimum: 15.0
