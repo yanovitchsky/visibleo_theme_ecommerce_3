@@ -19,8 +19,9 @@ cache_strategy: none
 <!-- intégration du module de restauration -->
 
 {% assign category_depth = '4' %}
-{% assign restauration_category_id = 'category_1' %} <!-- get params url ==> ?restauration_category_id=category_1 -->
-{% assign menu = restauration.find_category %} 
+{% assign restauration_category_name_keys = 'Carte du restaurant' %}<!-- get params url ==> ?restauration_category_id=category_1 -->
+{% assign menu =  restauration.find_category_by_name_keys %}
+
 
 
 <div class="row" id="les-menus">

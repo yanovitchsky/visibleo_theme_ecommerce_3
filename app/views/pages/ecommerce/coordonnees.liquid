@@ -29,26 +29,26 @@ flag_pages:
 						Vous pouvez renseigner ici une ou plusieurs adresses de livraison (ex: à la maison, au bureau, chez Gladys...)<br />
 						Vous n'aurez plus qu'à séléctionner au moment de la commande l'adresse où vous souhaitez être livré.
 					</p>
-				</div>
-			</section>
-			<section class="select-area">
-				<div class="col-md-7">
-		        	Selectionnez une adresse ou saisissez-en une nouvelle
-		      	</div>
-		  	    <div class="col-md-3">
-		          <select id='visibleo-checkout-address-select'>
-		            <option value="new">Nouvelle adresse</option>
-		            {% for address in visibleo_prospect.delivery_addresses %}
-		              <option value="{{address.id}}">{{address.alias}}</option>
-		            {% endfor %}
-		          </select>
+          <div class='row'>
+            <div class="col-md-6">
+              Selectionnez une adresse ou saisissez-en une nouvelle
+            </div>
+            <div class="col-md-4 pull-right">
+              <select id='visibleo-checkout-address-select' class='form-control'>
+                <option value="new">Nouvelle adresse</option>
+                {% for address in visibleo_prospect.delivery_addresses %}
+                  <option value="{{address.id}}">{{address.alias}}</option>
+                {% endfor %}
+              </select>
+            </div>
+          </div>
 				</div>
 			</section>
 			<section class="address">
   	    		<div class="col-md-12">
-			    <form action="{{visibleo_prospect.form_delivery_url}}" method="post" id='visibleo-checkout-address-form'>
+			    <form action="{{visibleo_prospect.form_delivery_url}}" method="post" id='visibleo-checkout-address-form' role='form' class='form-horizontal'>
 			      {% include 'ecommerce_address_form'%}
-			      <div class="actions">
+			      <div class="actions col-md-12">
 			        <input type='submit' value='Valider'/>
 			      </div>
 			    </form>

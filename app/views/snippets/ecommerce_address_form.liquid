@@ -1,61 +1,61 @@
-<div class="row group1">
+{% comment %}<div class="row group1">
   <div class="col-md-12">
     <div class="input">
-      <label for="alias">Alias </label>
+      <label class='control-label' for="alias">Intitulé </label>
       <input placeholder="Travail, Maison etc" type="alias" name='alias' value='{{address.alias}}'/>
     </div>
     <div class="input">
-      <label for="line1">Rue (*) </label>
+      <label class='control-label' for="line1">Rue (*) </label>
       <input placeholder="" type="line1" name='line1' value='{{address.line1}}'/>
     </div>
     <div class="input">
-      <label for="street">Rue 2</label>
-      <input placeholder="" type="text" name='street' value='{{address.line2}}'/>
+      <label class='control-label' for="street">Rue 2</label>
+      <input placeholder="" type="text" name='line2' value='{{address.line2}}'/>
     </div>
   </div>
 </div>
 <div class="row  group2">
   <div class="col-md-6">
     <div class="input">
-      <label for="postal_code">Code postal (*) </label>
+      <label class='control-label' for="postal_code">Code postal (*) </label>
       <input placeholder="" type="number" name='postal_code' value='{{address.postal_code}}'/>
     </div>
     <div class="input">
-      <label for="city">Interphone</label>
+      <label class='control-label' for="city">Interphone</label>
       <input placeholder="" type="text" name='intercom' value='{{address.intercom}}'/>
     </div>
     <div class="input">
-      <label for="city">Escalier</label>
+      <label class='control-label' for="city">Escalier</label>
       <input placeholder="" type="text" name='stairs' value='{{address.stairs}}'/>
     </div>
     <div class="input">
-      <label for="city">N° Appartement</label>
+      <label class='control-label' for="city">N° Appartement</label>
       <input placeholder="" type="text" name='flat' value='{{address.flat}}'/>
     </div>
     <div class="input">
-      <label for="city">Service</label>
+      <label class='control-label' for="city">Service</label>
       <input placeholder="" type="text" name='service' value='{{address.service}}'/>
     </div>
   </div>
   <div class="col-md-6">
     <div class="input">
-      <label for="city">Ville (*)</label>
+      <label class='control-label' for="city">Ville (*)</label>
       <input placeholder="" type="text" name='city' value='{{address.city}}'/>
     </div>
     <div class="input">
-      <label for="city">Digicode</label>
+      <label class='control-label' for="city">Digicode</label>
       <input placeholder="" type="text" name='entry_code' value='{{address.entry_code}}'/>
     </div>
     <div class="input">
-      <label for="city">Immeuble</label>
+      <label class='control-label' for="city">Immeuble</label>
       <input placeholder="" type="text" name='building' value='{{address.building}}'/>
     </div>
     <div class="input">
-      <label for="city">Etage</label>
+      <label class='control-label' for="city">Etage</label>
       <input placeholder="" type="text" name='floor' value='{{address.floor}}'/>
     </div>
     <div class="input">
-      <label for="city">Societe</label>
+      <label class='control-label' for="city">Societe</label>
       <input placeholder="" type="text" name='company' value='{{address.company}}'/>
     </div>
   </div>
@@ -63,7 +63,7 @@
 <div class="row  group1">
   <div class="col-md-12">
     <div class="input">
-      <label for="city">Complement</label>
+      <label class='control-label' for="city">Complement</label>
       <input placeholder="" type="text" name='more' value='{{address.more}}'/>
     </div>
 
@@ -71,4 +71,73 @@
     {{visibleo_prospect.delivery_form}}
   </div>
 
+</div>{% endcomment %}
+
+<div class="group-one">
+  <div class='form-group'>
+    <label class='control-label' for="alias">Intitulé </label>
+    <input class='form-control' placeholder="Travail, Maison etc" type="alias" name='alias' value='{{address.alias}}'/>
+  </div>
+  <div class='form-group'>
+    <label class='control-label' for="line1">Rue (*) </label>
+    <input class='form-control' placeholder="" type="line1" name='line1' value='{{address.line1}}'/>
+  </div>
+  <div class='form-group'>
+    <label class='control-label' for="street">Rue 2</label>
+    <input class='form-control' placeholder="" type="text" name='line2' value='{{address.line2}}'/>
+  </div>
+</div>
+<div class="group-two clearfix">
+  <div class="left">
+    <div class="form-group">
+      <label class='control-label' for="postal_code">Code postal (*) </label>
+      <input class='form-control' placeholder="" type="number" name='postal_code' value='{{address.postal_code}}'/>
+    </div>
+    <div class="form-group">
+      <label class='control-label' for="city">Interphone</label>
+      <input class='form-control' placeholder="" type="text" name='intercom' value='{{address.intercom}}'/>
+    </div>
+    <div class="form-group">
+      <label class='control-label' for="city">Escalier</label>
+      <input class='form-control' placeholder="" type="text" name='stairs' value='{{address.stairs}}'/>
+    </div>
+    <div class="form-group">
+      <label class='control-label' for="city">N° Appartement</label>
+      <input class='form-control' placeholder="" type="text" name='flat' value='{{address.flat}}'/>
+    </div>
+    <div class="form-group">
+      <label class='control-label' for="city">Service</label>
+      <input class='form-control' placeholder="" type="text" name='service' value='{{address.service}}'/>
+    </div>
+  </div>
+  <div class="right">
+    <div class="form-group">
+      <label class='control-label' for="city">Ville (*)</label>
+      <input class='form-control' placeholder="" type="text" name='city' value='{{address.city}}'/>
+    </div>
+    <div class="form-group">
+      <label class='control-label' for="city">Digicode</label>
+      <input class='form-control' placeholder="" type="text" name='entry_code' value='{{address.entry_code}}'/>
+    </div>
+    <div class="form-group">
+      <label class='control-label' for="city">Immeuble</label>
+      <input class='form-control' placeholder="" type="text" name='building' value='{{address.building}}'/>
+    </div>
+    <div class="form-group">
+      <label class='control-label' for="city">Etage</label>
+      <input class='form-control' placeholder="" type="text" name='floor' value='{{address.floor}}'/>
+    </div>
+    <div class="form-group">
+      <label class='control-label' for="city">Societe</label>
+      <input class='form-control' placeholder="" type="text" name='company' value='{{address.company}}'/>
+    </div>
+  </div>
+</div>
+<div class="group-one">
+  <div class="form-group">
+    <label class='control-label' for="city">Complement</label>
+    <input class='form-control' placeholder="" type="text" name='more' value='{{address.more}}'/>
+  </div>
+  <input type="hidden" name='country' value='France'/>
+  {{visibleo_prospect.delivery_form}}
 </div>

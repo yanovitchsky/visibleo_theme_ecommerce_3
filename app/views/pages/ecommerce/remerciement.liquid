@@ -21,7 +21,7 @@ flag_pages:
   		<header>Confirmation De Votre Commande</header>
 
 	  	<article>
-		  	<p> <strong>Madame <span class=""> {{order.prospect.last_name}} </span>, votre commande a été finalisée avec succès et en cours de préparation.</strong></p>
+		  	<p> <strong>{{order.prospect.civility}}  <span class=""> {{order.prospect.last_name}} </span>, votre commande a été finalisée avec succès et en cours de préparation.</strong></p>
 
 		  	<p>	Vous receverez un mail, et un sms  récapulatifs de la commande.</p>
 
@@ -40,11 +40,11 @@ flag_pages:
 			  		<p> 
 			  			{% for item in order.items %}
 						<div class="item-name">
-							<p><span class="product"> {{item.name}} </span> {{item.cost}} € HT</p>
+							<p><span class="product"> {{item.name}} </span>{{item.cost}} € HT</p>
 							<div class="options">
 								<ul>
 									{% for option in item.options %}
-										<li>{{option.name}} ({{option.unit_cost}} € HT)</li>
+										<li><span class="product">{{option.name}}</span>{{option.unit_cost}} € HT</li>
 									{% endfor%}	
 									</ul>
 							</div>
@@ -59,9 +59,11 @@ flag_pages:
 		  		</div>
 		  		<div class="exeption">
 	  				<ul>
-	  					<li class="sub-total"><span class="product">Sous-total </span>{{order.total}} TTC</li>
-	  					{% for order in order.tvas %}
-					  		<li class="tva"><span class="product">TVA </span>{{ order }} € TTC</li>
+	  					<li class="sub-total"><span class="product">Sous-total </span>{{order.total}} € TTC</li>
+	  					{% for tva in order.tvas %}
+	  						{% for k in tva %}
+					  			<li class="tva"><span class="product">TVA ({{ k.first }} %)</span>{{k.last}} € TTC</li>
+					  		{% endfor %}
 					  	{% endfor %}
 					  	{% for reduction in order.reductions %}
 					  		<li class="solde"><span class="product">Réduction appliquée</span>{{reduction.cost}} € TTC</li>

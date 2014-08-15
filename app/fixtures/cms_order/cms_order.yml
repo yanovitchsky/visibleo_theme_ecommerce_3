@@ -126,7 +126,8 @@ orders:
     :name: name_1
     :description: description_1
   tvas:
-  - '19.6': 19.6
+  - '19.6': 10.6
+  - '5.5' : 4.5
   total: 55.55
   total_no_reduction: '111.1'
   total_ttc: 66.44

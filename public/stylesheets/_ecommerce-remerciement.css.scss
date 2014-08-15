@@ -15,9 +15,10 @@
 #thank-you article p {color: $theme-color-0; }
 
 
-.summary h3			{background-color:  $theme-color-9 ; margin:0;padding:5px 20px;}
+.summary h3			{background-color:  $theme-color-9 ; margin:0;padding:5px 20px; font-size: 18px;}
 .summary > div		{background-color:  $theme-color-8 ; padding: 20px;}
 .summary p 			{padding: 0}
+.summary .exeption  {padding:0}
 .summary .exeption  {padding:0}
 .summary .exeption ul li{ padding:5px 20px;}
 .summary .product	{width:200px;display: inline-block;}
@@ -26,4 +27,4 @@
 .summary .total 	{background: $theme-color-0; color: $theme-color-7;}
 
 
-.options ul li {padding-left: 20px; font-style: italic;}
+.summary .options ul li .product {padding-left: 20px; font-style: italic;}

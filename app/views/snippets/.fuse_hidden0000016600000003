@@ -1,0 +1,69 @@
+<!-- Modal -->
+<div class="modal fade" id="modal-coupon" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+           {% assign coupon_name = "coupon2" %}
+           {% assign coupon = visibleo_coupon.get_by_name %}
+        
+        <ul class="nav nav-tabs">
+        {%  for type in  coupon.getting_types  %}
+          <li class="active"><a href="#tab_a" data-toggle="tab">PRINT</a></li>
+          <li><a href="#tab_b" data-toggle="tab">SMS</a></li>
+          <li><a href="#tab_c" data-toggle="tab">MAIL</a></li>
+        </ul>
+        <div class="tab-content">
+                <div class="tab-pane active" id="tab_a">
+                 
+
+                  <section class="coupon">
+                    <div class="col-md-4">
+                      {{ coupon.image  | theme_image_tag }}          
+                    </div>
+                    <div class="col-md-8">
+                      <header class="title" data-bg-color="{{coupon.headband_color}}">
+                        <h4 >VOTRE BON DE REDUCTION</h4>      
+                   
+                          <img src="{{ coupon.print.client_infos.logo | resize: '100x' }}" />
+
+                          
+                      </header>
+                      <div class="content">
+                        <h2>{{coupon.catch_phrase}}</h2>
+                        <p class="description">{{coupon.description}} </p>
+                        <p class="end-date">{{coupon.description}} </p>
+                      </div>
+                      <footer>
+                        <p class="client-infos">{{coupon.print.client_infos.name}} </p>
+                        <p class="client-infos">{{coupon.client_infos.address}} </p>
+                      </footer>
+                      
+                    </div>
+                  </section>  
+                </div>
+                <div class="tab-pane" id="tab_b">
+                    <h4>SMS</h4>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+                        ac turpis egestas.</p>
+                </div>
+                <div class="tab-pane" id="tab_c">
+                    <h4>MAIL</h4>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+                        ac turpis egestas.</p>
+                </div>
+        </div><!-- tab content -->
+
+                  
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn has-warning" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+

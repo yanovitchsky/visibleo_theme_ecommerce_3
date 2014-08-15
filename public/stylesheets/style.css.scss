@@ -71,6 +71,8 @@ $gray 	: #888888;
 }
 
 
+
+
 /***********************************/
 /********** surcharge bootstap ****/
 /*********************************/
@@ -103,7 +105,8 @@ $gray 	: #888888;
 /*********************************/
 
 body{
-	color:black
+	color:black;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* lien */
@@ -287,6 +290,7 @@ article{
 .upcase{text-transform: uppercase;}
 .lowcase{text-transform: lowercase;}
 
+
 .s12{font-size: 12px}
 .s14{font-size: 14px}
 .s20{font-size: 20px}
@@ -342,13 +346,13 @@ article{
 	width:100%;
 	margin-bottom: 10px;
 
-.tr span strong{
-	display: block;
-	padding-bottom: 10px;
-}
-.tr span:first-child{
-	margin-right:10px; 
-}
+	.tr span strong{
+		display: block;
+		padding-bottom: 10px;
+	}
+	.tr span:first-child{
+		margin-right:10px; 
+	}
 }
 
 #col-center, #col-left{
@@ -423,9 +427,7 @@ article{
 	p:last-child{
 		padding-bottom:0px;
 	}
-
 }
-
 
 #promotion{
 	.description{
@@ -439,6 +441,20 @@ article{
 	}
 
 }
+
+#modal-coupon {
+	header {
+		display: table-row;
+		> * {
+			display: table-cell;
+			vertical-align: middle;
+		}
+	}
+	.nav-tabs li { width:33%;}
+	section{padding: 20px;}
+	
+}	
+
 .slidesjs-container{
 	position: absolute !important;
 	z-index: -10;
@@ -447,6 +463,12 @@ article{
 #slider{
 	display: none;
 }
+
+#slider img{
+  z-index:-999999;
+  position: relative; 
+}
+
 
 @import "les-menus";
 
