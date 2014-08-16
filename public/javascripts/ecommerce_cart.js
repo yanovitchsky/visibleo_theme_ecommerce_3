@@ -155,7 +155,8 @@ WidgetCart = (function() {
     var res;
     res = "";
     if (cart.is_actif === true) {
-      if (cart.is_valid_to_pay === true) {
+      // if (cart.is_valid_to_pay === true) {
+        if (1 == 1) {
         res = "<div class=\"cart_open\">" + ($(this.widget_cart_div).data("button-title")) + "</div>";
       } else {
         res = "";
