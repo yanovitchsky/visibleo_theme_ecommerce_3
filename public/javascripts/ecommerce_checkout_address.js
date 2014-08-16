@@ -4,13 +4,15 @@
     return $('#visibleo-checkout-address-select').on('change', function(event) {
       var selected;
       selected = $('#visibleo-checkout-address-select').val();
+      console.log(selected)
       if (selected !== 'new') {
         return $.get("/cms_prospect/delivery_addresses/" + selected, function(data) {
           $.each(data, function(key, value) {
+            console.log(selected)
             return $("#visibleo-checkout-address-form input[name='" + key + "']").val(value);
           });
           $("#visibleo-checkout-address-form input[name='id']").remove();
-          return $('#visibleo-checkout-address-form').append("<input type=hidden name=id value=" + selected + "/>");
+          return $('#visibleo-checkout-address-form').append('<input type=hidden name=id value=' + selected + '\>');
         });
       } else {
         $('#visibleo-checkout-address-form')[0].reset();

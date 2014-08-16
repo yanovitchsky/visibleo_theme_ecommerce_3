@@ -16,7 +16,6 @@ flag_pages:
 	{% include 'ecommerce_breadcrumb' %}
 	</div>
 </div>
-<div>{{error}}</div>
 {% endblock %}
 
 {% block 'body/middle/col-center/middle' %}
@@ -25,6 +24,7 @@ flag_pages:
 		<div class="e-commerce-coordonnees">
 			<section class="top">
 				<header>COORDONNEES DE LIVRAISON</header>
+        <div>{{error}}</div>
 				<div class="content">
 					<p>
 						Vous pouvez renseigner ici une ou plusieurs adresses de livraison (ex: à la maison, au bureau, chez Gladys...)<br />
