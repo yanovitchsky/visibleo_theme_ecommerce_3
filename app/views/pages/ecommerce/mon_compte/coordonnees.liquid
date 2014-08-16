@@ -29,7 +29,7 @@ flag_pages:
 			</section>
       <section class="row">
         <div class="col-md-4 col-md-offset-6">
-          <form method='get' action="/ecommerce/mon_compte/modification_coordonnees">
+          <form method='get' action="/ecommerce/mon-compte/modification-coordonnees">
             <button class='add-button'>AJOUTER UNE ADRESSE</button>
           </form>
         </div>
@@ -51,7 +51,7 @@ flag_pages:
                   <li>{%if address.more != blank %}<span>Complément: {{address.more}}</span>{% endif %}</li>
                 </ul>
                 <p class='no-padding'>
-                  <a class='pull-left' href="/ecommerce/mon_compte/modification_coordonnees?delivery_id={{address.id}}">Modifer</a>
+                  <a class='pull-left' href="/ecommerce/mon-compte/modification-coordonnees?delivery_id={{address.id}}">Modifer</a>
                   <a class='pull-right'href="{{visibleo_prospect.delete_delivery_url}}?delivery_id={{address.id}}">Supprimer</a>
                 </p>
               </div>
