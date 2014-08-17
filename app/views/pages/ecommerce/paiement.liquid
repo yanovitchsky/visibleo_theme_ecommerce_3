@@ -1,0 +1,79 @@
+---
+title: Paiement
+published: true
+cache_strategy: none
+flag_pages:
+- accessible
+---
+{% extends 'parent' %}
+<!-- Car j'ai besoin d'un middle avec une zone haut et bas -->
+
+
+{% block 'body/middle/col-center/top' %}
+<div class="row">
+	<div class="col-md-12">
+	{% include 'ecommerce_breadcrumb' %}
+	</div>
+</div>
+<div>{{error}}</div>
+{% endblock %}
+
+{% block 'body/middle/col-center/middle' %}
+
+<div id="panier-paiement">
+  	<section>
+  		<header>Modes De Paiement</header>
+  	</section>
+
+  	<!--  ########## 1 - INIT ################ -->
+	{%   assign order_invalid = visibleo_gateway_payment.init  %}
+
+	<!--  ########## 2 - PAYMENT LIST ################ -->
+	{% assign gateway_payment_list = visibleo_gateway_payment.gateway_list %}
+
+	{% if  order_invalid == true or gateway_payment_list.size == 0 %}
+		<p  class="red"> Aucun moyens de payments actif pour ce panier ! </p>
+	{% else %}	
+
+  	<div class="col-md-7">
+  		<p>	Vous pouvez choisir de payer maintenant, ou à la réception de la commande</p>
+  	
+		<ul>
+	        {% for gateway in  gateway_payment_list  %}
+	        <li>          
+	            <!-- ########## 3 - CREATE PAIEMENT ################ -->
+	            {% assign gateway_name = gateway.name %}
+	            {%  assign link =  visibleo_gateway_payment.create_payment  %}
+	            {{ gateway.cover  | theme_image_tag}}
+	        </li>
+	        {% endfor %}
+		</ul>
+  	</div>
+  	<div class="col-md-5">
+  		<p>	<strong> Sélectionnez le mode de paiement souhaité	</strong></p>
+  		<p>
+	  		<select id="select-paiement"class="form-control">
+	  			{% for gateway in  gateway_payment_list  %}
+		            <!-- ########## 3 - CREATE PAIEMENT ################ -->
+		            {% assign gateway_name = gateway.name %}
+		            {%  assign link =  visibleo_gateway_payment.create_payment  %}
+		         <option value="{{link}}"> {{gateway_name}}   </option>
+		        {% endfor %}
+	  		</select>
+	  		<div id="pay" class="bg-style-3">Payer</div>
+  		</p>
+  	</div>
+  	{% endif %}	
+  	
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+{% endblock %}

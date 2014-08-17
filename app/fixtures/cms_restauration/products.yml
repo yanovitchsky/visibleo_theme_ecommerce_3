@@ -1,0 +1,171 @@
+# This model initially had no columns defined.  If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+product_1:
+  id: "product_1"
+  category_id: "category_1"
+  name: "product_1"
+  description: "description du produit 1"
+  price: 10.50
+  gallery:
+    id: "gallery_1"
+    default_upload_id: "upload_1"
+    upload_ids:
+      - upload_1
+      - upload_1
+      - upload_1
+  created_at: "2014-03-10 15:40:35"
+  option_classification_ids:
+    - option_classification_1
+    - option_classification_2
+    - option_classification_3
+
+product_2:
+  id: "product_2"
+  category_id: "category_1"
+  name: "product_2"
+  description: "description du produit 2"
+  price: 20.0
+  gallery:
+    id: "gallery_2"
+    default_upload_id: "upload_1"
+    upload_ids:
+      - upload_1
+      - upload_1
+      - upload_1
+  created_at: "2014-03-10 15:40:35"
+  option_classification_ids:
+    - option_classification_4
+    - option_classification_5
+    - option_classification_6
+
+
+product_3:
+  id: "product_3"
+  category_id: "category_3"
+  name: "product_3"
+  description: "description du produit 3"
+  price: 30.0
+  gallery:
+    id: "gallery_3"
+    default_upload_id: "upload_1"
+    upload_ids:
+      - upload_1
+      - upload_1
+      - upload_1
+  created_at: "2014-03-10 15:40:35"
+
+
+
+product_4:
+  id: "product_4"
+  category_id: "category_3"
+  name: "product_4"
+  description: "description du produit 4"
+  price: 40.0
+  gallery:
+    id: "gallery_4"
+    default_upload_id: "upload_1"
+    upload_ids:
+      - upload_1
+      - upload_1
+      - upload_1
+  created_at: "2014-03-10 15:40:35"
+
+
+
+product_5:
+  id: "product_5"
+  category_id: "category_3"
+  name: "product_5"
+  description: "description du produit 5"
+  price: 10.50
+  gallery:
+    id: "gallery_1"
+    default_upload_id: "upload_1"
+    upload_ids:
+      - upload_1
+      - upload_1
+      - upload_1
+  created_at: "2014-03-10 15:40:35"
+
+
+product_6:
+  id: "product_6"
+  category_id: "category_3"
+  name: "product_6"
+  description: "description du produit 6"
+  price: 10.50
+  gallery:
+    id: "gallery_1"
+    default_upload_id: "upload_1"
+    upload_ids:
+      - upload_1
+      - upload_1
+      - upload_1
+  created_at: "2014-03-10 15:40:35"
+
+
+product_7:
+  id: "product_7"
+  category_id: "category_4"
+  name: "product_7"
+  description: "description du produit 7"
+  price: 10.50
+  gallery:
+    id: "gallery_1"
+    default_upload_id: "upload_1"
+    upload_ids:
+      - upload_1
+      - upload_1
+      - upload_1
+  created_at: "2014-03-10 15:40:35"
+
+
+product_8:
+  id: "product_8"
+  category_id: "category_4"
+  name: "product_8"
+  description: "description du produit 8"
+  price: 10.50
+  gallery:
+    id: "gallery_1"
+    default_upload_id: "upload_1"
+    upload_ids:
+      - upload_1
+      - upload_1
+      - upload_1
+  created_at: "2014-03-10 15:40:35"
+
+product_9:
+  id: "product_9"
+  category_id: "category_5"
+  name: "product_9"
+  description: "description du produit 9"
+  price: 10.50
+  gallery:
+    id: "gallery_1"
+    default_upload_id: "upload_1"
+    upload_ids:
+      - upload_1
+      - upload_1
+      - upload_1
+  created_at: "2014-03-10 15:40:35"
+
+
+product_10:
+  id: "product_10"
+  category_id: "category_5"
+  name: "product_10"
+  description: "description du produit 10"
+  price: 10.50
+  gallery:
+    id: "gallery_1"
+    default_upload_id: "upload_1"
+    upload_ids:
+      - upload_1
+      - upload_1
+      - upload_1
+  created_at: "2014-03-10 15:40:35"
+

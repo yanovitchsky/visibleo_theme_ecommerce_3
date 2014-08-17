@@ -1,0 +1,46 @@
+promotion:
+  id: "531f13bf566973311e010000"
+  cms_site_id: "cms_site_id"
+  name: "promotion_bloc_center_top"
+  slug: "promotion_bloc_center_top"
+  showcase: true
+  miniature:
+    id: ""
+    image: "burger.jpg"
+    texts:
+      title: "<span class='light upcase'>profitez de</span><span class='rose bold upcase'>10 offerts</span><span class='bold'>pour l'achats de 2 burgers</span> <span class='bold rose s37 upcase'>maxi</span>"
+      catch_phrase: "nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam."
+  detail:
+    id: ""
+    image: "burger.jpg"
+    texts:
+      title: "<span class='light upcase'>profitez de</span><span class='rose bold upcase'>10 offerts</span><span class='bold'>pour l'achats de 2 burgers</span> <span class='bold rose s37 upcase'>maxi</span>"
+      catch_phrase: "ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat."
+      description: "et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril.delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum."
+  tags:
+    - lorem
+    - ipsum
+    - dolor
+promotion2:
+  id: "531f13bf566973311e030000"
+  cms_site_id: "cms_site_id"
+  name: "slider"
+  slug: "slider"
+  showcase: true
+  miniature:
+    id: ""
+    image: "http://www.sepaq.com/resources/images/activites/observer_faune/caroussel/act_observer_car_faune6.jpg"
+    texts:
+      title: "Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse."
+      catch_phrase: "molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros."
+  detail:
+    id: ""
+    image: "http://www.sepaq.com/resources/images/activites/observer_faune/caroussel/act_observer_car_faune6.jpg"
+    texts:
+      title: "et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril."
+      catch_phrase: "delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum."
+      description: "et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril.delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum."
+  tags:
+    - duis
+    - autem
+    - vel

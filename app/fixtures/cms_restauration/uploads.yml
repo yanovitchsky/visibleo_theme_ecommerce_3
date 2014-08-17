@@ -1,0 +1,34 @@
+# This model initially had no columns defined.  If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+upload_1:
+  id: "upload_1"
+  description: "Menus"
+  public_url: "resto-entree.jpg"
+  title: "05623098-photo-1001menus.jpg"
+upload_2:
+  id: "upload_2"
+  description: "Menu Japonais"
+  public_url: "http://www.miso-beauchamp.com/images/miso_menu/menus_1.jpg"
+  title: "menus_1.jpg"
+upload_3:
+  id: "upload_3"
+  description: "Menu Francais"
+  public_url: "http://passionprovence.lu/images/menus/passion-provence-menu-francais-01.jpg"
+  title: "passion-provence-menu-francais-01.jpg"
+upload_4:
+  id: "upload_4"
+  description: "Menu Duo"
+  public_url: "http://restaurant.pizzahut.fr/img/menu_duo.jpg"
+  title: "menu_duo.jpg"
+upload_5:
+  id: "upload_5"
+  description: "Midi buffet a volonte"
+  public_url: "http://restaurant.pizzahut.fr/img/carte_buffets.jpg"
+  title: "carte_buffets.jpg"
+upload_6:
+  id: "upload_6"
+  description: "Bruschetta"
+  public_url: "http://restaurant.pizzahut.fr/img/entrees/features/bruschetta.jpg"
+  title: "bruschetta.jpg"

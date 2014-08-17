@@ -1,0 +1,30 @@
+
+
+#thank-you section header {
+	margin:						20px 0px 0px 0px;
+	background-color:		 	$theme-color-0;
+	color:						$theme-color-7;
+	padding:					5px 15px;
+	font-size: 					12px;
+	font-weight: 				bold;
+	text-transform: 			uppercase;
+}
+
+#thank-you article   {padding: 20px 0px;}
+
+#thank-you article p {color: $theme-color-0; }
+
+
+.summary h3			{background-color:  $theme-color-9 ; margin:0;padding:5px 20px; font-size: 18px;}
+.summary > div		{background-color:  $theme-color-8 ; padding: 20px;}
+.summary p 			{padding: 0}
+.summary .exeption  {padding:0}
+.summary .exeption  {padding:0}
+.summary .exeption ul li{ padding:5px 20px;}
+.summary .product	{width:200px;display: inline-block;}
+.summary .tva 		{background: $theme-color-9;}
+.summary .solde		{background: $theme-color-4; color: $theme-color-7;}
+.summary .total 	{background: $theme-color-0; color: $theme-color-7;}
+
+
+.summary .options ul li .product {padding-left: 20px; font-style: italic;}

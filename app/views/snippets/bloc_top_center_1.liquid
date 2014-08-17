@@ -1,0 +1,35 @@
+
+
+<!-- recuperer la promotion qui porte le nom de promotion_bloc_center_top -->
+{% assign promotion_name = 'promotion_bloc_center_top' %}
+{% assign promotion = visibleo_promotion.get_by_name %} 
+
+<!-- module  promotion -->
+<section id="promotion" class="col-md-6 block">
+	<div>
+
+		<p class="pull-left description">
+			{{ promotion.detail.texts.title }}
+			<a href="#" class ="button bg-rose round launch-coupon-view" data-toggle="modal" data-target="#modal-coupon">
+				j'en profite</a>
+		</p>
+			{% assign bg_image =  promotion.detail.image %}
+			{{ bg_image | theme_image_tag: 'alt:burger' }}
+	</div> 
+</section>
+
+<!-- bloc menu midi -->
+<div id="menu-midi" class="col-md-3 block ">
+	<h3>menus <span class="bleu-ciel">midi</span></h3>
+	{{ 'menu-midi.jpg' | theme_image_tag: 'alt:menu-mid' }}
+</div>
+
+<!-- bloc menu soir -->
+<div id="menu-soir" class="col-md-3 block">
+	<h3>menus <span class="orange">soir</span>	</h3>
+	{{ 'menu-soir.jpg' | theme_image_tag: 'alt:menu-soir' }}
+</div>
+
+
+
+

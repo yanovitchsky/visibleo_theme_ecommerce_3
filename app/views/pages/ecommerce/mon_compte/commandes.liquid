@@ -1,0 +1,101 @@
+---
+title: Mes dernières commandes
+published: true
+cache_strategy: none
+flag_pages:
+- accessible
+---
+{% extends 'parent' %}
+<!-- Car j'ai besoin d'un left et d'un right -->
+{% block 'body/middle/col-left' %}
+	{% include "ecommerce_mon_compte_sidebar" %}
+{% endblock%}
+
+{% block 'body/middle/col-center' %}
+<div class="row">
+	<div class="col-md-12">
+		<div>{{error}}</div>
+	</div>
+	<div class="col-md-12">
+		<div class="e-commerce-mon-compte-commandes">
+			<section class="top">
+				<header>MES DERNIERES COMMANDES</header>
+				<div class="content">
+					<p>Vous trouverez ici l'historique de vos commandes à emporter ou en livraison dans votre restaurant</p>
+				</div>
+				<section class="orders clearfix">
+					<header>
+						<div class="order-col">N° de commande</div>
+						<div class="order-col">Adresse de livraison</div>
+						<div class="order-col">Date</div>
+						<div class="order-col">Montant</div>
+					</header>
+				<div class="panel-group clearfix" id="accordion">
+					{% for  order in visibleo_order.all %}
+				  <div class="panel panel-default clearfix">
+				    <div class="panel-heading clearfix {% cycle 'odd', 'even' %}">
+				      <h4 class="panel-title">
+				        <a data-toggle="collapse" data-parent="#accordion" href="#order-{{order.id}}">
+									<div class="order-col">#{{order.number}}</div>
+									<div class="order-col">{{order.prospect.alias}}</div>
+									<div class="order-col">{{order.created_at| date : "%d/%m/%Y"}}</div>
+									<div class="order-col">{{order.total_ttc}} € TTC</div>
+				        </a>
+				      </h4>
+				    </div>
+				    <div id="order-{{order.id}}" class="panel-collapse collapse">
+				      <div class="panel-body">
+				      	<div class="col-md-5">
+				      		<section>
+				      			<header>Détails de la commande</header>
+				      			<div class="content clearfix">
+				      				{% for item in order.items %}
+				      				<div class="item clearfix">
+				      					<div class="item-name">{{item.name}}
+				      						<div class="options">
+				      							<ul>
+								      				{% for option in item.options %}
+								      				<li>{{option.name}} ({{option.unit_cost}} € HT)</li>
+							  		    			{% endfor%}	
+														</ul>
+							      			</div>
+				      					</div>
+				      					<div class="item-price col-md-5">{{item.cost}} € HT</div>
+				      				</div>
+				      				{% endfor%}
+				      			</div>
+				      		</section>
+				      		<section>
+				      			<header></header>
+		      				<div class="total">
+		      					<div class="total-title col-md-7">Montant total</div>
+		      					<div class="total-value col-md-5">{{order.total_ttc}} € TTC</div>
+		      				</div>
+				      		</section>
+				      	</div>
+				      	<div class="col-md-5">
+				      		<section>
+				      			<header>Informations sur la commande</header>
+				      			<div class="content">
+					      			<div class="content clearfix">
+					      				<div class="item">Moyen de paiement: {{order.payments.last.type_payment}}</div>
+					      				<div class="item">Mode de livraison: {{order.transport_mode}}</div>
+					      				<div class="item">Commande passée le {{order.created_at| date : "%d/%m/%Y"}}</div>
+					      			</div>
+				      			</div>
+				      		</section>
+				      	</div>
+				      	<div class="col-md-2">
+				      		Imprimer la facture
+				      	</div>
+				      </div>
+				    </div>
+				  </div>
+					{% endfor%}
+				</div>
+				</section>
+			</section>
+		</div>
+	</div>
+</div>
+{% endblock %}

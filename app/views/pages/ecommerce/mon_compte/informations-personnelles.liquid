@@ -1,0 +1,22 @@
+---
+title: Informations personnelles
+published: true
+cache_strategy: none
+flag_pages:
+- accessible
+---
+{% extends 'parent' %}
+<!-- Car j'ai besoin d'un left et d'un right -->
+{% block 'body/middle/col-left' %}
+	{% include "ecommerce_mon_compte_sidebar" %}
+{% endblock%}
+
+{% block 'body/middle/col-center' %}
+<div class="row">
+	<div class="col-md-12">
+		<div>{{error}}</div>
+	</div>
+	<div class="col-md-12">
+	</div>
+</div>
+{% endblock %}

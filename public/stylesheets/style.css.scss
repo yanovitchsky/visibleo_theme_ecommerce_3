@@ -1,0 +1,515 @@
+@import "bootstrap.min";
+
+/*########  couleur ##########*/
+
+$theme-color-0: #000000; /* black */
+
+/* fond titre, titre			*/
+$theme-color-1: #15dee0; /*bleu-ciel*/
+/* texte*/
+$theme-color-2: #ed1164; /* rose */
+/* lien*/
+$theme-color-3: #ff6322; /* orange */
+
+$theme-color-4: #ff9A3C; /* orange clair */
+/* */
+$theme-color-5: #888888; /* gray */
+/* */
+$theme-color-6: #616161; /* others gray */
+/* */
+$theme-color-7: #FFFFFF; /* white */
+
+$theme-color-8: #f8f8f8; /*other gray */
+
+$theme-color-9: #dadada; /*other gray */
+/* */
+/*$theme-color-8: #;*/
+
+.theme-color-0{color: $theme-color-0 ;}
+.theme-color-1{color: $theme-color-1 ;}
+.theme-color-2{color: $theme-color-2 ;}
+.theme-color-3{color: $theme-color-3 ;}
+.theme-color-4{color: $theme-color-4 ;}
+.theme-color-5{color: $theme-color-5 ;}
+.theme-color-6{color: $theme-color-6 ;}
+.theme-color-7{color: $theme-color-7 ;}
+.theme-color-8{color: $theme-color-8;}
+.theme-color-9{color: $theme-color-9;}
+
+$rose:	  #ed1164;
+$bleu: 	  #15dee0;
+$orange1: #ff6322;
+$orange2: #ff9A3C;
+$gray 	: #888888;
+
+/*couleur*/
+.rose{color:$rose;}
+.orange{color:$orange1;}
+.bleu-ciel{color:$bleu;}
+.gray {color: $gray;}
+.red{color:red;}
+
+.bg-style-1{
+	text-align: left;
+	background-color: $theme-color-1;
+	padding: 5px 15px;
+	display: inline-block;
+}
+
+.bg-style-3{
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	background: #ff6322;
+	background-image: -moz-linear-gradient(90deg, #ff6322, #ff9a3c);
+	background-image: radial-gradient(#ff6322, #ff9a3c);
+	border: none;
+	padding: 5px 10px;
+	text-align: center;
+	cursor: pointer;
+
+}
+
+
+
+/***********************************/
+/********** surcharge bootstap ****/
+/*********************************/
+
+.navbar-default{
+	background-color: $theme-color-0;
+	border-top: solid 1px white;
+	border-bottom: solid 1px white;
+	border-right: solid 1px transparent;
+	border-left: solid 1px transparent;
+}
+.container-fluid{
+	padding: 0;
+	margin: 0;
+}
+.navbar{
+	border-radius: 0;
+	margin: 0;
+}
+
+.col-md-6:first-child{
+	padding-left:0px;
+}
+.col-md-6:last-child{
+	padding-right:0px;
+}
+
+
+.modal-dialog{
+	width:800px;
+	}
+
+
+/***********************************/
+/********** balise generale *******/
+/*********************************/
+
+body{
+	color:black;
+  	font-family: 'Roboto', 'Arial';
+}
+
+/* lien */
+a{
+	text-decoration:none;
+	text-transform: lowercase;
+}
+a:hover{
+	text-decoration:none;
+}
+a:active{
+
+}
+
+div{
+	/*border: 1px solid black;*/
+}
+
+ul{
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+
+
+/* title */
+h1,h2,h3,h4,h5,h6{
+	margin: 5px 0;
+}
+
+h4{
+	text-transform: uppercase;
+	width: 100%;
+	font-weight: bold;
+	padding: 5px 0px;
+	text-align: center;
+}
+
+p{
+	padding: 10px;
+	margin:0px;
+}
+
+
+section{
+	border
+	header{
+		font-size: 14px;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+
+}
+
+article{
+	header{
+		font-weight: bold;
+	}
+	h2{
+		border-bottom:1px solid black;
+		font-size: 13px;
+		padding-bottom:10px;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	p{
+		padding:0 0 10px 0;
+		text-align: justify;
+		color: $gray;
+		font-size: 10px;
+	}
+}
+
+/***********************************/
+/************ theme ***************/
+/*********************************/
+
+
+/*structure*/
+.w960{
+	width:960px;
+	margin: 0 auto;
+}
+
+.p20rl{
+	padding: 0 20px;
+}
+
+
+.m20t{
+	margin-top: 20px;
+}
+
+.m10b{
+	margin-bottom: 10px;
+}
+.m20b{
+	margin-bottom: 20px;
+}
+
+.no-margin{margin:0   !important;}
+
+.no-padding{padding:0 !important;}
+
+.icon{
+	display: inline-block;
+	height: 32px;
+	width: 32px;
+
+}
+.icon-schedule{
+	background:url(/images/icones/horaire.png) no-repeat center center  ;
+}
+.icon-phone{
+	background:url(/images/icones/tel.png)  no-repeat center center;
+}
+.icon-geoloc{
+	background:url(/images/icones/geoloc.png)  no-repeat center center;
+}
+
+/*fond*/
+
+.bg-blue{
+	display: inline-block;
+	background-color: $theme-color-1;
+	color:black;
+	font-size: 13px;
+}
+
+.bg-rose{
+	display: inline-block;
+	background-color: $rose;
+	color:white;
+}
+
+.bg-color-0{
+	background-color: $theme-color-0;
+
+}
+
+.button{
+	padding: 3px 7px;
+}
+.round{
+	border-radius: 12px;
+}
+.block{
+	color:white;
+	overflow: hidden;
+	height:200px;
+	float:left;
+	position: relative;
+}
+
+.block h3{
+	position: absolute;
+	background-color: black;
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+	font-weight: 200;
+	padding: 4px 0px;
+	margin: 0;
+	font-size: 16px;
+}
+
+.table{display:table;}
+.tr{
+	display:table-row;
+}
+.tr span{
+	display:table-cell;
+	vertical-align: middle;
+}
+
+
+
+/*font*/
+.light{font-weight: light}
+.bold{font-weight:  bold}
+.upcase{text-transform: uppercase;}
+.lowcase{text-transform: lowercase;}
+
+
+.s12{font-size: 12px}
+.s14{font-size: 14px}
+.s20{font-size: 20px}
+.s37{font-size: 37px}
+
+.border{
+	border:1px solid white;
+	display: inline-block;
+	width: 100%;
+
+}
+
+
+/***** structure *********/
+#header {
+	height:400px;
+	border-bottom: 1px solid black;
+
+	header{padding: 10px 0; background-color: $theme-color-0 ;}
+	a{text-transform: uppercase;}
+	a.active{color: $theme-color-1;}
+
+	/*logo*/
+	#logo{
+		img {
+			position: relative;
+			bottom: 75px;
+		}
+	}
+
+	/*menu*/
+	.navbar-nav{
+ 	position: absolute;
+ }
+}
+
+
+/* body */
+#body{
+	/* background */
+	.bg-gray{
+		background-color: $theme-color-8;
+		height: 200px;
+	}
+}
+
+
+#about{
+	background-color:$theme-color-8;
+	display: table;
+	border-collapse: separate;
+	border-spacing: 20px;
+	width:100%;
+	margin-bottom: 10px;
+
+	.tr span strong{
+		display: block;
+		padding-bottom: 10px;
+	}
+	.tr span:first-child{
+		margin-right:10px;
+	}
+}
+
+#col-center, #col-left{
+	padding: 20px;
+}
+
+#top,#bottom{
+	padding:20px;
+}
+
+#footer{
+	margin-top: 50px;
+	h5{color:$theme-color-7; font-size: 14px;text-transform: capitalize;}
+	color:$theme-color-5;
+	a {
+		color: $theme-color-5;
+		text-transform: capitalize;
+
+	}
+}
+
+#inside-footer{
+	padding: 20px;
+}
+
+#sitemap ul li{
+	display: inline-block;
+	margin-bottom: 5px;
+	width:32%;
+}
+
+#legal-mention{
+	text-align: right;
+}
+
+/***********************************/
+/********** module ****************/
+/*********************************/
+
+
+/* module de gallery*/
+#gallery h4{
+	width: inherit;
+	font-size: 12px;
+	color: $theme-color-7;
+}
+
+#gallery ul li {
+	float: left;
+	padding: 3px;
+	background: white;
+	box-shadow: 1px 1px 3px 1px rgba(50, 50, 50, 0.5);
+	margin-right: 8px;
+	text-align: center;
+}
+
+#guestbook{
+	border:1px solid #F0F0F0;
+	background-color: white;
+	a{text-transform: none;}
+	h4{margin: 0;}
+	article{
+		padding: 15px;
+	}
+	header{
+		margin-bottom: 5px;
+		font-size: 12px;
+	}
+	.button{
+		margin-left: 50%;
+	}
+	p:last-child{
+		padding-bottom:0px;
+	}
+}
+
+#promotion{
+	.description{
+		background-color: black;
+		opacity: 0.8;
+		color:white;
+		width:45%;
+		position: absolute;
+		height:100%;
+		text-align: center;
+	}
+
+}
+
+#modal-coupon {
+	header {
+		display: table-row;
+		> * {
+			display: table-cell;
+			text-align: left;
+			vertical-align: middle;
+			font-size: 22px;
+		}
+		> *:first-child{
+			padding: 10px 0px 10px 20px;
+		}
+		> *:last-child{
+			padding: 10px 20px 10px 0px;
+			vertical-align: middle;
+		}
+	}
+	.nav-tabs li { width:33%;}
+	section{padding: 20px;}
+	section .title{color:white;}
+	.coupon div:first-child {overflow: hidden; height:100%;}
+	.coupon div:first-child img {height:100%;}
+	.coupon div:last-child  {}
+	.coupon .content{
+		padding: 20px;
+		h2{font-size: 22px;}
+	}
+}
+
+.slidesjs-container{
+	position: absolute !important;
+	z-index: -10;
+}
+
+#slider{
+	display: none;
+}
+
+@import "les-menus";
+
+@import "la-carte";
+
+@import "livre-d-or";
+
+@import "contact";
+
+@import "ecommerce-breadcrumb";
+
+@import "ecommerce-connexion";
+
+@import "ecommerce-coordonnees";
+
+@import "ecommerce-cart";
+
+@import "ecommerce-cart-widget";
+
+@import "ecommerce-cart-paiement";
+
+@import "ecommerce-mon-compte-sidebar";
+
+@import "ecommerce-mon-compte-coordonnees";
+
+@import "ecommerce-mon-compte-commandes";
+
+@import "ecommerce-remerciement";
+

@@ -1,0 +1,350 @@
+/***** GESTION DE LA LIVRAISON *******/
+.delivery {
+	clear: 			both;
+	display: 		block;
+	background-color: $theme-color-8;
+ 	min-height: 100px;	
+ 	box-shadow: 1px 1px 3px 1px rgba(50, 50, 50, 0.5);
+ 	padding: 20px;
+}
+
+.delivery p {
+ 	text-align: center;
+}
+
+.delivery .delivery_code_container {
+	padding-top: 10px;
+}
+
+.delivery .delivery_code_container .delivery_code_value{
+	@extend .col-md-12;	
+ 	text-align: center;
+ 	color:	$theme-color-3;
+} 
+
+.delivery .delivery_code_container .delivery_code_change {
+	@extend .col-md-12;	
+ 	text-align: center;	
+}
+
+.delivery .delivery_mode_container {
+	@extend .col-md-12;
+}
+
+.delivery .delivery_mode_container .delivery_mode_elem {
+	@extend .col-md-6;
+	text-align: center;
+}
+.delivery .delivery_mode_container .delivery_mode_elem .delivery_mode_elem_icon {
+	@extend .col-md-12;
+}
+.delivery .delivery_mode_container .delivery_mode_elem .icon-delivery {
+	background:url(../images/icones/livraison.png) no-repeat center center white;
+	padding: 0;
+	margin: 0;
+	display: block;
+	height: 40px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.delivery .delivery_mode_container .delivery_mode_elem .icon-take_away {
+	background:url(../images/icones/a-emporter.png) no-repeat center center white;
+	padding: 0;
+	margin: 0;
+	display: block;
+	height: 40px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+/***** FIN *******/
+
+
+.panier-widget section header {
+	margin:						0px;
+	background-color: $theme-color-1;
+	color:						$theme-color-0;
+	padding:					5px 15px;
+	font-size: 				14px;
+	font-weight: 			bold;
+	text-align: 			center;
+}
+
+.custom_wrapper {
+	clear: both;
+	display: block;
+	border-top: 1px solid $theme-color-0;
+	background-color: $theme-color-8;
+	margin-bottom: 10px;
+ 	box-shadow: 1px 1px 3px 1px rgba(50, 50, 50, 0.5);
+ 	min-height: 200px;
+}
+
+.custom_wrapper h5 {
+	font-size: 12px;
+	font-weight: normal;
+	text-align: center;
+	font-weight: 			bold;
+}
+
+.panier-widget .visibleo_cart {
+	background-color: $theme-color-8;	
+	display: block;
+	padding:								0px 5px;
+}
+
+.panier-widget .visibleo_cart .h2 {
+	color:									 $theme-color-7;
+	font-size:							18px;
+	font-weight:						3px;
+	float:									left;
+}
+.panier-widget .visibleo_cart p {
+	margin: 								0;
+	padding: 								0;
+}
+.panier-widget .visibleo_cart .actions {
+	float:									right;
+	padding-right: 					20px; 
+}
+.panier-widget .visibleo_cart .actions .cart_refresh{
+	float:									left;
+	display: 								block;
+	width:									20px;
+	height:									20px;
+	background: 						blue;
+	cursor:									pointer;
+
+	background: transparent url(http://www.alloresto.fr/themes/alloresto23/images/refonte2012/alloresto_sprite_pictos.png) no-repeat 0 -1800px;
+	background-position: 0 -1860px;
+
+}
+.panier-widget .visibleo_cart .actions .cart_clear{
+	float:									left;
+	display: 								block;
+	width: 									20px;
+	height: 								20px;
+	background: 						red;
+	cursor:									pointer;
+	margin-left: 						10px;
+
+	background: transparent url(http://www.alloresto.fr/themes/alloresto23/images/refonte2012/alloresto_sprite_pictos.png) no-repeat 0 -1800px;
+	background-position: 0 -1799px;
+}
+.panier-widget .visibleo_cart table.cart_products{
+	clear:									both;
+	/*margin:								42px 0px 0px 0px;*/
+	/*margin-bottom:  				20px;*/
+	@extend 								.col-md-12;
+}
+.panier-widget .visibleo_cart table.reductions {
+	clear:									both;
+	display: 								block;
+	@extend 								.col-md-12;
+	margin-bottom:  				20px;
+	/*border-bottom: 					2px dotted $theme-color-0;*/
+}
+
+.panier-widget .visibleo_cart table.cart_products tr.cart_product {
+	display: 								block;
+	@extend 								.col-md-12;
+	padding:								10px	0 0 0;
+	margin:									0;
+}
+.panier-widget .visibleo_cart table.cart_products tr td {
+}
+
+.panier-widget .visibleo_cart table.cart_products .cart_quantity_container {
+	@extend .col-md-3;
+	padding:									0px 5px;
+}
+
+.panier-widget .visibleo_cart table.cart_products .cart_minus_1 {
+	background: 						red;
+	display: 								inline-block;
+	/*width: 									20px;*/
+	height: 								20px;
+	float: 									left;
+	cursor:									pointer;
+
+	color: $theme-color-0;
+	font-size: 1.455em;
+	border: none;
+	background: none;
+	/*width: px;*/
+	height: 24px;
+	font-size: 12px;
+	font-weight: bold;
+	/*font-family: LoveYaLikeASister-Solid, Tahoma, Arial, Helvetica, clean, sans-serif;*/
+}
+.panier-widget .visibleo_cart table.cart_products .cart_update_quantity_container {
+	/*width: 									10px;*/
+	display: 								inline-block;
+	float: 									left;
+	font-size: 12px;
+	padding: 0px 5px;
+}
+
+.panier-widget .visibleo_cart table.cart_products .cart_update_quantity_container .cart_update_quantity {
+	width: 									20px;
+	display: 								block;
+	font-size: 12px;
+	text-align: center;
+}
+.panier-widget .visibleo_cart table.cart_products .cart_plus_1 {
+	background: 						blue;
+	display: 								inline-block;
+	float: 									left;
+	cursor:									pointer;
+
+	color:  $theme-color-0;
+	font-size: 1.25em;
+	border: none;
+	background: none;
+	/*width: 14px;*/
+	height: 24px;
+	/*font-family: LoveYaLikeASister-Solid, Tahoma, Arial, Helvetica, clean, sans-serif;*/
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.panier-widget .visibleo_cart table.cart_products .cart_product_name_container {
+	@extend .col-md-5;
+	color: $theme-color-6;
+	/*font-size: 1em;*/
+	border: none;
+	background: none;
+	/*font-family: LoveYaLikeASister-Solid, Tahoma, Arial, Helvetica, clean, sans-serif;*/
+	padding-left: 4px;	
+	/*width: 200px;*/
+	font-size: 12px;
+}
+
+.panier-widget .visibleo_cart table.cart_products .cart_product_cost_container {
+	@extend .col-md-3;
+	color: red;
+	/*font-size: 1em;*/
+	border: none;
+	background: none;
+	/*font-family: LoveYaLikeASister-Solid, Tahoma, Arial, Helvetica, clean, sans-serif;*/
+	padding-left: 4px;
+	word-break: keep-all;
+	font-size: 12px;
+
+}
+
+.panier-widget .visibleo_cart table.cart_products  .cart_product_remove_container {
+	@extend .col-md-1;
+	color: $theme-color-6;
+	/*font-size: 1em;*/
+	border: none;
+	background:url(../images/icones/delete.png) no-repeat center center;
+	width: 20px;
+	height: 20px;
+	/*font-family: LoveYaLikeASister-Solid, Tahoma, Arial, Helvetica, clean, sans-serif;*/
+	padding-left: 4px;
+}
+
+.panier-widget .visibleo_cart table.cart_products  .cart_product_remove_container .cart_remove {
+	width: 20px;
+	height: 20px;
+	display: block;
+	cursor: pointer;
+}
+
+.panier-widget .visibleo_cart .cart_sous_total_title {
+	@extend .col-md-7;
+	text-align: right;
+	color:			$theme-color-6;
+	font-size: 	12px;
+	font-weight: bold;
+}
+
+.panier-widget .visibleo_cart .cart_sous_total_value {
+	@extend .col-md-5;
+	text-align: right;
+	color:			red;
+	font-size: 	12px;
+}
+
+.panier-widget .visibleo_cart .cart_tva_container {
+	@extend .col-md-12;
+	color:			$theme-color-6;
+	font-size: 	12px;
+	display: block;
+	background-color: $theme-color-8;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.panier-widget .visibleo_cart .cart_tva_container .cart_tva_title{
+	@extend .col-md-5;
+	text-align: right;
+	color:			$theme-color-6;
+	font-size: 	12px;
+	padding-right: 2px;
+}
+
+.panier-widget .visibleo_cart .cart_tva_container .cart_tvas{
+	@extend .col-md-7;
+	padding: 0px;
+	color:			$theme-color-6;
+	font-size: 	12px;
+}
+
+.panier-widget .visibleo_cart .cart_tva_container .cart_tva .cart_tva_key{
+	@extend .col-md-7;
+}
+.panier-widget .visibleo_cart .cart_tva_container .cart_tvas .cart_tva_value{
+	@extend .col-md-5;
+	padding-right: 0px;
+	text-align: right;
+	padding-left: 0px;
+}
+
+.panier-widget .visibleo_cart .cart_total_title {
+	@extend .col-md-7;
+	text-align: right;
+	color:		$theme-color-6;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.panier-widget .visibleo_cart .cart_total_value {
+	@extend .col-md-5;
+	text-align: right;
+	color:		red;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.panier-widget .visibleo_cart .cart_validate_div {
+	@extend .col-md-12;
+	margin-top: 20px
+}
+
+.panier-widget .visibleo_cart .cart_closed {
+	padding: 		10px;
+	color:			red;
+	text-align: center;
+}
+
+.panier-widget .visibleo_cart .cart_open{
+	@extend .col-md-10;
+	@extend	.col-md-offset-1;
+
+	font-size: 12px;
+	font-weight: bold;
+	color:							$theme-color-7;
+	background: 				$theme-color-3;
+	background-image:		-moz-linear-gradient(90deg, $theme-color-3, $theme-color-4);
+	background-image:		radial-gradient($theme-color-3, $theme-color-4);
+	border:							none;
+	padding: 10px 10px;
+	text-align: center;
+	cursor: pointer;
+}

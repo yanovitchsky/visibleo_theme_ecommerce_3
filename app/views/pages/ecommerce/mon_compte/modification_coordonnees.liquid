@@ -1,0 +1,46 @@
+---
+title: Coordonnées
+published: true
+cache_strategy: none
+flag_pages:
+- accessible
+- login-success-callback
+- address-success-callback
+---
+{% extends 'parent' %}
+<!-- Car j'ai besoin d'un left et d'un right -->
+{% block 'body/middle/col-left' %}
+  {% include "ecommerce_mon_compte_sidebar" %}
+{% endblock%}
+
+{% block 'body/middle/col-center' %}
+<div class="row">
+  <div class="col-md-12">
+  <div>{{error}}</div>
+    <div class="e-commerce-mon-compte-coordonnees">
+      <section class="top">
+        <header>MODIFICATION ADRESSE DE LIVRAISON</header>
+        <div class="content">
+          <p>
+            Vous pouvez renseigner ici une ou plusieurs adresses de livraison (ex: à la maison, au bureau, chez Gladys...)<br />
+            Vous n'aurez plus qu'à séléctionner au moment de la commande l'adresse où vous souhaitez être livré.
+          </p>
+        </div>
+      </section>
+      <section class="address row">
+        <div>
+          {% assign address = visibleo_prospect.init_delivery_address %}
+          <form action="{{visibleo_prospect.form_delivery_url}}" method="post" id='visibleo-checkout-address-form' role='form' class='form-horizontal'>
+            {% include 'ecommerce_address_form'%}
+            <div class="actions col-md-12">
+              <input type='submit' value='Valider'/>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div class="col-md-12">
+  </div>
+</div>
+{% endblock %}

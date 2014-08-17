@@ -1,0 +1,13 @@
+
+{% assign gallery_name = "gallery_chez_luna" %}
+{% assign images = visibleo_gallery.get_by_name.uploads %}
+
+<section id="gallery">
+	<h4 class="bg-style-1">chez luna en image</h4><span class="border-bottom"></span>
+	<ul class="slider">
+	{% for image in images %}
+		<li><img src="{{ image.public_url  | theme_image_url | resize: '130x100#'   }}"  alt="image1" /></li>
+	{% endfor %}
+	</ul>
+</section>
+

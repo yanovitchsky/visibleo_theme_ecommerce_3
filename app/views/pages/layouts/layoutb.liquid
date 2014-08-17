@@ -1,0 +1,27 @@
+---
+title: layout B
+published: false
+---
+{% extends 'parent' %}
+<!--
+HERITAGE : Index
+CONTENU  :
+ - Une colone gauche
+ - Une colone centre
+-->
+<!-- Surcharge du block du millieu -->
+{% block 'body/middle' %}
+	<div class="w960" >
+		<div id="col-left" class="col-md-4">
+			<div class="row">
+				{% block 'col-left' %}{% endblock %}
+			</div>
+		</div>
+		<div id="col-center" class="col-md-8">
+			<div class="row">
+				{% block 'col-center' %}{% endblock %}
+			</div>
+		</div>
+	</div>
+{% endblock %}
+

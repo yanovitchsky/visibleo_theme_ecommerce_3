@@ -1,0 +1,42 @@
+<div id="header">
+  <!-- slider -->
+  {% block 'top' %}
+  <div id="top-slider">
+    {% include 'slider' %}
+  </div>
+  {% endblock %}
+
+  <div class="container-fluid">
+     <!-- tel -->
+    <div class="row w960">
+      <h2 class="pull-right bg-style-1 round"><span class=""></span> 01.01.01.01.01</h2>
+    </div>
+
+    <!-- logo + menu   -->
+    <header>
+        <!-- menu -->
+        <nav class="navbar navbar-default " role="navigation">
+            
+          <div class="w960">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            
+              <ul class="nav navbar-nav w960">
+ 
+                <li id="logo">
+                  <a href="/index" title="Chez Luna" rel="home">
+                  <img href="/" width="186px" title="Chez Luna" rel="home" src="{{'logo.png' | theme_image_url }}"/>
+                  </a>
+                 </li>
+                {% include 'menu' %}
+    
+              </ul>
+
+            </div><!-- /.navbar-collapse -->
+          </div>
+          
+        </nav>
+  
+    </header>
+  </div> <!-- fin container fluid -->
+</div> <!-- fin header -->
