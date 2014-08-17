@@ -1,0 +1,47 @@
+
+
+
+
+
+#la-carte .add_to_cart .add-button-cart-text {	
+	background: $theme-color-3;	
+	width: 85px;
+	padding: 5px;
+	text-transform: uppercase;
+	color:$theme-color-7;
+}
+
+
+#la-carte  .add_to_cart .add-button-cart-iconplus{
+	background: 			$theme-color-0;
+	color:					$theme-color-7;
+	width: 					22px;
+	padding: 				4px;
+	font-weight: 			bold;
+	text-align: 			center;
+	text-transform: 		uppercase;
+	display: 				inline-block;
+}
+
+
+#la-carte .subcategory > header {
+	background: #15dee0;
+	font-weight: bold;
+	border-bottom-style: double;
+	border-bottom-color: black;
+	border-bottom-width: 3px;
+	padding: 5px 10px;
+}
+
+
+#la-carte article, #la-carte p, #la-carte header, #la-carte h3 {
+	display: inline-block;
+}
+
+#la-carte article{margin: 20px 0px;}
+#la-carte header{width:100%;}
+
+
+
+
+
