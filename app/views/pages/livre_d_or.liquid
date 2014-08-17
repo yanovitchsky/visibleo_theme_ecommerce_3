@@ -41,13 +41,13 @@ flag_pages:
 						<input type="text" placeholder="Nom" name="comment[last_name]" value="{{ new_comment.last_name }}">
 					</div>
 					<div class="input">
-						<input type="text" placeholder="Prénom" name="comment[firts_name]"  value="{{ new_comment.firts_name }}">
+						<input type="text" placeholder="Prénom" name="comment[first_name]"  value="{{ new_comment.first_name }}">
 					</div>
 					<div class="input">
 						<input type="text" placeholder="Email" name="comment[email]" value="{{ new_comment.email }}" >
 					</div>
 					<div class="input-area">
-						<textarea placeholder="Message" "comment[content]">{{ new_comment.content }}</textarea>
+						<textarea placeholder="Message" name="comment[content]">{{ new_comment.content }}</textarea>
 					</div>
 
 					<div class="actions">
