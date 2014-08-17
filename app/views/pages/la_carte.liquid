@@ -2,4 +2,78 @@
 title: La carte
 published: true
 ---
-{% extends 'layouts/layouta' %}
+{% extends 'layouts/layouta/layouta1' %}
+
+
+
+{% block 'body/middle/col-center/top' %}
+	{% include 'bloc_top_center_1' %}
+{% endblock %}
+
+
+<!-- Je surcharge l -->
+{% block 'body/middle/col-center/middle' %}
+
+
+<!-- intégration du module de restauration -->
+
+{% assign category_depth = '4' %}
+
+{% assign restauration_category_name_keys = 'La carte' %} <!-- get params url ==> ?restauration_category_id=category_1 -->
+
+{% assign carte =  restauration.find_category_by_name_keys %}
+
+
+<div class="row" id="la-carte">
+
+	<section>
+		<!-- zone de gauche -->
+		<aside class="col-md-4">
+			<header>CARTE DU RESTAURANT</header>
+			<ul>
+				{% for subcategory in carte.subcategories %}
+					<li {% if forloop.first %} class="active" {% endif %} > <a data-toggle="tab" href="#carte-{{subcategory.id}}">{{subcategory.name}}</a></li>
+				{% endfor %}
+			</ul>
+		</aside>
+
+		<!-- zone de droite -->
+		<div class="col-md-8 tab-content">
+			{% for subcategory in carte.subcategories %}
+			<div class="subcategory tab-pane {% if forloop.first %} active {% endif %}" id="carte-{{subcategory.id}}">
+				<header>{{subcategory.name}}</header>
+				{% for product in subcategory.products %}
+					<article class="clearfix">
+						<div class="pull-left col-md-4 no-padding">
+						<img src="{{ product.gallery.default_upload.public_url | theme_image_url | resize: '110x'   }}"  alt="image1" />
+						</div>
+						<div class="pull-left col-md-8 no-padding">
+							<header>
+								<h3>{{product.name}} </h3>
+								<p class="pull-right">
+								<select class='product_qty' data-type="product_qty" data-product-id="{{product.id}}">
+									{% for i in (1..20) %}
+									<option value="{{i}}">{{i}}</option>
+									{% endfor%}
+								</select class="pull-right">
+								<a href="#" onclick='return false;' class='add_to_cart' data-product-id="{{product.id}}"><span class="add-button-cart-text">{{product.price}} HT</span><span class="add-button-cart-iconplus">+</span></a>
+								<p>
+							</header>
+							<p> {{product.description}}	</p>
+						</div>
+					</article>
+				{% endfor %}
+					</div>
+			{% endfor %}
+		</div>
+	</secion>
+</div>
+
+{% endblock %}
+
+
+<!--  column right : cart + infos  + guestbook -->
+{% block 'body/middle/col-right' %}
+	{%include "ecommerce_cart_widget" %}
+	{%include bloc_col_right %}
+{% endblock %}

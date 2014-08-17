@@ -5,7 +5,7 @@
 			<h5>horaires chez luna</h5>
 			<ul>
 				<li>Lundi : 07h30 - 15h</li>
-				<li>Mardi - Samedi : 07h30 - 22h </li>	
+				<li>Mardi - Samedi : 07h30 - 22h </li>
 				<li>Dimanche : 09h - 15h</li>
 			</ul>
 		</div>
@@ -26,14 +26,22 @@
 	</div>
 
 
-{{ '//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js' | javascript_tag }}
-{{ '//code.jquery.com/ui/1.10.4/jquery-ui.js' | javascript_tag }}
-{{ 'bootstrap.min.js' | javascript_tag }}
-{{ 'jquery.slides.min.js' | javascript_tag }}
+{% comment %}
+	{{ '//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js' | javascript_tag }}
+	{{ '//code.jquery.com/ui/1.10.4/jquery-ui.js' | javascript_tag }}
+	{{ 'jquery-ui.js' 			| javascript_tag }}
+{% endcomment %}
+
+
+{{ 'jquery-1.11.0.min.js' 	| javascript_tag }}
+
+{{ 'bootstrap.min.js' 		| javascript_tag }}
+{{ 'jquery.slides.min.js' 	| javascript_tag }}
 {{ 'ecommerce_cart.js' | javascript_tag }}
 {{ 'ecommerce_paiement.js' | javascript_tag }}
 {{ 'coupon.js' | javascript_tag }}
 {{ 'ecommerce_checkout_address.js' | javascript_tag }}
+
 
 
 <!-- slider -->

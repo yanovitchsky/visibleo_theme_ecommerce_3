@@ -5,12 +5,53 @@
 category_1:
   id: "category_1"
   upper_category_id: ""
-  name: "Carte du restaurant"
-  description: "carte du restaurant" 
+  name: "Les menus"
+  description: "carte du restaurant"
   created_at: "2014-03-10 15:40:35"
   category_ids:
   product_ids:
     - product_1
     - product_2
 
+category_2:
+  id: "category_2"
+  upper_category_id: ""
+  name: "La carte"
+  description: "carte du restaurant"
+  created_at: "2014-03-10 15:40:35"
+  category_ids:
+    - category_3
+    - category_4
+    - category_5
 
+category_3:
+  id: "category_3"
+  upper_category_id: ""
+  name: "Sous category 1"
+  description: "carte du restaurant"
+  created_at: "2014-03-10 15:40:35"
+  product_ids:
+    - product_3
+    - product_4
+    - product_5
+    - product_6
+
+category_4:
+  id: "category_4"
+  upper_category_id: ""
+  name: "Sous category 2"
+  description: "carte du restaurant"
+  created_at: "2014-03-10 15:40:35"
+  product_ids:
+    - product_7
+    - product_8
+
+category_5:
+  id: "category_5"
+  upper_category_id: ""
+  name: "Sous category 3"
+  description: "carte du restaurant"
+  created_at: "2014-03-10 15:40:35"
+  product_ids:
+    - product_9
+    - product_10

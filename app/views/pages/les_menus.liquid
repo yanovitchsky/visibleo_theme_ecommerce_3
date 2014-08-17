@@ -19,12 +19,14 @@ cache_strategy: none
 <!-- intégration du module de restauration -->
 
 {% assign category_depth = '4' %}
-{% assign restauration_category_name_keys = 'Carte du restaurant' %}<!-- get params url ==> ?restauration_category_id=category_1 -->
+
+{% assign restauration_category_name_keys = 'Les menus' %}<!-- get params url ==> ?restauration_category_id=category_1 -->
+
+
 {% assign menu =  restauration.find_category_by_name_keys %}
 
-
-
 <div class="row" id="les-menus">
+
 	<section>
 		<!-- zone de gauche -->
 		<aside class="col-md-4">
@@ -38,7 +40,7 @@ cache_strategy: none
 
 		<!-- zone de droite -->
 		<div class="col-md-8 tab-content">
-			{% for product in menu.products %}
+		{% for product in menu.products %}
 			<article class="tab-pane {% if forloop.first %} active {% endif %}" id="menu-{{product.id}}">
 					<header>{{product.name}}</header>
 					<div class="content">
@@ -55,7 +57,7 @@ cache_strategy: none
 								<div class="option">
 									<div class="row">
 										<div class="col-md-7"><p>Choisissez votre {{option_classification.name}}:</p></div>
-										<div class="col-md-5"><p>	
+										<div class="col-md-5"><p>
 											<select data-product-id="{{product.id}}" data-type='product_option_classification' data-id="{{option_classification.id}}" class="select-option">
 												{% for option in option_classification.options %}
 													<option value='{{option.id}}'>{{option.name}} (+ {{option.price}} euros)</option>
@@ -95,6 +97,7 @@ cache_strategy: none
 		</div>
 	</secion>
 </div>
+
 {% endblock %}
 
 {% block 'body/middle/col-right' %}

@@ -26,7 +26,7 @@ flag_pages:
 	<div class="section-guestbook-form">
 		<section>
 			<header>PARTAGEZ VOTRE AVIS</header>
-				<form action="" method="post" class="form-guestbook">
+				<form action="{{guestbook_comments.create_url }}" method="post" class="form-guestbook">
 					{% assign new_comment = guestbook_comments.new %}
 	                 {% if new_comment.errors %}
 	                   <p>The following errors occured:</p>
@@ -62,19 +62,24 @@ flag_pages:
 
 <!-- block central coté droit -->
 {% block 'body/middle/col-center/right' %}
-<div class="section-guestbook-articles">
-	<section>
 		<!-- appel module guestbook -->
-		{% assign comments_params = '{"orders": {"last_name": "asc"}, "limit": 3}' %}
-		<!-- déclaration du nom de la variable qui permet le fonctionnement de la pagination -->
-		{% assign page_key = 'comment_page' %}
-		<!-- recupération des commentaires en fonction des paramètres passés précédemment -->
-		{% assign comments = {{guestbook_comments.all}} %}
+	{% assign comments_params = '{"orders": {"last_name": "asc"}, "limit": 3}' %}
+	<!-- déclaration du nom de la variable qui permet le fonctionnement de la pagination -->
+	{% assign page_key = 'comment_page' %}
+	<!-- recupération des commentaires en fonction des paramètres passés précédemment -->
+	{% assign comments = {{guestbook_comments.all}} %}
 
-		
+
+	{% if guestbook_comments.all.collection.size > 0 %}
+
+
+<div class="section-guestbook-articles">
+
+	<section>
+
     {% for comment in comments.collection %}
 		<article>
-			<header><span class="author">{{ comment.first_name }} {{comment.last_name | first  }}</span><span class="date">, 
+			<header><span class="author">{{ comment.first_name }} {{comment.last_name | first  }}</span><span class="date">,
 			le {{comment.created_at | date: "%D" }}</span></header>
 			<div class="content">
 				<p>
@@ -100,7 +105,7 @@ flag_pages:
 
 
 		{% 	assign max = current_page | plus: 3 %}
-		{% 	assign min = current_page | minus: 3 %} 
+		{% 	assign min = current_page | minus: 3 %}
 
 		{% for page in (min..page_prev) %}
 			{% if page == comments.current_page %}
@@ -122,12 +127,13 @@ flag_pages:
 
 		  {% endif %}
 		{% endfor %}
-		
+
 		<!-- bouton suivant -->
 
 		 <a href="?{{guestbook_comments.url_params_for}}{{ page_next}}">next</a>
 	</div>
 
 </div>
+{% endif %}
 {% endblock %}
 <!-- Sidebar -->
