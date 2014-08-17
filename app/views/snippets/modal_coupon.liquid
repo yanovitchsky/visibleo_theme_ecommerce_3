@@ -4,12 +4,13 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+
+        <h4 class="modal-title" id="myModalLabel">Mode d'envoie coupon</h4>
       </div>
       <div class="modal-body">
            {% assign coupon_name = "coupon2" %}
            {% assign coupon = visibleo_coupon.get_by_name %}
-        
+
         <ul class="nav nav-tabs">
         {%  for coupon_type in coupon.diffusion_channels  %}
           <li class="{% if forloop.first %} active {% endif %}">
@@ -17,21 +18,24 @@
            </li>
         {% endfor %}
         </ul>
-      
-      
+
+
         <div class="tab-content">
           {%  for coupon_type in coupon.diffusion_channels  %}
                 <div class="tab-pane {% if forloop.first %} active {% endif %}" id="{{coupon_type}}">
                     <section class="coupon clearfix">
-                  <!-- cas du print --> 
+
+
                   {% if coupon_type == "print" %}
-                    <div class="col-md-4">
-                      {{ coupon.image  | theme_image_tag }}          
+                    <!-- cas du print -->
+                    <div class="col-md-4 no-padding">
+                    <img src="{{  coupon.print.upload.public_url | resize: '300x' }}" />
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-8 no-padding">
                       <header class="title" data-bg-color="{{coupon.print.headband_color}}">
-                        <h4 >VOTRE BON DE REDUCTION</h4>      
-                          <img src="{{ coupon.print.client_infos.logo | resize: '100x' }}" />
+                        <h4 >VOTRE BON DE REDUCTION</h4>
+                          <span><img src="{{ coupon.print.client_infos.logo | resize: '100x' }}" /></span>
+
                       </header>
                       <div class="content">
                         <h2>{{coupon.catch_phrase}}</h2>
@@ -42,13 +46,38 @@
                         <p class="client-infos">{{coupon.print.client_infos.name}} </p>
                         <p class="client-infos">{{coupon.client_infos.address}} </p>
                       </footer>
+
                     </div>
                   {% endif %}
-                    </section>  
+
+                  {% if coupon_type == "sms" %}
+                   <!-- cas du sms -->
+                    <form method="POST" action="{{coupon.send_sms_url}}" >
+                        <input type="hidden" value="{{coupon.id}}" name="coupon_id" />
+                        <div class="form-group">
+                            <label for="">Numéro de téléphone</label>
+                            <input class="form-control" type="text"  placeholder="Entrer votre numéro de télephone" name="number" />
+                        </div>
+                          <input type="submit" class="btn btn-success" value="envoyer">
+                    </form>
+                  {% endif %}
+
+                  {% if coupon_type == "mail" %}
+                  <!-- cas du mail -->
+                    <form method="POST"  action="{{coupon.send_mail_url}}" >
+                        <input type="hidden" value="{{coupon.id}}" name="coupon_id" />
+                         <div class="form-group">
+                            <label for="">Mail</label>
+                            <input type="email" class="form-control" id="" placeholder="Entrer votre mail" name="email">
+                        </div>
+                        <input type="submit" class="btn btn-success" value="envoyer">
+                    </form>
+                  {% endif %}
+                    </section>
                 </div>
           {% endfor %}
         </div><!-- tab content -->
-                  
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn has-warning" data-dismiss="modal">Close</button>
