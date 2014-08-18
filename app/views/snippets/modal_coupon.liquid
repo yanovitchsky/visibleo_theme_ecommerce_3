@@ -52,7 +52,7 @@
 
                   {% if coupon_type == "sms" %}
                    <!-- cas du sms -->
-                    <form method="POST" action="{{coupon.send_sms_url}}" >
+                    <form method="POST" action="{{visibleo_coupon.send_sms_url}}" >
                         <input type="hidden" value="{{coupon.id}}" name="coupon_id" />
                         <div class="form-group">
                             <label for="">Numéro de téléphone</label>
@@ -64,7 +64,7 @@
 
                   {% if coupon_type == "mail" %}
                   <!-- cas du mail -->
-                    <form method="POST"  action="{{coupon.send_mail_url}}" >
+                    <form method="POST"  action="{{visibleo_coupon.send_mail_url}}" >
                         <input type="hidden" value="{{coupon.id}}" name="coupon_id" />
                          <div class="form-group">
                             <label for="">Mail</label>
