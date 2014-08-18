@@ -6,16 +6,12 @@
 
 <!-- module  promotion -->
 <section id="promotion" class="col-md-6 block">
-	<div>
-
-		<p class="pull-left description">
-			{{ promotion.detail.texts.title }}
-			<a href="#" class ="button bg-rose round launch-coupon-view" data-toggle="modal" data-target="#modal-coupon">
-				j'en profite</a>
-		</p>
+		<a href="#" class ="launch-coupon-view" data-toggle="modal" data-target="#modal-coupon">
+			<div>
 			{% assign bg_image =  promotion.detail.image %}
 			{{ bg_image | theme_image_tag: 'alt:burger' }}
-	</div> 
+			</div> 
+		</a>
 </section>
 
 <!-- bloc menu midi -->

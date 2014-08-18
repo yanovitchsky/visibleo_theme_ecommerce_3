@@ -14,16 +14,20 @@
 		</div>
 	</div>
 	
+	{% assign comments_params = '{"orders": {"last_name": "asc"}, "limit": 3}' %}
+	{% assign page_key = 'comment_page' %}
+
+	{% assign ind = (guestbook_comments.all.collection.size | random ) %}
+
+	
+
+	{% if guestbook_comments.all.collection.size > 0%}
+
+
 	<section id="guestbook">
 
-		{% assign comments_params = '{"orders": {"last_name": "asc"}, "limit": 3}' %}
-		{% assign page_key = 'comment_page' %}
-
-		{% assign ind = (guestbook_comments.all.collection.size | random ) %}
-
-		{% for comment in guestbook_comments.all.collection  limit:1 offset:ind %}
-
 		<h4 class="bg-blue">Il nous ont fait  confiance	</h4>
+		{% for comment in guestbook_comments.all.collection  limit:1 offset:ind %}
 		<article>
 			<header><span class="author">{{ comment.first_name }} {{ comment.last_name | first  }}</span><span class="date">, 
 			le {{comment.created_at | date: "%D" }}</span></header>
@@ -40,3 +44,5 @@
 	 		<a class="bg-blue button" href="/livre-d-or" >	Ecrire un avis</a>
 		</p>
 	</section>
+
+	{% endif %}

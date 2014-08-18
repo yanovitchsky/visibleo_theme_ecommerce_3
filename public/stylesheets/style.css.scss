@@ -434,19 +434,6 @@ article{
 	}
 }
 
-#promotion{
-	.description{
-		background-color: black;
-		opacity: 0.8;
-		color:white;
-		width:45%;
-		position: absolute;
-		height:100%;
-		text-align: center;
-	}
-
-}
-
 #modal-coupon {
 	header {
 		display: table-row;
@@ -465,7 +452,7 @@ article{
 		}
 	}
 	.nav-tabs li { width:33%;}
-	section{padding: 20px;}
+	section{padding: 20px;height: 400px;}
 	section .title{color:white;}
 	.coupon div:first-child {overflow: hidden; height:100%;}
 	.coupon div:first-child img {height:100%;}
