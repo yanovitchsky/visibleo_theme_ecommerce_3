@@ -25,16 +25,16 @@ $theme-color-9: #dadada; /*other gray */
 /* */
 /*$theme-color-8: #;*/
 
-.theme-color-0{color: $theme-color-0 ;}
-.theme-color-1{color: $theme-color-1 ;}
-.theme-color-2{color: $theme-color-2 ;}
-.theme-color-3{color: $theme-color-3 ;}
-.theme-color-4{color: $theme-color-4 ;}
-.theme-color-5{color: $theme-color-5 ;}
-.theme-color-6{color: $theme-color-6 ;}
-.theme-color-7{color: $theme-color-7 ;}
-.theme-color-8{color: $theme-color-8;}
-.theme-color-9{color: $theme-color-9;}
+.theme-color-0{color: $theme-color-0 !important;}
+.theme-color-1{color: $theme-color-1 !important;}
+.theme-color-2{color: $theme-color-2 !important;}
+.theme-color-3{color: $theme-color-3 !important;}
+.theme-color-4{color: $theme-color-4 !important;}
+.theme-color-5{color: $theme-color-5 !important;}
+.theme-color-6{color: $theme-color-6 !important;}
+.theme-color-7{color: $theme-color-7 !important;}
+.theme-color-8{color: $theme-color-8 !important;}
+.theme-color-9{color: $theme-color-9 !important;}
 
 $rose:	  #ed1164;
 $bleu: 	  #15dee0;
@@ -44,7 +44,7 @@ $gray 	: #888888;
 
 /*couleur*/
 .rose{color:$rose;}
-.orange{color:$orange1;}
+.orange{color:$theme-color-3;}
 .bleu-ciel{color:$bleu;}
 .gray {color: $gray;}
 .red{color:red;}
@@ -69,8 +69,6 @@ $gray 	: #888888;
 	cursor: pointer;
 
 }
-
-
 
 /***********************************/
 /********** surcharge bootstap ****/
@@ -100,9 +98,8 @@ $gray 	: #888888;
 }
 
 
-.modal-dialog{
-	width:800px;
-	}
+.modal-dialog{width:800px;}
+
 
 
 /***********************************/
@@ -322,17 +319,37 @@ article{
 	#logo{
 		img {
 			position: relative;
-			bottom: 75px;
+			bottom: 46px;
 		}
 	}
-
 	/*menu*/
-	.navbar-nav{
- 	position: absolute;
- }
+	.navbar-nav{ position: absolute;}
+
+	/* mon compte*/
+	#my_account{
+		a:first-child{	background-color: $theme-color-0; height: 48px}
+		.dropdown-menu{
+			.caret{
+				color:white;
+				top: -10px;
+				position: absolute;
+				left: 25px;
+			}
+			position: relative;
+			top:10px;
+			background-color: $theme-color-0;
+			a { color:$theme-color-8; text-transform: capitalize; font-weight: bold; }
+			ul{
+				margin: 0px 10px;
+				font-size: 12px
+			}
+			ul li{ padding: 7px 0px; border-bottom: 1px dotted $theme-color-8; }
+			ul li:last-child{ border:0; }
+		}
+	}
 }
 
-
+	
 /* body */
 #body{
 	/* background */
@@ -435,6 +452,7 @@ article{
 }
 
 #modal-coupon {
+	.col-md-8{height:100%;}
 	header {
 		display: table-row;
 		> * {
@@ -450,6 +468,12 @@ article{
 			padding: 10px 20px 10px 0px;
 			vertical-align: middle;
 		}
+	}
+	footer{
+		padding: 0 20px;
+		position: absolute;
+		bottom: 0;
+		p {padding:0px; font-size: 10px;}
 	}
 	.nav-tabs li { width:33%;}
 	section{padding: 20px;height: 400px;}

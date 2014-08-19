@@ -8,11 +8,11 @@
 	padding: 																			5px;
 }
 #les-menus article 															{	margin-bottom: 20px; }
-#les-menus article header {
+#les-menus article header, #les-menus  aside header {
 	background: 																	$theme-color-1;
 	font-weight: 																	bold;
-  border-bottom-style: 													double;
-  border-bottom-color: 													$theme-color-0;
+ 	border-bottom-style: 													double;
+  	border-bottom-color: 													$theme-color-0;
 	border-bottom-width: 													3px;
 	padding: 																			5px 10px;
 }

@@ -7,23 +7,34 @@
 
 		<div class="row p20rl m20t">
 			<article class="col-md-6" >
-				<h2>LE WEEK-END... Brunch et buffet à volonté <span class="bleu-ciel">19€ seulement </span>
+				<h2>
+					{% editable_text "title1", hint: "titre bloc de gauche, page index" %}
+						LE WEEK-END... Brunch et buffet à volonté <span class="bleu-ciel">19€ seulement </span>
+					{% endeditable_text %}
 				</h2>
-				<p>Faîtes une sortie entre amis et profitez de la formule brunch avec
-					buffet à volonté Chez Luna, pour seulement 19 €. Vous aurez l’occa-
-					sion de goûter à des spécialités françaises. Entrées, tartes salées ac-
-					compag
-				</p>
-				<p>
-					Faîtes une sortie entre amis et profitez de la formule brunch avec
-					buffet à volonté Chez Luna, pour seulement 19 €. Vous aurez l’occa-
-					sion de goûter à des spécialités françaises. Entrées, tartes salées ac-
-					compag
-				</p>
+					{% editable_text "content1", hint: "description bloc de gauche, page index" %}
+						<p>
+								Faîtes une sortie entre amis et profitez de la formule brunch avec
+								buffet à volonté Chez Luna, pour seulement 19 €. Vous aurez l’occa-
+								sion de goûter à des spécialités françaises. Entrées, tartes salées ac-
+								compag
+
+						</p>
+						<p>
+							Faîtes une sortie entre amis et profitez de la formule brunch avec
+							buffet à volonté Chez Luna, pour seulement 19 €. Vous aurez l’occa-
+							sion de goûter à des spécialités françaises. Entrées, tartes salées ac-
+							compag
+						</p>
+					{% endeditable_text %}
 			</article>
 			<article class="col-md-6" >
-				<h2>UN CADRE SIMPLE ET COLORé.. a l’image du quartier menilmontant.
+				<h2>
+					{% editable_text "title2", hint: "titre bloc de droite, page index" %}
+						UN CADRE SIMPLE ET COLORé.. a l’image du quartier menilmontant.
+					{% endeditable_text %}
 				</h2>
+				{% editable_text "content2", hint: "description bloc de droite, page index" %}
 				<p>Faîtes une sortie entre amis et profitez de la formule brunch avec
 					buffet à volonté Chez Luna, pour seulement 19 €. Vous aurez l’occa-
 					sion de goûter à des spécialités françaises. Entrées, tartes salées ac-
@@ -35,6 +46,7 @@
 					sion de goûter à des spécialités françaises. Entrées, tartes salées ac-
 					compag
 				</p>
+				{% endeditable_text %}
 			</article>
 		</div>
 		<div class="row p20rl m20t">

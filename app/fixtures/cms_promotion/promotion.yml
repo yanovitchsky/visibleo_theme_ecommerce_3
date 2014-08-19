@@ -18,9 +18,8 @@ promotion:
       catch_phrase: "ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat."
       description: "et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril.delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum."
   tags:
-    - lorem
-    - ipsum
-    - dolor
+    - les-menus
+    - la-carte
 promotion2:
   id: "531f13bf566973311e030000"
   cms_site_id: "cms_site_id"

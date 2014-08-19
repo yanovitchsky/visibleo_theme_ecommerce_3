@@ -25,11 +25,31 @@
  
                 <li id="logo">
                   <a href="/index" title="Chez Luna" rel="home">
-                  <img href="/" width="186px" title="Chez Luna" rel="home" src="{{'logo.png' | theme_image_url }}"/>
+                  <img href="/" width="186px" title="Chez Luna" rel="home" src="{{'logo-rd.jpg' | theme_image_url }}"/>
                   </a>
                  </li>
-                {% include 'menu' %}
-    
+                  {% include 'menu' %}
+                  <!-- mon compte -->
+                  {% if current_prospect %}
+                    <li id="my_account" class="dropdown">
+                      <a href="#" class='dropdown-toggle theme-color-3' data-toggle='dropdown'> Mon compte <span class='caret'></span></a>
+                      <div class="dropdown-menu" role="menu">
+                      <span class='caret'></span>
+                        <ul >
+                          <li><a href="/ecommerce/mon-compte">Mon espace client</a></li>
+                          <li><a href="/ecommerce/mon-compte/commandes">Mes commandes</a></li>
+                          <li><a href="/cms_prospect/logout">Déconnexion</a></li>
+                        </ul>
+                      </li>
+                    </div>
+                    {% else %}
+                    <li class="dropdown">
+                      <a href="#" class='dropdown-toggle' data-toggle='dropdown'> 
+                      <span class='caret'>
+                        Connexion à MON COMPTE
+                      </span></a>
+                    </li>
+                    {% endif %}
               </ul>
 
             </div><!-- /.navbar-collapse -->
