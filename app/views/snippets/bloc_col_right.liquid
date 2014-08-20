@@ -1,0 +1,47 @@
+	<div id="about">
+		<div class="tr">
+			<span class="icon icon-schedule"></span>
+			<span><strong>Horaires Chez Luna</strong>Mardi-vendredi: 11h-15h /19h</span>
+		</div>
+		<div class="tr">
+			<span class="icon icon-phone"></span>
+			<span class="">01.01.01.01.01</span>
+		</div>
+		<div class="tr"> 
+			<span class="icon icon-geoloc"></span>
+			<span>108 rue Menilmontant <br/> 75020 - Paris</span>
+
+		</div>
+	</div>
+	
+	{% assign comments_params = '{"orders": {"last_name": "asc"}, "limit": 3}' %}
+	{% assign page_key = 'comment_page' %}
+
+	{% assign ind = (guestbook_comments.all.collection.size | random ) %}
+
+
+	{% if guestbook_comments.all.collection.size > 0%}
+
+
+	<section id="guestbook">
+
+		<h4 class="bg-blue">Il nous ont fait  confiance	</h4>
+		{% for comment in guestbook_comments.all.collection  limit:1 offset:ind %}
+		<article>
+			<header><span class="author">{{ comment.first_name }} {{ comment.last_name | first  }}</span><span class="date">, 
+			le {{comment.created_at | date: "%D" }}</span></header>
+			<div class="content">
+				<p>
+					{{ comment.content }}
+				</p>
+			</div>
+		</article>
+
+		{% endfor %}
+
+		<p>
+	 		<a class="bg-blue button" href="/livre-d-or" >	Ecrire un avis</a>
+		</p>
+	</section>
+
+	{% endif %}

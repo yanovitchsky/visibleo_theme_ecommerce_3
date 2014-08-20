@@ -1,0 +1,23 @@
+.e-commerce-mon-compte-sidebar section {
+	@extend .col-md-12;
+}
+
+.e-commerce-mon-compte-sidebar section header {
+	margin:						20px 0px 0px 0px;
+	color:						$theme-color-0;
+	padding:					5px 15px;
+	font-size: 				12px;
+	font-weight: 			bold;
+	border-bottom: 		1px dotted black;
+}
+
+.e-commerce-mon-compte-sidebar aside ul 			{ margin-top: 20px; }
+.e-commerce-mon-compte-sidebar aside ul li 		{
+	color: 																				$theme-color-5;
+	margin-left:																	20px; 
+	margin-top: 																	5px;
+	padding-left: 																10px;
+}
+.e-commerce-mon-compte-sidebar aside ul li.active										{ text-transform: none;	color: $theme-color-0; }
+.e-commerce-mon-compte-sidebar aside ul li.active a 								{	text-transform: none;	font-weight: bold;	color: $theme-color-0; }
+.e-commerce-mon-compte-sidebar aside ul li a 												{	text-transform: none;	color: $theme-color-5; }

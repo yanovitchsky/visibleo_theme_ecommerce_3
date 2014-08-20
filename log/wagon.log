@@ -1,0 +1,4197 @@
+# Logfile created on 2014-08-17 03:58:26 +0200 by logger.rb/1.2.8
+Started GET "/ecommerce/connexion" at 2014-08-17 03:58:38 +0200
+Detecting locale EN
+Found page "Connexion" [ecommerce/connexion]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_breadcrumb
+  Rendered snippet ecommerce_prospect_form_widget
+  Rendered snippet ecommerce_password_form_widget
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 43.7ms
+
+
+Started GET "/ecommerce/coordonnees" at 2014-08-17 03:58:42 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_breadcrumb
+  Rendered snippet ecommerce_address_form
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 19.7ms
+
+
+Started GET "/ecommerce/cart" at 2014-08-17 03:58:47 +0200
+Detecting locale EN
+Found page "Panier" [ecommerce/cart]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_breadcrumb
+  Rendered snippet ecommerce_cart_details
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 17.5ms
+
+
+Started GET "/ecommerce/paiement" at 2014-08-17 03:58:55 +0200
+Detecting locale EN
+Found page "Paiement" [ecommerce/paiement]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_breadcrumb
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 27.2ms
+
+
+Started GET "/ecommerce/cart" at 2014-08-17 03:59:02 +0200
+Detecting locale EN
+Found page "Panier" [ecommerce/cart]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_breadcrumb
+  Rendered snippet ecommerce_cart_details
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 26.9ms
+
+
+Started GET "/ecommerce/connexion" at 2014-08-17 03:59:05 +0200
+Detecting locale EN
+Found page "Connexion" [ecommerce/connexion]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_breadcrumb
+  Rendered snippet ecommerce_prospect_form_widget
+  Rendered snippet ecommerce_password_form_widget
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 16.4ms
+
+
+Started GET "/" at 2014-08-17 03:59:21 +0200
+Detecting locale EN
+Found page "index" [index]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet module_gallery
+  Rendered snippet bloc_col_right
+  Rendered snippet index
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 18.3ms
+
+
+Started GET "/" at 2014-08-17 03:59:23 +0200
+Detecting locale EN
+Found page "index" [index]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet module_gallery
+  Rendered snippet bloc_col_right
+  Rendered snippet index
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 19.2ms
+
+
+Started GET "/cs" at 2014-08-17 03:59:28 +0200
+Detecting locale EN
+Completed 404 Not Found in 5.0ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 04:36:54 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 04:36:54 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 04:38:11 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 04:38:11 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 04:39:48 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 04:39:48 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 04:42:45 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 04:44:35 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 04:44:36 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 05:13:50 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 05:14:22 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 05:14:25 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 05:14:25 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 05:14:27 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 05:14:54 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 05:14:54 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 05:25:25 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 05:29:14 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 05:29:32 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 05:29:33 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 05:36:52 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 05:36:53 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 05:37:13 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 05:37:13 +0200
+Started GET "/" at 2014-08-17 07:19:57 +0200
+Detecting locale EN
+Found page "index" [index]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet module_gallery
+  Rendered snippet bloc_col_right
+  Rendered snippet index
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 20.3ms
+
+
+Started GET "/" at 2014-08-17 07:20:04 +0200
+Detecting locale EN
+Found page "index" [index]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet module_gallery
+  Rendered snippet bloc_col_right
+  Rendered snippet index
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 23.1ms
+
+
+Started GET "/ecommerce/connexion" at 2014-08-17 07:20:18 +0200
+Detecting locale EN
+Found page "Connexion" [ecommerce/connexion]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_breadcrumb
+  Rendered snippet ecommerce_prospect_form_widget
+  Rendered snippet ecommerce_password_form_widget
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 28.2ms
+
+
+Started GET "/ecommerce/mon-compte" at 2014-08-17 07:20:27 +0200
+Detecting locale EN
+Found page "template mon compte" [ecommerce/mon-compte]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 19.1ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 07:22:07 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 07:22:12 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 07:23:12 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 07:23:25 +0200
+Started GET "/ecommerce/mon-compte" at 2014-08-17 07:23:34 +0200
+Detecting locale EN
+Found page "template mon compte" [ecommerce/mon-compte]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 11.6ms
+
+
+Started GET "/ecommerce/mon-compte/index" at 2014-08-17 07:23:39 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/mon-compte/index]
+Redirected to mon-compte/coordonnes
+Completed 301 Found in 2.3ms
+
+
+Started GET "/ecommerce/mon-compte/mon-compte/coordonnes" at 2014-08-17 07:23:39 +0200
+Detecting locale EN
+Completed 404 Not Found in 3.4ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 07:24:32 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 07:24:32 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 07:24:54 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 07:24:54 +0200
+Started GET "/ecommerce/mon-compte" at 2014-08-17 07:25:00 +0200
+Detecting locale EN
+Found page "template mon compte" [ecommerce/mon-compte]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 13.6ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 07:25:41 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 07:25:44 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 07:25:47 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 07:25:48 +0200
+Started GET "/ecommerce/mon-compte" at 2014-08-17 07:25:51 +0200
+Detecting locale EN
+Found page "template mon compte" [ecommerce/mon-compte]
+Redirected to coordonnes
+Completed 301 Found in 3.1ms
+
+
+Started GET "/ecommerce/mon-compte/coordonnes" at 2014-08-17 07:25:51 +0200
+Detecting locale EN
+Completed 404 Not Found in 4.7ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 07:25:58 +0200
+Started GET "/ecommerce/mon-compte/coordonnes" at 2014-08-17 07:25:59 +0200
+Detecting locale EN
+Completed 404 Not Found in 3.0ms
+
+
+Started GET "/ecommerce/mon-compte" at 2014-08-17 07:26:05 +0200
+Detecting locale EN
+Found page "template mon compte" [ecommerce/mon-compte]
+Redirected to coordonnees
+Completed 301 Found in 2.0ms
+
+
+Started GET "/ecommerce/coordonnees" at 2014-08-17 07:26:05 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_breadcrumb
+  Rendered snippet ecommerce_address_form
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 23.4ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 07:26:16 +0200
+Started GET "/ecommerce/mon-compte" at 2014-08-17 07:26:21 +0200
+Detecting locale EN
+Found page "template mon compte" [ecommerce/mon-compte]
+Redirected to mon-compte/coordonnees
+Completed 301 Found in 2.3ms
+
+
+Started GET "/ecommerce/mon-compte/coordonnees" at 2014-08-17 07:26:21 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/mon-compte/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 21.7ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 07:26:41 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 22.3ms
+
+
+Started GET "/ecommerce/mon-compte/commandes" at 2014-08-17 07:26:44 +0200
+Detecting locale EN
+Found page "Mes dernières commandes" [ecommerce/mon-compte/commandes]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 18.2ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 07:27:19 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 11.9ms
+
+
+Started GET "/ecommerce/mon-compte/coordonnees" at 2014-08-17 07:27:21 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/mon-compte/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 16.7ms
+
+
+Started GET "/ecommerce/mon-compte/modification-coordonnees" at 2014-08-17 07:27:35 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/mon-compte/modification-coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet ecommerce_address_form
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 17.1ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 07:27:43 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 19.7ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 07:28:50 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 07:29:55 +0200
+Started GET "/ecommerce/connexion" at 2014-08-17 07:30:55 +0200
+Detecting locale EN
+Found page "Connexion" [ecommerce/connexion]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_breadcrumb
+  Rendered snippet ecommerce_prospect_form_widget
+  Rendered snippet ecommerce_password_form_widget
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 18.7ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 07:31:31 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 13.5ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 07:32:40 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 07:34:11 +0200
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 07:34:16 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 14.5ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 07:40:19 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 12.6ms
+
+
+Started GET "/ecommerce/mon-compte/coordonnees" at 2014-08-17 07:40:26 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/mon-compte/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 19.2ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 07:41:19 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 24.4ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 07:45:40 +0200
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 07:45:43 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 13.0ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 07:46:13 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 07:46:24 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 07:46:31 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 07:46:31 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 07:46:34 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 07:46:37 +0200
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 07:46:40 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 19.9ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 07:48:45 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 07:49:34 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 07:49:35 +0200
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 07:49:38 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet ecommerce_prospect_form_widget
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 15.3ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 07:50:55 +0200
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 07:50:57 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet ecommerce_prospect_form_widget
+  Rendered snippet ecommerce_password_form_widget
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 17.8ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 07:53:29 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 07:53:38 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 07:53:38 +0200
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 07:53:39 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet ecommerce_prospect_form_widget
+  Rendered snippet ecommerce_password_form_widget
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 19.1ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 07:57:56 +0200
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 07:57:58 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet ecommerce_prospect_form_widget
+  Rendered snippet ecommerce_password_form_widget
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 13.3ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 07:59:45 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 07:59:45 +0200
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 07:59:50 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet ecommerce_prospect_form_widget
+  Rendered snippet ecommerce_password_form_widget
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 12.8ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 08:02:04 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:06:25 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:08:05 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:08:35 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:08:36 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:08:51 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:09:01 +0200
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:09:07 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet ecommerce_password_form_widget
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 17.6ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 08:11:39 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:13:00 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:13:10 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:13:13 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:13:14 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:13:31 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:13:40 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:13:50 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:13:57 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:14:02 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:14:11 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:14:14 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:14:26 +0200
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:14:32 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet ecommerce_password_form_widget
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 15.6ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 08:15:16 +0200
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:15:17 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet ecommerce_password_form_widget
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 13.4ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:15:27 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet ecommerce_password_form_widget
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 13.6ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 08:18:46 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:19:47 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:19:48 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:19:56 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:20:02 +0200
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:20:06 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet ecommerce_password_form_widget
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 20.9ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 08:20:21 +0200
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:20:23 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet ecommerce_password_form_widget
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 15.8ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 08:22:49 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:22:52 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:22:57 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:22:59 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:23:02 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:23:07 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:24:38 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:24:50 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:24:53 +0200
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:24:58 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet ecommerce_password_form_widget
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 15.3ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 08:25:17 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:25:21 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:25:24 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:25:28 +0200
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:25:32 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet ecommerce_password_form_widget
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 13.1ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 08:25:47 +0200
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:25:48 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 14.9ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:28:32 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 14.4ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:28:35 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 13.7ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:28:52 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 13.8ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:29:14 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 20.1ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:30:28 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 14.4ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:31:15 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 14.6ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:31:46 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 15.1ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:32:00 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 13.2ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:32:08 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 22.4ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:32:11 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 14.2ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:32:39 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 13.5ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 08:33:07 +0200
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:33:09 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 17.5ms
+
+
+Started GET "/ecommerce/mon-compte/coordonnees" at 2014-08-17 08:33:27 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/mon-compte/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 15.4ms
+
+
+Started GET "/ecommerce/mon-compte/modification-coordonnees" at 2014-08-17 08:33:30 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/mon-compte/modification-coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet ecommerce_address_form
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 19.6ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:33:52 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 13.3ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 08:35:14 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:35:14 +0200
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:35:27 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 21.8ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:35:36 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 14.3ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:35:46 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 14.5ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:35:54 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 13.5ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:36:10 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 14.5ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:36:30 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 13.1ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 08:36:38 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:36:38 +0200
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:36:40 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 24.9ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 08:36:50 +0200
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:36:51 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 13.8ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 08:36:59 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:37:03 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 08:37:06 +0200
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:37:07 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 22.7ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:38:24 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 14.7ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:38:28 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 13.4ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:38:42 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 13.1ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:40:43 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 15.3ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 08:41:11 +0200
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:41:12 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 16.5ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 08:41:21 +0200
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:41:22 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 13.8ms
+
+
+Started GET "/ecommerce/mon-compte/coordonnees" at 2014-08-17 08:41:30 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/mon-compte/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 15.9ms
+
+
+Started GET "/ecommerce/mon-compte/commandes" at 2014-08-17 08:41:33 +0200
+Detecting locale EN
+Found page "Mes dernières commandes" [ecommerce/mon-compte/commandes]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 25.3ms
+
+
+Started GET "/ecommerce/connexion" at 2014-08-17 08:41:39 +0200
+Detecting locale EN
+Found page "Connexion" [ecommerce/connexion]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_breadcrumb
+  Rendered snippet ecommerce_prospect_form_widget
+  Rendered snippet ecommerce_password_form_widget
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 23.2ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:41:53 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 16.9ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:42:15 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 13.7ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:42:21 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 13.4ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:42:27 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 15.4ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:42:41 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 14.8ms
+
+
+Started GET "/ecommerce/mon-compte/coordonnees" at 2014-08-17 08:44:50 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/mon-compte/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 20.0ms
+
+
+Started GET "/ecommerce/mon-compte/modification-coordonnees" at 2014-08-17 08:44:52 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/mon-compte/modification-coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet ecommerce_address_form
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 19.2ms
+
+
+Started GET "/ecommerce/mon-compte/modification-coordonnees" at 2014-08-17 08:47:23 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/mon-compte/modification-coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet ecommerce_address_form
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 14.7ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:47:26 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 16.5ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:58:55 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 13.6ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 08:59:03 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 13.6ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 09:00:54 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 15.1ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 09:00:56 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 14.1ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 09:02:27 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 17.8ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 09:03:37 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 09:03:37 +0200
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 09:03:40 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 14.3ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 09:05:39 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 09:05:46 +0200
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 09:05:48 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet ecommerce_password_form_widget
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 16.7ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 09:06:18 +0200
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 09:06:20 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet ecommerce_password_form_widget
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 14.3ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 09:06:50 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet ecommerce_password_form_widget
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 13.9ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 09:07:14 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet ecommerce_password_form_widget
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 12.6ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 09:07:49 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 09:07:53 +0200
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 09:07:54 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 16.2ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 09:08:49 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 09:09:02 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 09:09:13 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 09:09:17 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 09:09:18 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 09:09:18 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 09:09:36 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 09:09:39 +0200
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 09:09:41 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 12.9ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 09:09:58 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 09:09:58 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 09:10:02 +0200
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 09:10:04 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 15.5ms
+
+
+Started GET "/ecommerce/mon-compte/coordonnees" at 2014-08-17 09:10:22 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/mon-compte/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 18.2ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 09:10:26 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 13.5ms
+
+
+Started GET "/ecommerce/mon-compte/commandes" at 2014-08-17 09:10:34 +0200
+Detecting locale EN
+Found page "Mes dernières commandes" [ecommerce/mon-compte/commandes]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 16.4ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 09:11:11 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 19.3ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 09:11:48 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 13.0ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 09:12:08 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 20.2ms
+
+
+Started GET "/ecommerce/mon-compte/commandes" at 2014-08-17 09:12:14 +0200
+Detecting locale EN
+Found page "Mes dernières commandes" [ecommerce/mon-compte/commandes]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 20.6ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 09:13:00 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 29.3ms
+
+
+Started GET "/ecommerce/mon-compte/commandes" at 2014-08-17 09:13:07 +0200
+Detecting locale EN
+Found page "Mes dernières commandes" [ecommerce/mon-compte/commandes]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 22.0ms
+
+
+Started GET "/ecommerce/mon-compte/coordonnees" at 2014-08-17 09:13:12 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/mon-compte/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 26.2ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 09:13:16 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 13.3ms
+
+
+Started GET "/ecommerce/mon-compte/coordonnees" at 2014-08-17 09:13:20 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/mon-compte/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 18.9ms
+
+
+Started GET "/ecommerce/mon-compte/commandes" at 2014-08-17 09:13:24 +0200
+Detecting locale EN
+Found page "Mes dernières commandes" [ecommerce/mon-compte/commandes]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 23.2ms
+
+
+Started GET "/ecommerce/mon-compte/coordonnees" at 2014-08-17 09:13:48 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/mon-compte/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 21.9ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 09:14:11 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 14.6ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 09:16:54 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 09:17:17 +0200
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 09:17:19 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 14.6ms
+
+
+Started GET "/ecommerce/mon-compte" at 2014-08-17 09:17:26 +0200
+Detecting locale EN
+Found page "template mon compte" [ecommerce/mon-compte]
+Redirected to mon-compte/coordonnees
+Completed 301 Found in 2.6ms
+
+
+Started GET "/ecommerce/mon-compte/coordonnees" at 2014-08-17 09:17:26 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/mon-compte/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 18.2ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 09:19:31 +0200
+Started GET "/ecommerce/mon-compte/coordonnees" at 2014-08-17 09:19:35 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/mon-compte/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 18.0ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 09:19:51 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 09:20:10 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 09:20:26 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 09:20:51 +0200
+Started GET "/ecommerce/mon-compte/coordonnees" at 2014-08-17 09:20:55 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/mon-compte/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 21.0ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 09:25:36 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 09:26:09 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 09:26:52 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 09:27:22 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 09:27:53 +0200
+Started GET "/ecommerce/mon-compte/coordonnees" at 2014-08-17 09:27:57 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/mon-compte/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 17.9ms
+
+
+Started GET "/ecommerce/mon-compte" at 2014-08-17 09:27:59 +0200
+Detecting locale EN
+Found page "template mon compte" [ecommerce/mon-compte]
+Redirected to mon-compte/coordonnees
+Completed 301 Found in 5.0ms
+
+
+Started GET "/ecommerce/mon-compte/coordonnees" at 2014-08-17 09:27:59 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/mon-compte/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 17.1ms
+
+
+Started GET "/ecommerce/mon-compte" at 2014-08-17 09:28:00 +0200
+Detecting locale EN
+Found page "template mon compte" [ecommerce/mon-compte]
+Redirected to mon-compte/coordonnees
+Completed 301 Found in 2.3ms
+
+
+Started GET "/ecommerce/mon-compte/coordonnees" at 2014-08-17 09:28:00 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/mon-compte/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 18.7ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 09:29:53 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 09:30:08 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 09:30:17 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 09:30:21 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 09:30:42 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 09:30:42 +0200
+Started GET "/ecommerce/mon-compte/coordonnees" at 2014-08-17 09:30:47 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/mon-compte/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 52.8ms
+
+
+Started GET "/ecommerce/mon-compte" at 2014-08-17 09:30:48 +0200
+Detecting locale EN
+Found page "template mon compte" [ecommerce/mon-compte]
+Redirected to mon-compte/coordonnees
+Completed 301 Found in 2.9ms
+
+
+Started GET "/ecommerce/mon-compte/coordonnees" at 2014-08-17 09:30:48 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/mon-compte/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 20.7ms
+
+
+Started GET "/ecommerce/mon-compte" at 2014-08-17 09:30:50 +0200
+Detecting locale EN
+Found page "template mon compte" [ecommerce/mon-compte]
+Redirected to mon-compte/coordonnees
+Completed 301 Found in 2.4ms
+
+
+Started GET "/ecommerce/mon-compte/coordonnees" at 2014-08-17 09:30:50 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/mon-compte/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 16.9ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 09:31:58 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 09:31:58 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 09:32:12 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 09:32:16 +0200
+Started GET "/ecommerce/mon-compte/coordonnees" at 2014-08-17 09:32:23 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/mon-compte/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 15.6ms
+
+
+Started GET "/livre-d-or" at 2014-08-17 09:32:39 +0200
+Detecting locale EN
+Found page "Livre d'or" [livre-d-or]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 30.9ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 09:33:18 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 09:33:20 +0200
+Started GET "/livre-d-or" at 2014-08-17 09:33:22 +0200
+Detecting locale EN
+Found page "Livre d'or" [livre-d-or]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 22.8ms
+
+
+Started GET "/ecommerce/mon-compte" at 2014-08-17 09:33:26 +0200
+Detecting locale EN
+Found page "template mon compte" [ecommerce/mon-compte]
+Redirected to mon-compte/coordonnees
+Completed 301 Found in 3.3ms
+
+
+Started GET "/ecommerce/mon-compte/coordonnees" at 2014-08-17 09:33:26 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/mon-compte/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 18.5ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 09:33:42 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 09:33:42 +0200
+Started GET "/les-menus" at 2014-08-17 09:37:53 +0200
+Detecting locale EN
+Found page "Les menus" [les-menus]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet ecommerce_cart_widget
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 83.6ms
+
+
+Started GET "/ecommerce/coordonnees" at 2014-08-17 09:37:57 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_breadcrumb
+  Rendered snippet ecommerce_address_form
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 18.2ms
+
+
+Started GET "/ecommerce/coordonnees" at 2014-08-17 09:38:29 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_breadcrumb
+  Rendered snippet ecommerce_address_form
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 20.5ms
+
+
+Started GET "/ecommerce/cart" at 2014-08-17 09:40:18 +0200
+Detecting locale EN
+Found page "Panier" [ecommerce/cart]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_breadcrumb
+  Rendered snippet ecommerce_cart_details
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 19.5ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 09:40:41 +0200
+Started GET "/ecommerce/cart" at 2014-08-17 09:40:44 +0200
+Detecting locale EN
+Found page "Panier" [ecommerce/cart]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_breadcrumb
+  Rendered snippet ecommerce_cart_details
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 16.5ms
+
+
+Started GET "/les-menus" at 2014-08-17 09:40:50 +0200
+Detecting locale EN
+Found page "Les menus" [les-menus]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet ecommerce_cart_widget
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 81.7ms
+
+
+Started GET "/les-menus" at 2014-08-17 09:47:20 +0200
+Detecting locale EN
+Found page "Les menus" [les-menus]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet ecommerce_cart_widget
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 96.2ms
+
+
+Started GET "/ecommerce/cart" at 2014-08-17 09:50:11 +0200
+Detecting locale EN
+Found page "Panier" [ecommerce/cart]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_breadcrumb
+  Rendered snippet ecommerce_cart_details
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 30.4ms
+
+
+Started GET "/ecommerce/cart" at 2014-08-17 09:50:23 +0200
+Detecting locale EN
+Found page "Panier" [ecommerce/cart]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_breadcrumb
+  Rendered snippet ecommerce_cart_details
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 21.5ms
+
+
+Started GET "/les-menus" at 2014-08-17 09:54:34 +0200
+Detecting locale EN
+Found page "Les menus" [les-menus]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet ecommerce_cart_widget
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 101.5ms
+
+
+Started GET "/" at 2014-08-17 09:54:37 +0200
+Detecting locale EN
+Found page "index" [index]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet module_gallery
+  Rendered snippet bloc_col_right
+  Rendered snippet index
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 20.9ms
+
+
+Started GET "/les-menus" at 2014-08-17 10:03:12 +0200
+Detecting locale EN
+Found page "Les menus" [les-menus]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet ecommerce_cart_widget
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 113.5ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 10:05:03 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 10:05:04 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 10:05:04 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 10:05:06 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 10:05:06 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 10:05:07 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 10:05:07 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 10:05:08 +0200
+Started GET "/les-menus" at 2014-08-17 10:05:55 +0200
+Detecting locale EN
+Found page "Les menus" [les-menus]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet ecommerce_cart_widget
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 97.8ms
+
+
+Started GET "/" at 2014-08-17 10:06:00 +0200
+Detecting locale EN
+Found page "index" [index]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet module_gallery
+  Rendered snippet bloc_col_right
+  Rendered snippet index
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 23.5ms
+
+
+Started GET "/" at 2014-08-17 10:06:04 +0200
+Detecting locale EN
+Found page "index" [index]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet module_gallery
+  Rendered snippet bloc_col_right
+  Rendered snippet index
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 19.9ms
+
+
+Started GET "/" at 2014-08-17 10:06:08 +0200
+Detecting locale EN
+Found page "index" [index]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet module_gallery
+  Rendered snippet bloc_col_right
+  Rendered snippet index
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 29.4ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 10:06:12 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 10:06:13 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 10:06:14 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 10:06:14 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 10:06:14 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 10:06:14 +0200
+Started GET "/les-menus" at 2014-08-17 10:06:32 +0200
+Detecting locale EN
+Found page "Les menus" [les-menus]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet ecommerce_cart_widget
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 85.9ms
+
+
+Started GET "/" at 2014-08-17 10:06:35 +0200
+Detecting locale EN
+Found page "index" [index]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet module_gallery
+  Rendered snippet bloc_col_right
+  Rendered snippet index
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 20.5ms
+
+
+Started GET "/les-menus" at 2014-08-17 10:07:33 +0200
+Detecting locale EN
+Found page "Les menus" [les-menus]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet ecommerce_cart_widget
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 101.1ms
+
+
+Started GET "/ecommerce/coordonnees" at 2014-08-17 10:07:38 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_breadcrumb
+  Rendered snippet ecommerce_address_form
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 21.7ms
+
+
+Started GET "/la-carte" at 2014-08-17 10:07:46 +0200
+Detecting locale EN
+Found page "La carte" [la-carte]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet ecommerce_cart_widget
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 294.7ms
+
+
+Started GET "/ecommerce/coordonnees" at 2014-08-17 10:07:55 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_breadcrumb
+  Rendered snippet ecommerce_address_form
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 23.3ms
+
+
+Started GET "/ecommerce/coordonnees" at 2014-08-17 10:12:58 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_breadcrumb
+  Rendered snippet ecommerce_address_form
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 21.2ms
+
+
+Started GET "/ico/favicon.png" at 2014-08-17 10:13:54 +0200
+Detecting locale EN
+Completed 404 Not Found in 4.8ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 10:14:23 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 10:14:24 +0200
+Started GET "/" at 2014-08-17 11:33:38 +0200
+Detecting locale EN
+Found page "index" [index]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet module_gallery
+  Rendered snippet bloc_col_right
+  Rendered snippet index
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 18.6ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 11:41:22 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 11:41:26 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 11:41:28 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 11:41:53 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 11:41:53 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 11:50:46 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 11:51:15 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 11:51:58 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 11:52:01 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 11:52:02 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 11:52:25 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 11:52:25 +0200
+Started GET "/" at 2014-08-17 11:59:50 +0200
+Detecting locale EN
+Found page "index" [index]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet module_gallery
+  Rendered snippet bloc_col_right
+  Rendered snippet index
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 20.1ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 12:15:35 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 12:15:38 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 12:16:02 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 12:16:02 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 13:40:49 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 13:40:49 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 13:40:49 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 13:42:28 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 13:42:28 +0200
+Started GET "/" at 2014-08-17 13:42:53 +0200
+Detecting locale EN
+Found page "index" [index]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet module_gallery
+  Rendered snippet bloc_col_right
+  Rendered snippet index
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 19.2ms
+
+
+Started GET "/les-menus" at 2014-08-17 13:42:55 +0200
+Detecting locale EN
+Found page "Les menus" [les-menus]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet ecommerce_cart_widget
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 88.2ms
+
+
+Started GET "/ecommerce/coordonnees" at 2014-08-17 13:42:58 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_breadcrumb
+  Rendered snippet ecommerce_address_form
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 18.5ms
+
+
+Started GET "/ecommerce/coordonnees" at 2014-08-17 14:05:09 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_breadcrumb
+  Rendered snippet ecommerce_address_form
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 20.8ms
+
+
+Started GET "/ecommerce/coordonnees" at 2014-08-17 14:09:34 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_breadcrumb
+  Rendered snippet ecommerce_address_form
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 22.4ms
+
+
+Started GET "/index" at 2014-08-17 17:06:04 +0200
+Detecting locale EN
+Found page "index" [index]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet module_gallery
+  Rendered snippet bloc_col_right
+  Rendered snippet index
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 28.1ms
+
+
+Started GET "/ecommerce/mon-compte" at 2014-08-17 17:06:07 +0200
+Detecting locale EN
+Found page "template mon compte" [ecommerce/mon-compte]
+Redirected to mon-compte/coordonnees
+Completed 301 Found in 3.0ms
+
+
+Started GET "/ecommerce/mon-compte/coordonnees" at 2014-08-17 17:06:07 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/mon-compte/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 19.5ms
+
+
+Started GET "/js/jquery-2.0.3.min.map" at 2014-08-17 17:18:36 +0200
+Detecting locale EN
+Completed 404 Not Found in 5.0ms
+
+
+Started GET "/js/jquery-2.0.3.min.map" at 2014-08-17 17:18:41 +0200
+Detecting locale EN
+Completed 404 Not Found in 5.1ms
+
+
+Started GET "/js/jquery-2.0.3.min.map" at 2014-08-17 17:18:49 +0200
+Detecting locale EN
+Completed 404 Not Found in 3.4ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 17:20:16 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 17:20:17 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 17:20:17 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 17:20:18 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 17:20:18 +0200
+Started GET "/js/jquery-2.0.3.min.map" at 2014-08-17 17:20:32 +0200
+Detecting locale EN
+Completed 404 Not Found in 6.2ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 17:22:07 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 17:22:07 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 17:30:38 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 17:30:41 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 17:31:10 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 17:31:10 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 17:35:56 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 17:36:14 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 17:36:14 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 17:51:42 +0200
+Started GET "/" at 2014-08-17 17:53:54 +0200
+Detecting locale EN
+Found page "index" [index]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet module_gallery
+  Rendered snippet bloc_col_right
+  Rendered snippet index
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 30.6ms
+
+
+Started POST "/" at 2014-08-17 17:54:01 +0200
+Detecting locale EN
+Found page "index" [index]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet module_gallery
+  Rendered snippet bloc_col_right
+  Rendered snippet index
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 27.7ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 17:54:14 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 17:54:17 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 17:56:16 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 17:56:16 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 18:01:29 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 18:01:48 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 18:01:48 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 18:05:41 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 18:07:25 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 18:07:25 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 18:07:26 +0200
+Started GET "/" at 2014-08-17 18:09:30 +0200
+Detecting locale EN
+Found page "index" [index]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet module_gallery
+  Rendered snippet bloc_col_right
+  Rendered snippet index
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 19.1ms
+
+
+Started GET "/burger.jpg" at 2014-08-17 18:09:31 +0200
+Detecting locale EN
+Completed 404 Not Found in 4.3ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 18:19:38 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 18:21:13 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 18:21:29 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 18:22:23 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 18:23:23 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 18:23:59 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 18:24:06 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 18:25:02 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 18:25:03 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 18:27:39 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 18:28:01 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 18:28:01 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 18:28:01 +0200
+Started GET "/" at 2014-08-17 18:30:01 +0200
+Detecting locale EN
+Found page "index" [index]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet module_gallery
+  Rendered snippet bloc_col_right
+  Rendered snippet index
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 28.9ms
+
+
+Started GET "/burger.jpg" at 2014-08-17 18:30:01 +0200
+Detecting locale EN
+Completed 404 Not Found in 9.5ms
+
+
+Started GET "/burger.jpg" at 2014-08-17 18:30:01 +0200
+Detecting locale EN
+Completed 404 Not Found in 7.8ms
+
+
+Started GET "/la-carte" at 2014-08-17 18:30:07 +0200
+Detecting locale EN
+Found page "La carte" [la-carte]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet ecommerce_cart_widget
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 250.4ms
+
+
+Started GET "/burger.jpg" at 2014-08-17 18:30:07 +0200
+Detecting locale EN
+Completed 404 Not Found in 15.1ms
+
+
+Started GET "/les-menus" at 2014-08-17 18:30:12 +0200
+Detecting locale EN
+Found page "Les menus" [les-menus]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet ecommerce_cart_widget
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 89.0ms
+
+
+Started GET "/burger.jpg" at 2014-08-17 18:30:12 +0200
+Detecting locale EN
+Completed 404 Not Found in 9.1ms
+
+
+Started GET "/burger.jpg" at 2014-08-17 18:30:13 +0200
+Detecting locale EN
+Completed 404 Not Found in 14.7ms
+
+
+Started GET "/livre-d-or" at 2014-08-17 18:30:17 +0200
+Detecting locale EN
+Found page "Livre d'or" [livre-d-or]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 29.7ms
+
+
+Started GET "/ecommerce/mon-compte" at 2014-08-17 18:30:24 +0200
+Detecting locale EN
+Found page "template mon compte" [ecommerce/mon-compte]
+Redirected to coordonnees
+Completed 301 Found in 2.2ms
+
+
+Started GET "/ecommerce/coordonnees" at 2014-08-17 18:30:24 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_breadcrumb
+  Rendered snippet ecommerce_address_form
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 18.7ms
+
+
+Started GET "/ecommerce/mon-compte/coordonnees" at 2014-08-17 18:31:04 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/mon-compte/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 24.2ms
+
+
+Started GET "/ecommerce/mon-compte/modification-coordonnees" at 2014-08-17 18:31:09 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/mon-compte/modification-coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet ecommerce_address_form
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 20.2ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-17 18:31:12 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 15.6ms
+
+
+Started GET "/ecommerce/mon-compte/commandes" at 2014-08-17 18:31:16 +0200
+Detecting locale EN
+Found page "Mes dernières commandes" [ecommerce/mon-compte/commandes]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 20.0ms
+
+
+Started GET "/ecommerce/connexion" at 2014-08-17 18:31:38 +0200
+Detecting locale EN
+Found page "Connexion" [ecommerce/connexion]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_breadcrumb
+  Rendered snippet ecommerce_prospect_form_widget
+  Rendered snippet ecommerce_password_form_widget
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 31.3ms
+
+
+Started GET "/ecommerce/coordonnees" at 2014-08-17 18:31:41 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_breadcrumb
+  Rendered snippet ecommerce_address_form
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 24.6ms
+
+
+Started GET "/ecommerce/cart" at 2014-08-17 18:31:49 +0200
+Detecting locale EN
+Found page "Panier" [ecommerce/cart]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_breadcrumb
+  Rendered snippet ecommerce_cart_details
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 19.6ms
+
+
+Started GET "/ecommerce/paiement" at 2014-08-17 18:31:54 +0200
+Detecting locale EN
+Found page "Paiement" [ecommerce/paiement]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_breadcrumb
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 26.8ms
+
+
+Started GET "/la-carte" at 2014-08-17 18:33:52 +0200
+Detecting locale EN
+Found page "La carte" [la-carte]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet ecommerce_cart_widget
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 284.3ms
+
+
+Started GET "/burger.jpg" at 2014-08-17 18:33:52 +0200
+Detecting locale EN
+Completed 404 Not Found in 5.6ms
+
+
+Started GET "/les-menus" at 2014-08-17 18:33:54 +0200
+Detecting locale EN
+Found page "Les menus" [les-menus]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet ecommerce_cart_widget
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 134.4ms
+
+
+Started GET "/burger.jpg" at 2014-08-17 18:33:55 +0200
+Detecting locale EN
+Completed 404 Not Found in 16.8ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 18:37:50 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 18:37:50 +0200
+Started GET "/" at 2014-08-17 20:10:33 +0200
+Detecting locale EN
+Found page "index" [index]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet module_gallery
+  Rendered snippet bloc_col_right
+  Rendered snippet index
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 41.1ms
+
+
+Started GET "/burger.jpg" at 2014-08-17 20:10:34 +0200
+Detecting locale EN
+Completed 404 Not Found in 6.4ms
+
+
+Started GET "/burger.jpg" at 2014-08-17 20:10:34 +0200
+Detecting locale EN
+Completed 404 Not Found in 3.4ms
+
+
+Started GET "/la-carte" at 2014-08-17 20:10:36 +0200
+Detecting locale EN
+Found page "La carte" [la-carte]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet ecommerce_cart_widget
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 260.1ms
+
+
+Started GET "/burger.jpg" at 2014-08-17 20:10:37 +0200
+Detecting locale EN
+Completed 404 Not Found in 6.3ms
+
+
+Started GET "/burger.jpg" at 2014-08-17 20:10:37 +0200
+Detecting locale EN
+Completed 404 Not Found in 9.8ms
+
+
+Started GET "/les-menus" at 2014-08-17 20:10:38 +0200
+Detecting locale EN
+Found page "Les menus" [les-menus]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet ecommerce_cart_widget
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 91.9ms
+
+
+Started GET "/burger.jpg" at 2014-08-17 20:10:38 +0200
+Detecting locale EN
+Completed 404 Not Found in 11.5ms
+
+
+Started GET "/burger.jpg" at 2014-08-17 20:10:38 +0200
+Detecting locale EN
+Completed 404 Not Found in 5.0ms
+
+
+Started GET "/livre-d-or" at 2014-08-17 20:10:42 +0200
+Detecting locale EN
+Found page "Livre d'or" [livre-d-or]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 54.9ms
+
+
+Started GET "/index" at 2014-08-17 20:10:43 +0200
+Detecting locale EN
+Found page "index" [index]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet module_gallery
+  Rendered snippet bloc_col_right
+  Rendered snippet index
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 28.0ms
+
+
+Started GET "/burger.jpg" at 2014-08-17 20:10:43 +0200
+Detecting locale EN
+Completed 404 Not Found in 19.9ms
+
+
+Started GET "/burger.jpg" at 2014-08-17 20:10:44 +0200
+Detecting locale EN
+Completed 404 Not Found in 7.0ms
+
+
+Started GET "/la-carte" at 2014-08-17 20:10:45 +0200
+Detecting locale EN
+Found page "La carte" [la-carte]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet ecommerce_cart_widget
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 251.0ms
+
+
+Started GET "/burger.jpg" at 2014-08-17 20:10:46 +0200
+Detecting locale EN
+Completed 404 Not Found in 7.8ms
+
+
+Started GET "/burger.jpg" at 2014-08-17 20:10:46 +0200
+Detecting locale EN
+Completed 404 Not Found in 3.8ms
+
+
+Started GET "/les-menus" at 2014-08-17 20:10:46 +0200
+Detecting locale EN
+Found page "Les menus" [les-menus]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet ecommerce_cart_widget
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 134.9ms
+
+
+Started GET "/burger.jpg" at 2014-08-17 20:10:47 +0200
+Detecting locale EN
+Completed 404 Not Found in 9.8ms
+
+
+Started GET "/burger.jpg" at 2014-08-17 20:10:47 +0200
+Detecting locale EN
+Completed 404 Not Found in 3.6ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 20:11:38 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 20:12:09 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 20:12:10 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 20:15:40 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 20:15:41 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 20:15:47 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 20:16:06 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 20:16:29 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 20:16:30 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 20:27:00 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 20:27:00 +0200
+Started GET "/" at 2014-08-17 20:37:36 +0200
+Detecting locale EN
+Found page "index" [index]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet module_gallery
+  Rendered snippet bloc_col_right
+  Rendered snippet index
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 22.1ms
+
+
+Started GET "/burger.jpg" at 2014-08-17 20:37:36 +0200
+Detecting locale EN
+Completed 404 Not Found in 5.3ms
+
+
+Started GET "/burger.jpg" at 2014-08-17 20:37:36 +0200
+Detecting locale EN
+Completed 404 Not Found in 5.0ms
+
+
+Started GET "/ico/favicon.png" at 2014-08-17 20:37:42 +0200
+Detecting locale EN
+Completed 404 Not Found in 72.0ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 20:39:12 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 20:41:00 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 20:41:00 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 20:41:00 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 20:41:03 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 20:41:18 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 20:41:18 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 20:43:56 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 20:45:50 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 20:46:06 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 20:55:03 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 20:55:03 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 20:55:11 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 20:55:11 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 20:55:23 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 20:57:28 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 20:57:49 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 20:58:01 +0200
+No such file or directory @ rb_sysopen - /root/cms_files/sites/chez-beber.fr_18/app/views/pages/ecommerce/mon_compte/index.liquid
+	/root/apps/cms-integration-app/vendor/bundle/ruby/2.1.0/bundler/gems/cms-local-mounter-engine-d16500db2125/lib/locomotive/mounter/utils/yaml_front_matters_template.rb:14:in `read'
+	/root/apps/cms-integration-app/vendor/bundle/ruby/2.1.0/bundler/gems/cms-local-mounter-engine-d16500db2125/lib/locomotive/mounter/utils/yaml_front_matters_template.rb:14:in `initialize'
+	/root/apps/cms-integration-app/vendor/bundle/ruby/2.1.0/bundler/gems/cms-local-mounter-engine-d16500db2125/lib/locomotive/mounter/reader/file_system/pages_reader.rb:132:in `new'
+	/root/apps/cms-integration-app/vendor/bundle/ruby/2.1.0/bundler/gems/cms-local-mounter-engine-d16500db2125/lib/locomotive/mounter/reader/file_system/pages_reader.rb:132:in `set_attributes_from_header'
+	/root/apps/cms-integration-app/vendor/bundle/ruby/2.1.0/bundler/gems/cms-local-mounter-engine-d16500db2125/lib/locomotive/mounter/reader/file_system/pages_reader.rb:87:in `block (2 levels) in fetch'
+	/root/apps/cms-integration-app/vendor/bundle/ruby/2.1.0/bundler/gems/cms-local-mounter-engine-d16500db2125/lib/locomotive/mounter.rb:99:in `with_locale'
+	/root/apps/cms-integration-app/vendor/bundle/ruby/2.1.0/bundler/gems/cms-local-mounter-engine-d16500db2125/lib/locomotive/mounter/reader/file_system/pages_reader.rb:86:in `block in fetch'
+	/root/apps/cms-integration-app/vendor/bundle/ruby/2.1.0/bundler/gems/cms-local-mounter-engine-d16500db2125/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `each'
+	/root/apps/cms-integration-app/vendor/bundle/ruby/2.1.0/bundler/gems/cms-local-mounter-engine-d16500db2125/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `fetch'
+	/root/apps/cms-integration-app/vendor/bundle/ruby/2.1.0/bundler/gems/cms-local-mounter-engine-d16500db2125/lib/locomotive/mounter/reader/file_system/pages_reader.rb:20:in `read'
+	/root/apps/cms-integration-app/vendor/bundle/ruby/2.1.0/bundler/gems/cms-local-mounter-engine-d16500db2125/lib/locomotive/mounter/reader/runner.rb:48:in `block (2 levels) in reload'
+	/root/apps/cms-integration-app/vendor/bundle/ruby/2.1.0/bundler/gems/cms-local-mounter-engine-d16500db2125/lib/locomotive/mounter/reader/runner.rb:40:in `each'
+	/root/apps/cms-integration-app/vendor/bundle/ruby/2.1.0/bundler/gems/cms-local-mounter-engine-d16500db2125/lib/locomotive/mounter/reader/runner.rb:40:in `block in reload'
+	/root/apps/cms-integration-app/vendor/bundle/ruby/2.1.0/bundler/gems/cms-local-mounter-engine-d16500db2125/lib/locomotive/mounter.rb:99:in `with_locale'
+	/root/apps/cms-integration-app/vendor/bundle/ruby/2.1.0/bundler/gems/cms-local-mounter-engine-d16500db2125/lib/locomotive/mounter/reader/runner.rb:39:in `reload'
+	/root/apps/cms-integration-app/vendor/bundle/ruby/2.1.0/bundler/gems/cms-local-wagon-engine-7c979395e8e5/lib/locomotive/wagon/listen.rb:46:in `block in apply'
+	/root/apps/cms-integration-app/vendor/bundle/ruby/2.1.0/gems/listen-2.4.1/lib/listen/listener.rb:151:in `call'
+	/root/apps/cms-integration-app/vendor/bundle/ruby/2.1.0/gems/listen-2.4.1/lib/listen/listener.rb:151:in `block in _wait_for_changes'
+	/root/apps/cms-integration-app/vendor/bundle/ruby/2.1.0/gems/listen-2.4.1/lib/listen/listener.rb:146:in `loop'
+	/root/apps/cms-integration-app/vendor/bundle/ruby/2.1.0/gems/listen-2.4.1/lib/listen/listener.rb:146:in `_wait_for_changes'
+	/root/apps/cms-integration-app/vendor/bundle/ruby/2.1.0/gems/listen-2.4.1/lib/listen/listener.rb:44:in `block in start'
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 20:58:01 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 20:58:02 +0200
+Started GET "/to" at 2014-08-17 21:10:58 +0200
+Detecting locale EN
+Completed 404 Not Found in 5.0ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-17 21:17:53 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 21:18:25 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 21:18:26 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 21:19:31 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 21:19:39 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 21:19:39 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 21:20:52 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 21:21:01 +0200
+* Reloaded "pages", "snippets" at 2014-08-17 21:21:01 +0200
+* Reloaded "pages", "snippets" at 2014-08-19 12:29:36 +0200
+Started GET "/js/jquery-2.0.3.min.map" at 2014-08-19 12:29:46 +0200
+Detecting locale EN
+Completed 404 Not Found in 5.5ms
+
+
+Started GET "/js/jquery-2.0.3.min.map" at 2014-08-19 12:32:26 +0200
+Detecting locale EN
+Completed 404 Not Found in 7.8ms
+
+
+Started GET "/" at 2014-08-19 12:32:56 +0200
+Detecting locale EN
+Found page "index" [index]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet module_gallery
+  Rendered snippet bloc_col_right
+  Rendered snippet index
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 40.9ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-19 12:33:12 +0200
+* Reloaded "pages", "snippets" at 2014-08-19 12:33:34 +0200
+* Reloaded "pages", "snippets" at 2014-08-19 12:33:38 +0200
+Started GET "/" at 2014-08-19 12:33:40 +0200
+Detecting locale EN
+Found page "index" [index]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet module_gallery
+  Rendered snippet bloc_col_right
+  Rendered snippet index
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 26.1ms
+
+
+Started GET "/burger.jpg" at 2014-08-19 12:33:41 +0200
+Detecting locale EN
+Completed 404 Not Found in 5.1ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-19 12:34:27 +0200
+Started GET "/" at 2014-08-19 12:34:30 +0200
+Detecting locale EN
+Found page "index" [index]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet module_gallery
+  Rendered snippet bloc_col_right
+  Rendered snippet index
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 30.3ms
+
+
+Started GET "/burger.jpg" at 2014-08-19 12:34:30 +0200
+Detecting locale EN
+Completed 404 Not Found in 4.7ms
+
+
+Started GET "/" at 2014-08-19 12:34:36 +0200
+Detecting locale EN
+Found page "index" [index]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet module_gallery
+  Rendered snippet bloc_col_right
+  Rendered snippet index
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 29.2ms
+
+
+Started GET "/burger.jpg" at 2014-08-19 12:34:37 +0200
+Detecting locale EN
+Completed 404 Not Found in 36.5ms
+
+
+* Reloaded "pages", "snippets" at 2014-08-19 12:34:48 +0200
+Started GET "/" at 2014-08-19 12:34:50 +0200
+Detecting locale EN
+Found page "index" [index]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet module_gallery
+  Rendered snippet bloc_col_right
+  Rendered snippet index
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 24.8ms
+
+
+Started GET "/burger.jpg" at 2014-08-19 12:34:51 +0200
+Detecting locale EN
+Completed 404 Not Found in 28.2ms
+
+
+Started GET "/" at 2014-08-19 12:35:14 +0200
+Detecting locale EN
+Found page "index" [index]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet module_gallery
+  Rendered snippet bloc_col_right
+  Rendered snippet index
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 24.9ms
+
+
+Started GET "/burger.jpg" at 2014-08-19 12:35:15 +0200
+Detecting locale EN
+Completed 404 Not Found in 5.2ms
+
+
+Started GET "/burger.jpg" at 2014-08-19 12:35:15 +0200
+Detecting locale EN
+Completed 404 Not Found in 8.2ms
+
+
+Started GET "/burger.jpg" at 2014-08-19 12:35:15 +0200
+Detecting locale EN
+Completed 404 Not Found in 5.4ms
+
+
+Started GET "/" at 2014-08-19 12:35:30 +0200
+Detecting locale EN
+Found page "index" [index]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet module_gallery
+  Rendered snippet bloc_col_right
+  Rendered snippet index
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 25.5ms
+
+
+Started GET "/burger.jpg" at 2014-08-19 12:35:31 +0200
+Detecting locale EN
+Completed 404 Not Found in 3.3ms
+
+
+Started GET "/burger.jpg" at 2014-08-19 12:35:31 +0200
+Detecting locale EN
+Completed 404 Not Found in 3.3ms
+
+
+Started GET "/" at 2014-08-19 12:35:35 +0200
+Detecting locale EN
+Found page "index" [index]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet module_gallery
+  Rendered snippet bloc_col_right
+  Rendered snippet index
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 24.0ms
+
+
+Started GET "/burger.jpg" at 2014-08-19 12:35:36 +0200
+Detecting locale EN
+Completed 404 Not Found in 4.5ms
+
+
+Started GET "/burger.jpg" at 2014-08-19 12:35:36 +0200
+Detecting locale EN
+Completed 404 Not Found in 5.0ms
+
+
+Started GET "/" at 2014-08-19 12:35:41 +0200
+Detecting locale EN
+Found page "index" [index]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet module_gallery
+  Rendered snippet bloc_col_right
+  Rendered snippet index
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 28.1ms
+
+
+Started GET "/burger.jpg" at 2014-08-19 12:35:41 +0200
+Detecting locale EN
+Completed 404 Not Found in 6.3ms
+
+
+Started GET "/burger.jpg" at 2014-08-19 12:35:42 +0200
+Detecting locale EN
+Completed 404 Not Found in 5.7ms
+
+
+Started GET "/" at 2014-08-19 12:36:16 +0200
+Detecting locale EN
+Found page "index" [index]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet module_gallery
+  Rendered snippet bloc_col_right
+  Rendered snippet index
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 25.7ms
+
+
+Started GET "/index" at 2014-08-19 12:36:21 +0200
+Detecting locale EN
+Found page "index" [index]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet module_gallery
+  Rendered snippet bloc_col_right
+  Rendered snippet index
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 26.7ms
+
+
+Started GET "/la-carte" at 2014-08-19 12:36:23 +0200
+Detecting locale EN
+Found page "La carte" [la-carte]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet ecommerce_cart_widget
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 259.8ms
+
+
+Started GET "/les-menus" at 2014-08-19 12:36:26 +0200
+Detecting locale EN
+Found page "Les menus" [les-menus]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet ecommerce_cart_widget
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 88.5ms
+
+
+Started GET "/livre-d-or" at 2014-08-19 12:36:30 +0200
+Detecting locale EN
+Found page "Livre d'or" [livre-d-or]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 26.9ms
+
+
+Started GET "/contact" at 2014-08-19 12:36:37 +0200
+Detecting locale EN
+Found page "index" [contact]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 25.0ms
+
+
+Started GET "/ecommerce/mon-compte" at 2014-08-19 12:36:49 +0200
+Detecting locale EN
+Found page "template mon compte" [ecommerce/mon-compte]
+Redirected to mon-compte/coordonnees
+Completed 301 Found in 3.5ms
+
+
+Started GET "/ecommerce/mon-compte/coordonnees" at 2014-08-19 12:36:49 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/mon-compte/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 17.1ms
+
+
+Started GET "/ecommerce/mon-compte/modification-coordonnees" at 2014-08-19 12:38:08 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/mon-compte/modification-coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet ecommerce_address_form
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 22.7ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-19 12:38:15 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 15.6ms
+
+
+Started GET "/ecommerce/mon-compte/commandes" at 2014-08-19 12:38:30 +0200
+Detecting locale EN
+Found page "Mes dernières commandes" [ecommerce/mon-compte/commandes]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 23.8ms
+
+
+Started GET "/index" at 2014-08-19 12:38:40 +0200
+Detecting locale EN
+Found page "index" [index]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet module_gallery
+  Rendered snippet bloc_col_right
+  Rendered snippet index
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 28.3ms
+
+
+Started GET "/index" at 2014-08-19 12:40:04 +0200
+Detecting locale EN
+Found page "index" [index]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet module_gallery
+  Rendered snippet bloc_col_right
+  Rendered snippet index
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 28.3ms
+
+
+Started GET "/ecommerce/mon-compte" at 2014-08-19 12:40:13 +0200
+Detecting locale EN
+Found page "template mon compte" [ecommerce/mon-compte]
+Redirected to mon-compte/coordonnees
+Completed 301 Found in 2.4ms
+
+
+Started GET "/ecommerce/mon-compte/coordonnees" at 2014-08-19 12:40:13 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/mon-compte/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 20.0ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-19 12:40:18 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 18.1ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-19 12:41:13 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 15.7ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-19 12:42:27 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 36.1ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-19 12:42:54 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 17.5ms
+
+
+Started GET "/ecommerce/mon-compte/informations-personnelles" at 2014-08-19 12:43:53 +0200
+Detecting locale EN
+Found page "Informations personnelles" [ecommerce/mon-compte/informations-personnelles]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_mon_compte_sidebar
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 15.3ms
+
+
+Started GET "/index" at 2014-08-19 12:44:02 +0200
+Detecting locale EN
+Found page "index" [index]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet module_gallery
+  Rendered snippet bloc_col_right
+  Rendered snippet index
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 24.2ms
+
+
+Started GET "/la-carte" at 2014-08-19 12:44:07 +0200
+Detecting locale EN
+Found page "La carte" [la-carte]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet bloc_top_center_1
+  Rendered snippet ecommerce_cart_widget
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 251.2ms
+
+
+Started GET "/ecommerce/connexion" at 2014-08-19 12:44:13 +0200
+Detecting locale EN
+Found page "Connexion" [ecommerce/connexion]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_breadcrumb
+  Rendered snippet ecommerce_prospect_form_widget
+  Rendered snippet ecommerce_password_form_widget
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 24.5ms
+
+
+Started GET "/ecommerce/coordonnees" at 2014-08-19 12:44:29 +0200
+Detecting locale EN
+Found page "Coordonnées" [ecommerce/coordonnees]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_breadcrumb
+  Rendered snippet ecommerce_address_form
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 21.6ms
+
+
+Started GET "/ecommerce/cart" at 2014-08-19 12:44:41 +0200
+Detecting locale EN
+Found page "Panier" [ecommerce/cart]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_breadcrumb
+  Rendered snippet ecommerce_cart_details
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 24.6ms
+
+
+Started GET "/ecommerce/paiement" at 2014-08-19 12:44:48 +0200
+Detecting locale EN
+Found page "Paiement" [ecommerce/paiement]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_breadcrumb
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 23.6ms
+
+
+Started GET "/ecommerce/cart" at 2014-08-19 12:45:25 +0200
+Detecting locale EN
+Found page "Panier" [ecommerce/cart]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_breadcrumb
+  Rendered snippet ecommerce_cart_details
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 20.0ms
+
+
+Started GET "/ecommerce/connexion" at 2014-08-19 12:45:58 +0200
+Detecting locale EN
+Found page "Connexion" [ecommerce/connexion]
+  Rendered snippet metadatas
+  Rendered snippet slider
+  Rendered snippet menu
+  Rendered snippet header
+  Rendered snippet ecommerce_breadcrumb
+  Rendered snippet ecommerce_prospect_form_widget
+  Rendered snippet ecommerce_password_form_widget
+  Rendered snippet bloc_col_right
+  Rendered snippet menu
+  Rendered snippet modal_coupon
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 26.2ms
+
+

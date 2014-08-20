@@ -1,0 +1,46 @@
+prospect1:
+  title: "Mr"
+  first_name: "cmsprospect"
+  last_name: "hamza"
+  email: "visibleoprospect@visibleo.fr"
+  phone_number: "0603050809"
+  encrypted_password: "visibleocms"
+  site_id: "1"
+  prospect_id: '12345'
+  delivery_addresses:
+  -
+    id: "1"
+    alias: "maison"
+    line1: "10 Avenue Point Carre" # premiere ligne adresse
+    line2: ""                      # seconde ligne adresse
+    postal_code: "7501"            # code postal
+    city: "Paris"                  # Ville
+    region: ""                     # Region
+    country: "France"              # Pays
+    entry_code: ""                 # Code d'entree
+    building: ""                   # Immeuble
+    intercom: ""                   # Interphone
+    company: ""                    # Societe
+    service: ""                    # Service
+    stairs: ""                     # Escalier
+    floor: ""                      # Etage
+    flat: ""                       # Appartement
+    more: ""                       # complement
+  -
+    id: "2"
+    alias: "Bureau"
+    line1: "9 Rue de la Sabliere"  # premiere ligne adresse
+    line2: "Visibleo"              # seconde ligne adresse
+    postal_code: "92230"           # code postal
+    city: "Gennevilliers"          # Ville
+    region: "Iles de france"       # Region
+    country: "France"              # Pays
+    entry_code: "001"              # Code d'entree
+    building: "B"                  # Immeuble
+    intercom: "6A"                   # Interphone
+    company: "Visibleo"            # Societe
+    service: "Commercial"          # Service
+    stairs: "B"                     # Escalier
+    floor: "1"                     # Etage
+    flat: "25"                       # Appartement
+    more: "Demander a l'acceuil"   # complement

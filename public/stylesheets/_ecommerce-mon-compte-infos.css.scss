@@ -1,0 +1,45 @@
+.e-commerce-mon-compte-infos .top header {
+  margin:           20px 0px 0px 0px;
+  color:            $theme-color-1;
+  padding:          5px 15px;
+  font-size:        12px;
+  font-weight:      bold;
+  border-bottom:    1px dotted black;
+}
+
+.e-commerce-mon-compte-infos .top .content p, .e-commerce-mon-compte-infos .top .content div {
+  font-size: 10px;
+  padding: 10px;
+  color:  $theme-color-0;
+  font-weight: bold;
+}
+
+.e-commerce-mon-compte-infos form {
+  padding: 30px 0px;
+  /*border-bottom: 1px solid $theme-color-5;*/
+  border-top: 1px solid $theme-color-5;
+  margin-bottom: 20px;
+}
+
+.e-commerce-mon-compte-infos form label{
+  @extend .col-md-3;
+}
+
+.e-commerce-mon-compte-infos form input, .e-commerce-mon-compte-infos form select {
+  @extend .col-md-6;
+}
+
+.e-commerce-mon-compte-infos form .actions input{
+  font-size:          10px;
+  color:              $theme-color-7;
+  background:         $theme-color-3;
+  background-image:   -moz-linear-gradient(90deg, $theme-color-3, $theme-color-4);
+  background-image:   radial-gradient($theme-color-3, $theme-color-4);
+  border:             none;
+  width:              80px;
+  height:             30px;
+  /*margin:             20px 80px;*/
+  @extend .col-md-offset-3;
+  @extend .col-md-2;
+  margin-left: 150px;
+}

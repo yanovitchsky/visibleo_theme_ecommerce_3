@@ -1,0 +1,70 @@
+---
+title: Coordonnées
+published: true
+cache_strategy: none
+flag_pages:
+- accessible
+- login-success-callback
+- address-success-callback
+- address-error-callback
+---
+{% extends 'parent' %}
+<!-- Car j'ai besoin d'un left et d'un right -->
+{% block 'body/middle/col-left' %}
+	{% include "ecommerce_mon_compte_sidebar" %}
+{% endblock%}
+
+{% block 'body/middle/col-center' %}
+<div class="row">
+	<div class="col-md-12">
+	<div>{{error}}</div>
+		<div class="e-commerce-mon-compte-coordonnees">
+			<section class="top">
+				<header>ADRESSE DE LIVRAISON</header>
+				<div class="content">
+					<p>
+						Vous pouvez renseigner ici une ou plusieurs adresses de livraison (ex: à la maison, au bureau, chez Gladys...)<br />
+						Vous n'aurez plus qu'à séléctionner au moment de la commande l'adresse où vous souhaitez être livré.
+					</p>
+				</div>
+			</section>
+      <section class="row">
+        <div class="col-md-4 col-md-offset-6">
+          <form method='get' action="/ecommerce/mon-compte/modification-coordonnees">
+            <button class='add-button'>AJOUTER UNE ADRESSE</button>
+          </form>
+        </div>
+      </section>
+			<section class="address">
+  	    <div class="col-md-6">
+          {% if visibleo_prospect.delivery_addresses %}
+            {% for address in visibleo_prospect.delivery_addresses %}
+              <div class='address-item'>
+                <span class='bold'>{{address.alias}}</span>
+                <ul>
+                  <li>{%if address.company != blank %}<span>Societé: {{address.company}}</span>{% endif %}{%if address.service != blank%}Service: {{address.service}}{% endif %}</li>
+                  <li><span>{{address.line1}}</span>{{address.building}}</li>
+                  <li>{%if address.line2 != blank%}<span>{{address.line2}}</span>{% endif %}</li>
+                  <li><span>{{address.postal_code}} {{address.city}}</span></li>
+                  <li>{%if address.intercom != blank %}<span>Interphone: {{address.intercom}}</span>{% endif %}{% if address.entry_code != blank %}Digitcode: {{address.entry_code}}{% endif %}</li>
+                  <li>{%if address.floor != blank %}<span>Etage: {{address.floor}}</span>{% endif %}{%if address.flat != blank %}<span>N° Appartement: {{address.flat}}</span>{% endif %}</li>
+                  <li>{%if address.stairs != blank %}<span>Escalier: {{address.stairs}}</span>{% endif %}</li>
+                  <li>{%if address.more != blank %}<span>Complément: {{address.more}}</span>{% endif %}</li>
+                </ul>
+                <p class='no-padding'>
+                  <a class='pull-left' href="/ecommerce/mon-compte/modification-coordonnees?delivery_id={{address.id}}">Modifer</a>
+                  <a class='pull-right'href="{{visibleo_prospect.delete_delivery_url}}?delivery_id={{address.id}}">Supprimer</a>
+                </p>
+              </div>
+            {% endfor %}
+          {% else %}
+            Vous n'avez pas d'adresse de livraison
+          {% endif %}
+			  </div>
+			</section>
+		</div>
+	</div>
+	<div class="col-md-12">
+	</div>
+</div>
+{% endblock %}

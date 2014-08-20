@@ -1,0 +1,85 @@
+<!-- Modal -->
+<div class="modal fade" id="modal-coupon" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+
+        <h4 class="modal-title" id="myModalLabel">Mode d'envoie coupon</h4>
+      </div>
+      <div class="modal-body">
+           {% assign coupon_name = "coupon2" %}
+           {% assign coupon = visibleo_coupon.get_by_name %}
+
+        <ul class="nav nav-tabs">
+        {%  for coupon_type in coupon.diffusion_channels  %}
+          <li class="{% if forloop.first %} active {% endif %}    ">
+              <a class="upcase text-center" href="#{{coupon_type}}" data-toggle="tab">{{coupon_type}}</a>
+           </li>
+        {% endfor %}
+        </ul>
+        <div class="tab-content">
+          {%  for coupon_type in coupon.diffusion_channels  %}
+                <div class="tab-pane {% if forloop.first %} active {% endif %}" id="{{coupon_type}}">
+                    <section class="coupon clearfix">
+
+                  {% if coupon_type == "print" %}
+                    <!-- cas du print -->
+                    <div id="coupon-print">
+                      <div class="col-md-4 no-padding">
+                      <img src="{{  coupon.print.upload.public_url | resize: '300x' }}" />
+                      </div>
+                      <div class="col-md-8 no-padding">
+                        <header class="title" data-bg-color="{{coupon.print.headband_color}}">
+                          <h4 >VOTRE BON DE REDUCTION</h4>
+                            <span><img src="{{ coupon.print.client_infos.logo | resize: '100x' }}" /></span>
+
+                        </header>
+                        <div class="content">
+                          <h2>{{coupon.catch_phrase}}</h2>
+                          <p class="description">{{coupon.description}} </p>
+                        </div>
+                        <footer>
+                          <p class="date-print"> imprimé le : {{ 'now' | date: "%d/%m/%Y" }} </p>
+                          <p class="client-infos">{{coupon.print.client_infos.company_name}}, {{coupon.print.client_infos.full_address}} </p>
+                          <p><a class="action-print" href="#" /> imprimer</a></p>
+                        </footer>
+                      </div>
+                    </div>
+                  {% endif %}
+
+                  {% if coupon_type == "sms" %}
+                   <!-- cas du sms -->
+                    <form method="POST" action="{{visibleo_coupon.send_sms_url}}" >
+                        <input type="hidden" value="{{coupon.id}}" name="sms[coupon_id]" />
+                        <div class="form-group">
+                            <label for="">Numéro de téléphone</label>
+                            <input class="form-control" type="text"  placeholder="Entrer votre numéro de télephone" name="sms[number]" />
+                        </div>
+                          <input type="submit" class="btn btn-success" value="envoyer">
+                    </form>
+                  {% endif %}
+
+                  {% if coupon_type == "mail" %}
+                  <!-- cas du mail -->
+                    <form method="POST"  action="{{visibleo_coupon.send_mail_url}}" >
+                        <input type="hidden" value="{{coupon.id}}" name="mail[coupon_id]" />
+                         <div class="form-group">
+                            <label for="">Mail</label>
+                            <input type="email" class="form-control" id="" placeholder="Entrer votre mail" name="mail[email]">
+                        </div>
+                        <input type="submit" class="btn btn-success" value="envoyer">
+                    </form>
+                  {% endif %}
+                    </section>
+                </div>
+          {% endfor %}
+        </div><!-- tab content -->
+
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+

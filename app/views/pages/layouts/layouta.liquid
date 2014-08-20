@@ -1,0 +1,29 @@
+---
+title: layout A
+published: false
+slug:	layouta
+---
+{% extends 'parent' %}
+<!--
+HERITAGE : Index
+CONTENU  :
+ - Une colone centrale
+ - Une colone de droite
+-->
+<!-- Surcharge du block du millieu -->
+{% block 'body/middle' %}
+	<div class="w960" >
+		<div id="col-center" class="col-md-8 p20rl">
+			<div class="row">
+				{% block 'col-center' %}{% endblock %}
+			</div>
+		</div>
+		<div id="col-right" class="col-md-4">
+			{% block 'col-right' %}
+				{%include bloc_col_right %}
+			{% endblock %}
+
+		</div>
+	</div>
+{% endblock %}
+

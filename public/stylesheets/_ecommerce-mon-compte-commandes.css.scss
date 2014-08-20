@@ -1,0 +1,94 @@
+.e-commerce-mon-compte-commandes .top > header {
+	margin:						20px 0px 0px 0px;
+	color:						$theme-color-1;
+	padding:					5px 15px;
+	font-size: 				12px;
+	font-weight: 			bold;
+	border-bottom: 		1px dotted black;
+}
+
+.e-commerce-mon-compte-commandes .top .content p {
+	font-size: 10px;
+	padding: 10px;
+	color:	$theme-color-0;
+	font-weight: bold;
+}
+
+.e-commerce-mon-compte-commandes .orders header {
+	@extend .col-md-12;
+	background: 			$theme-color-0;
+	color: 						$theme-color-7;
+	display: 					block;
+	padding-top:  		5px;
+	padding-bottom:  		5px;
+	margin-top:  			20px;
+}
+
+.e-commerce-mon-compte-commandes .orders header .order-col {
+	@extend .col-md-3;
+	text-align: center;
+	font-size: 10px;
+	font-weight: bold;
+}
+.e-commerce-mon-compte-commandes .orders .order-col {
+	@extend .col-md-3;
+	text-align: center;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+.e-commerce-mon-compte-commandes .orders .panel-title .order-col{
+	color:					 $theme-color-0;
+}
+
+.e-commerce-mon-compte-commandes .orders .panel-title {
+	@extend .col-md-12;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.e-commerce-mon-compte-commandes .orders .odd{
+	background-color: #ccc;
+}
+.e-commerce-mon-compte-commandes .orders .even{
+	background-color: white;
+}
+
+.e-commerce-mon-compte-commandes .orders .panel-body {
+	font-size: 10px;
+}
+.e-commerce-mon-compte-commandes .orders .panel-body section header{
+	color:						$theme-color-0;
+	padding:					5px 0px;
+	font-size: 				12px;
+	font-weight: 			bold;
+	background-color: white;
+	border-bottom: 		1px dotted black;	
+	margin-top: 0px;
+}
+
+.e-commerce-mon-compte-commandes .orders .content {
+}
+.e-commerce-mon-compte-commandes .item-name {
+	@extend .col-md-7;
+	margin: 0;
+	padding: 0;
+}
+
+.e-commerce-mon-compte-commandes .orders .panel-body .item {
+	@extend .col-md-12;
+
+	padding-left: 0px;
+	padding-right: 0px;
+	font-size: 				10px;
+
+}
+
+.e-commerce-mon-compte-commandes .options {
+	margin-left: 10px;
+	font-style: italic;
+}
+
+.e-commerce-mon-compte-commandes .total{
+	margin-top: 20px;
+	font-size: 				10px;
+	font-weight:  bold;	
+}

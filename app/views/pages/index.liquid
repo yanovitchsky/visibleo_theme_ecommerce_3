@@ -1,0 +1,25 @@
+---
+title: index
+published: true
+cache_strategy: none
+editable_elements:
+  'body/middle/title1':
+  'body/middle/title2':
+  'body/middle/content1':
+  'body/middle/content2':
+---
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    {% block 'metadatas'%} {%include 'metadatas'%} {% endblock %}
+  </head>
+  <body>
+    <div id="body">
+      {% block 'body' %}
+        {% block 'top' %}{% include 'header'%}{% endblock %}  
+        <div class="w960 container-fluid"> {% block 'middle' %}{% include 'index'%}{% endblock %}</div>
+        {% block 'bottom' %}{%include 'footer' %}{% endblock %}
+      {% endblock %}
+    </div>
+  </body>
+</html>

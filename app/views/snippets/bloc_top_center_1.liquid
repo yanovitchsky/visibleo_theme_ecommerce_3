@@ -1,0 +1,39 @@
+
+
+<!-- recuperer la promotion qui porte le nom de promotion_bloc_center_top --> 
+<!-- , "filters" : {"name.in" : ["promotion_bloc_center_top"]} -->
+{% assign promotion_params = '{"orders": {"name": "asc"}, "limit": 1, "tags" : ["la-carte"]}' %}
+
+{% assign promotion = visibleo_promotion.collections.collection | first %}
+
+
+{% if promotion %}
+<!-- module  promotion -->
+<section id="promotion" class="col-md-6 block">
+		<a href="#" class ="launch-coupon-view" data-toggle="modal" data-target="#modal-coupon">
+			<div>
+			{% assign bg_image =  promotion.detail.image %}
+      <img src="{{bg_image}}" alt="promotion">
+			</div> 
+		</a>
+</section>
+{% endif %}
+
+<!-- bloc menu midi -->
+<div id="menu-midi" class="col-md-3 block ">
+	<h3>menus <span class="bleu-ciel">midi</span></h3>
+	{{ 'menu-midi.jpg' | theme_image_tag: 'alt:menu-mid' }}
+</div>
+
+<!-- bloc menu soir -->
+<div id="menu-soir" class="col-md-3 block">
+	<h3>menus <span class="orange">soir</span>	</h3>
+	{{ 'menu-soir.jpg' | theme_image_tag: 'alt:menu-soir' }}
+</div>
+
+
+
+
+
+
+

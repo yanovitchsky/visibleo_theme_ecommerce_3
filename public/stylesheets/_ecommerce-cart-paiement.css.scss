@@ -1,0 +1,22 @@
+
+
+#panier-paiement{ font-size: 9px;}
+
+#panier-paiement section header {
+	margin:						20px 0px 0px 0px;
+	background-color: $theme-color-0;
+	color:						$theme-color-7;
+	padding:					5px 15px;
+	font-size: 				12px;
+	font-weight: 			bold;
+	text-transform: uppercase;
+}
+
+
+#panier-paiement ul li {
+	display:inline;
+}
+
+#panier-paiement p{ padding: 10px 0px;}
+
+

@@ -1,0 +1,89 @@
+---
+title: Connexion
+published: true
+cache_strategy: none
+flag_pages:
+- login-page
+- login-error-callback
+- registration-success-callback
+- forgotten-success-callback
+- registration-error-callback
+---
+{% extends 'parent' %}
+<!-- Car j'ai besoin d'un middle avec une zone haut et bas -->
+
+<!-- block central haut -->
+{% block 'body/middle/col-center/top' %}
+<div class="row">
+	<div class="col-md-12">
+	{% include 'ecommerce_breadcrumb' %}
+	</div>
+</div>
+<div>{{error}}</div>
+{% endblock %}
+
+{% block 'body/middle/col-center/middle' %}
+<div class="row">
+	<div class="col-md-6">	
+		<div class="e-commerce-inscription">
+			<section>
+				<header>PREMIERE CONNEXION</header>
+				<div class="content">
+					<h6>SIMPLE, RAPIDE ET SECURISEE</h6>
+					<p>
+						Pour nous permettre de finaliser votre commande, veuillez saisir les informations ci-dessous.<br />
+						Nous nous engageons à ne pas divulger vos informations personnelles et confidentielles.
+					</p>
+				</div>
+		    <form action="{{visibleo_prospect.registration_url}}" method="post">
+		      <div>
+		        {% include 'ecommerce_prospect_form_widget' %}
+		        {% include 'ecommerce_password_form_widget' %}
+		        <div class="actions">
+		          <input type='submit' value="VALIDER"/>
+		        </div>
+		      </div>
+		    </form>
+			</section>
+		</div>
+	</div>
+	<div class="col-md-6">
+		<div class="e-commerce-connexion">
+			<section>
+				<header>DEJA INSCRIT ?</header>
+		    <form action="{{visibleo_prospect.login_url}}" method="post">
+		      <div class="input">
+		          <input type="text" name='email' placeholder="Adresse email"/>
+	        </div>
+	        <div class="input">
+							<input type="password" name='password' placeholder="Mot de passe"/>
+	        </div>
+	        <div class="actions">
+		          <input type='submit' value="CONNEXION"/>
+	        </div>
+		    </form>
+			</section>
+		</div>
+		<div class="e-commerce-forgot-password">
+				<section>
+					<header>Vous avez oublié votre mot de passe?</header>
+					<div class="content">
+						<p>
+							Indiquez-nous votre e-mail et lien pour ré-initialiser votre mot de passe vous sera automatiquement
+							envoyé par e-mail.
+						</p>
+					</div>
+				</secton>
+		    <form action="{{visibleo_prospect.forgotten_password_url}}" method="post">
+		      <div class="input">
+	          <input type="text" name='email' placeholder="Adresse email"/>
+	        </div>
+		      <div class="actions">
+	          <input type='submit' value="ENVOYER"/>
+	        </div>
+	      </div>
+	    </form>
+		</div>
+	</div>
+</div>
+{% endblock %}

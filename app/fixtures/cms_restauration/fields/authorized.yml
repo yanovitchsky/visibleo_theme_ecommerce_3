@@ -1,0 +1,14 @@
+categories:
+  - name
+  - description
+products:
+  - name
+  - description
+  - price
+option_classifications:
+  - name
+  - description
+options:
+  - name
+  - description
+  - price

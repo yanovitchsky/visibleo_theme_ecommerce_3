@@ -1,0 +1,81 @@
+---
+title: Informations personnelles
+published: true
+cache_strategy: none
+flag_pages:
+- accessible
+---
+{% extends 'parent' %}
+<!-- Car j'ai besoin d'un left et d'un right -->
+{% block 'body/middle/col-left' %}
+	{% include "ecommerce_mon_compte_sidebar" %}
+{% endblock%}
+
+{% block 'body/middle/col-center' %}
+{% assign prospect = current_prospect %}
+<div class="row">
+  <div class="col-md-12">
+    <div>{{error}}</div>
+    <div class="e-commerce-mon-compte-infos">
+      <section class="top">
+        <header>INFORMATIONS PERSONNELLES</header>
+        <div class="content">
+          <p>
+            Vous pouvez gérer et modifier ici toutes les informations de votre compte.
+          </p>
+        </div>
+      </section>
+      <section>
+        <div class="infos">
+          <span class="bold">Modifier les informations de votre compte</span>
+          <form action="{{visibleo_prospect.edit_prospect_url}}" method="post" role='form' class='form-horizontal'>
+            <div class="form-group">
+              <label for="title" class="control-label" >Civilité *</label>
+              <select name="title" class="form-control">
+                <option value="Mr">Mr</option>
+                <option value="Me">Me</option>
+                <option value="Mlle">Mlle</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="last_name" class="control-label" >Nom *</label>
+              <input type="text" name='last_name' value='{{prospect.last_name}}' class="form-control"/>
+            </div>
+            <div class="form-group">
+              <label for="first_name" class="control-label" >Prénom *</label>
+              <input type="text" name='first_name' value='{{prospect.first_name}}' class="form-control"/>
+            </div>
+            <div class="form-group">
+              <label for="email" class="control-label">Adresse Email *</label>
+              <input type="text" name='email' value='{{prospect.email}}' class="form-control"/>
+            </div>
+            <div class="form-group">
+              <label for="phone_number" class="control-label">N° de téléphone *</label>
+              <input type="text" name='phone_number' value='{{prospect.phone_number}}' class="form-control"/>
+            </div>
+            <div class="actions">
+              <input type='submit' value="ENREGISTER"/>
+            </div>
+          </form>
+        </div>
+        <div class="password">
+          <span class="bold">Modifier Votre mot de passe</span>
+          <form action="{{visibleo_prospect.edit_password_url}}" method="post" role='form' class='form-horizontal'>
+            <div class="form-group">
+              <label for="password" class="control-label">Mot de passe *</label>
+              <input type="password" name='password' class="form-control"/>
+           </div>
+           <div class="form-group">
+              <label for="password_confirmation" class="control-label">Confirmation du mot de passe *</label>
+              <input type="password" name='password_confirmation' class="form-control"/>
+           </div>
+            <div class="actions">
+              <input type='submit' value="MODIFIER"/>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+{% endblock %}
