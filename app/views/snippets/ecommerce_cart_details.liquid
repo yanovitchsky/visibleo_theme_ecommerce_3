@@ -1,3 +1,30 @@
 <div class="custom_wrapper">
   <div class="widget_cart_div" data-button-title="VALIDER MA COMMANDE" data-url="/ecommerce/paiement"></div>
 </div>
+<div>
+  <div id="couverts" class="modal fade" data-backdrop='static'>
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Choisissez le nombre de couverts</h4>
+        </div>
+        <div class="modal-body">
+          {% assign restauration_product_slug = 'couverts' %}
+          {% assign couvert = restauration.find_product_by_slug %}
+          <form action="">
+            <span>Couverts pour</span>
+            <select name="couvert-selector" id="couvert-selector" data-product-id={{couvert.id}} data-type='product_qty'>
+              {% for i in (1..50) %}
+                <option value="{{i}}">{{i}}</option>
+              {% endfor %}
+            </select>
+            <span>Personne(s)</span>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Valider</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->  
+</div>
