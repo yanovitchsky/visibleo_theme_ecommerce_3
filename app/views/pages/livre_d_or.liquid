@@ -29,6 +29,7 @@ flag_pages:
 			<header>PARTAGEZ VOTRE AVIS</header>
 				<form action="{{guestbook_comments.create_url }}" method="post" class="form-guestbook">
 					{% assign new_comment = guestbook_comments.new %}
+
 	                 {% if new_comment.errors %}
 	                   <p>The following errors occured:</p>
 	                   <ul>
@@ -37,6 +38,13 @@ flag_pages:
 	                   {% endfor %}
 	                   </ul>
 	                 {% endif %}
+
+				
+					{{ guestbook_comments.create_success }}<br />
+	
+					{{ flash_success }}
+
+
 
 					<div class="input">
 						<input type="text" placeholder="Nom" name="comment[last_name]" value="{{ new_comment.last_name }}">
@@ -64,7 +72,7 @@ flag_pages:
 <!-- block central coté droit -->
 {% block 'body/middle/col-center/right' %}
 		<!-- appel module guestbook -->
-	{% assign comments_params = '{"orders": {"last_name": "asc"}, "limit": 3}' %}
+	{% assign comments_params = '{"orders": {"last_name": "asc"}, "limit": 6}' %}
 	<!-- déclaration du nom de la variable qui permet le fonctionnement de la pagination -->
 	{% assign page_key = 'comment_page' %}
 	<!-- recupération des commentaires en fonction des paramètres passés précédemment -->
@@ -94,21 +102,23 @@ flag_pages:
 
 	<!-- Gestion de la pagination -->
 	<div class="pagination">
+
+
+
 		<!-- page courrante -->
 		{% 	assign current_page = comments.current_page %}
 
 		<!-- bouton suivant et précedent  -->
 		{% 	assign page_prev = current_page | minus: 1 %}
 		{%  assign page_next = current_page | plus: 1  %}
+		{%  assign total = 	comments.total_pages %}
 
 
-		<a href="?{{guestbook_comments.url_params_for}}{{ page_prev }}">previous</a>
+		{% if current_page > 0 %}
+			<a href="?{{guestbook_comments.url_params_for}}{{ page_prev }}">précédent</a>
+		{% endif %}
 
-
-		{% 	assign max = current_page | plus: 3 %}
-		{% 	assign min = current_page | minus: 3 %}
-
-		{% for page in (min..page_prev) %}
+		{% for page in (0..total) %}
 			{% if page == comments.current_page %}
 				{{ page }}
 			{% else %}
@@ -116,22 +126,11 @@ flag_pages:
 		  	{% endif %}
 		{% endfor %}
 
-		<!-- current page -->
-		{{ current_page }}
-
-
-		{% for page in (page_next..max) %}
-		  {% if page == comments.current_page %}
-		    {{ page }}
-		  {% else %}
-		    <a href="?{{guestbook_comments.url_params_for}}{{ page }}">{{ page }}</a>
-
-		  {% endif %}
-		{% endfor %}
 
 		<!-- bouton suivant -->
-
-		 <a href="?{{guestbook_comments.url_params_for}}{{ page_next}}">next</a>
+		{% if current_page < total %}
+		 <a href="?{{guestbook_comments.url_params_for}}{{ page_next}}">suivant</a>
+		{% endif %}
 	</div>
 
 </div>
