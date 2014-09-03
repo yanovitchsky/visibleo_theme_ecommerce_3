@@ -22,8 +22,10 @@ published: true
 {% assign restauration_category_name_keys = 'La carte' %} <!-- get params url ==> ?restauration_category_id=category_1 -->
 
 {% assign carte =  restauration.find_category_by_name_keys %}
+	
 
-
+{{carte }}	
+{%if carte %}
 <div class="row" id="la-carte">
 
 	<section>
@@ -68,7 +70,7 @@ published: true
 		</div>
 	</secion>
 </div>
-
+{% endif %}
 {% endblock %}
 
 
